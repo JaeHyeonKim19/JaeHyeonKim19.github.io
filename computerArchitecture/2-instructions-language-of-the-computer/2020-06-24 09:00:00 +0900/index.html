@@ -1,0 +1,2254 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.a430335728e3cf41addc.css">code[class*=language-],pre[class*=language-]{color:#000;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{position:relative;margin:.5em 0;overflow:visible;padding:0}pre[class*=language-]>code{position:relative;border-left:10px solid #358ccb;box-shadow:-1px 0 0 0 #358ccb,0 0 0 1px #dfdfdf;background-color:#fdfdfd;background-image:linear-gradient(transparent 50%,rgba(69,142,209,.04) 0);background-size:3em 3em;background-origin:content-box;background-attachment:local}code[class*=language]{max-height:inherit;height:inherit;padding:0 1em;display:block;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background-color:#fdfdfd;box-sizing:border-box;margin-bottom:1em}:not(pre)>code[class*=language-]{position:relative;padding:.2em;border-radius:.3em;color:#c92c2c;border:1px solid rgba(0,0,0,.1);display:inline;white-space:normal}pre[class*=language-]:after,pre[class*=language-]:before{content:"";z-index:-2;display:block;position:absolute;bottom:.75em;left:.18em;width:40%;height:20%;max-height:13em;box-shadow:0 13px 8px #979797;transform:rotate(-2deg)}:not(pre)>code[class*=language-]:after,pre[class*=language-]:after{right:.75em;left:auto;transform:rotate(2deg)}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#7d8b99}.token.punctuation{color:#5f6364}.token.boolean,.token.constant,.token.deleted,.token.function-name,.token.number,.token.property,.token.symbol,.token.tag{color:#c92c2c}.token.attr-name,.token.builtin,.token.char,.token.function,.token.inserted,.token.selector,.token.string{color:#2f9c0a}.token.entity,.token.operator,.token.url,.token.variable{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.class-name,.token.keyword{color:#1990b8}.token.important,.token.regex{color:#e90}.language-css .token.string,.style .token.string{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.important{font-weight:400}.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.namespace{opacity:.7}@media screen and (max-width:767px){pre[class*=language-]:after,pre[class*=language-]:before{bottom:14px;box-shadow:none}}.token.cr:before,.token.lf:before,.token.tab:not(:empty):before{color:#e0d7d1}pre[class*=language-].line-numbers.line-numbers{padding-left:0}pre[class*=language-].line-numbers.line-numbers code{padding-left:3.8em}pre[class*=language-].line-numbers.line-numbers .line-numbers-rows{left:0}pre[class*=language-][data-line]{padding-top:0;padding-bottom:0;padding-left:0}pre[data-line] code{position:relative;padding-left:4em}pre .line-highlight{margin-top:0}html{font-family:Apple SD Gothic Neo,arial,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em Apple SD Gothic Neo,arial,sans-serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:Apple SD Gothic Neo,arial,sans-serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}</style><meta name="generator" content="Gatsby 2.23.1"/><title data-react-helmet="true"></title><link rel="icon" href="/favicon-32x32.png?v=db33395577ec4a434ab68177782919fb"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#000000"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=db33395577ec4a434ab68177782919fb"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"/><link as="script" rel="preload" href="/app-d8b803c152e4e53a0b70.js"/><link as="script" rel="preload" href="/framework-d54fcf3f0204b459cf2d.js"/><link as="script" rel="preload" href="/styles-9b6f388623a2ec93d35f.js"/><link as="script" rel="preload" href="/webpack-runtime-92b8d634de3575c5751f.js"/><link as="fetch" rel="preload" href="/page-data/computerArchitecture/2-instructions-language-of-the-computer/2020-06-24 09:00:00 +0900/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header style="margin-bottom:1.45rem"><div style="margin:0 auto;max-width:960px;padding:1.45rem 1.0875rem"><h1 style="margin:0"><a style="color:black;text-decoration:none" href="/">JaeHyeonKim19</a></h1></div></header><div style="margin:0 auto;max-width:960px;padding:0 1.0875rem 1.45rem"><main><h2>[컴퓨터구조론] 2. Instructions: Language of the Computer</h2><h4>2020-06-24</h4><hr/><div><blockquote>
+<p>본 글은 영남대학교 최규상 교수님의 <a href="http://www.kocw.net/home/cview.do?cid=184062fa9a833237">컴퓨터 구조</a> 강의를 듣고 작성된 글입니다.</p>
+</blockquote>
+<h3>2.1 Introduction</h3>
+<ul>
+<li>
+<p>Instruction Set</p>
+<ul>
+<li>명령어들의 집합(레퍼토리)이다.</li>
+<li>컴퓨터 마다 다른 Instruction Set을 가지지만 많은 공통점을 가지고 있다.</li>
+<li>초창기 컴퓨터들은 매우 단순한 Instruction Set을 가지고 있었다.(명령어의 수, 종류가 적었다는 뜻)</li>
+<li>
+<p>많은 최신 컴퓨터(CPU) 또한 simple instruction sets을 가진다.</p>
+<ul>
+<li>물론 초창기와 최신 컴퓨터 사이에 complex instruction set을 가지는 컴퓨터도 존재한다.</li>
+<li>즉, 단순 -> 복잡 -> 단순의 과정을 거쳐왔다.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Instruction Set Architecture (ISA)</p>
+<ul>
+<li>간단히 ISA 또는 아키텍쳐라고 불린다.</li>
+<li>하드웨어와 low level software(시스템 소프트웨어, 운영체제) 사이의 인터페이스이다.</li>
+<li>명령어, 레지스터, 메모리 접근, I/O 등 기계언어 프로그램을 쓰기위해 필요한 모든 정보를 포함하고 있다.</li>
+<li>Enables implementations of varying cost and performance to run identical software</li>
+</ul>
+</li>
+<li>
+<p>Application Binary Interface (ABI)</p>
+<ul>
+<li>ISA와 운영체제 인터페이스(operation system interface)를 합친 것이다.</li>
+<li>ABI에서 어떠한 소프트웨어가 동작한다면 어떤한 머신에서도 동일한 ABI로 소프트웨어를 동작시킬 수 있다.</li>
+</ul>
+</li>
+<li>
+<p>The MIPS Instruction Set(MIPS의 Instruction Set에 대해서 배워보자!)</p>
+<ul>
+<li>MIPS는 우리가 1장에서 배운바와같이 Millions of Instructions Per Second를 의미하기도 하지만 CPU이름이기도 하다.</li>
+<li>MIPS는 처음 스탠포드에서 제안하였고 MIPS Technologies에서 상용화했다.</li>
+<li>임베디드 시장에서 많이 쓰인다.(최근에는 ARM이 많이 쓰이긴 한다.)</li>
+<li>MIPS에서 사용하는 알고리즘과 특성은 많은 다른 CPU들과 공통점을 가진다.</li>
+</ul>
+</li>
+</ul>
+<h3>2.2 Operations of the Computer Hardware</h3>
+<ul>
+<li>
+<p>Arithmetic Operations</p>
+<ul>
+<li>어셈블리에서 add a, b, c를 실행하면 b와 c를 더해서 a에 할당한다.</li>
+<li>모든 산술연산은(Arithmetic)은 다음과 같은 형태를 가진다.</li>
+</ul>
+</li>
+</ul>
+<p>2장에서 4개의 디자인 원칙을 배우게 될 것이다. 먼저 첫 번째 디자인 원칙을 만나보자</p>
+<h4>Design Principle 1: Simplicity favours regularity (Regularity를 사용해서 간단하게 만들어라)</h4>
+<blockquote>
+<ul>
+<li>어떤 규칙성을 주면 구현할 때 훨씬 편리하다.</li>
+<li>간단하게 만들어야 낮은 cost로 높은 성능을 낼 수 있다.</li>
+</ul>
+</blockquote>
+<h3>2.3 Operands of the Computer Hardware</h3>
+<ul>
+<li>
+<p>Register Operands</p>
+<ul>
+<li>Arithmetic Operations는 register operands를 사용한다.</li>
+<li>
+<p>MIPS는 32bit 레지스터를 32개 가지고 있다.</p>
+<ul>
+<li>이 레지스터에 자주 사용하는 데이터를 로드해서 사용한다.</li>
+<li>숫자의 범위는 0 ~ 31 이다.</li>
+<li>32비트 데이터를 word라고 부른다.(1word = 32bit)</li>
+</ul>
+</li>
+<li>
+<p>어셈블리에서는 t로 시작하는 레지스터와 s로 시작하는 레지스터가 있다.</p>
+<ul>
+<li>$t0, $t1, ..., $t9 for temporary values</li>
+<li>$s0, $s1, ..., Ss7 for saved variables(우리가 변수에 저장해서 사용하는 값들)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>Design Principle 2: Smaller is faster</h4>
+<blockquote>
+<ul>
+<li>
+<p>c.f. main memory: millions of locations</p>
+<ul>
+<li>메인메모리는 레지스터에 비교하면 훨씬 크다. 그래서 메인메모리에 접근하는 시간이 레지스터에 접근하는 시간보다 훨씬 오래 걸린다.</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<ul>
+<li>
+<p>Register Operand 예제</p>
+<ul>
+<li>C code: f = (g + h) - (i + j);
+-f,...,j in $s0,...,$s4</li>
+<li>
+<p>Compiled MIPS code:</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">add $t0, $s1, $s2
+add $t1, $s3, $s4
+sub $s0, $t0, $t1</code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p>Byte Address</p>
+<ul>
+<li>8 비트가 유용하기 때문에, 대부분의 컴퓨터의 메모리는 바이트 단위로 주소를 지정한다.</li>
+<li>Alignment restriction - the memory address of a word must be on natural word boundaries (a multiple of 4 in MIPS-32)</li>
+<li>
+<p>Endian: 데이터를 워드에 어떤 방식으로 저장할 것인가를 말하는 것</p>
+<ul>
+<li>
+<p>Big Endian: leftmost byte is word address</p>
+<ul>
+<li>IBM 360/370, Motorola 68k, MIPS, Sparcm HP PA</li>
+</ul>
+</li>
+<li>
+<p>Little Endian: rightmost byte is word address</p>
+<ul>
+<li>Intel 80x86, DEC Vax, DEC Alpha (Windows NT)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Memory Operands</p>
+<ul>
+<li>
+<p>Main memory used for composite data</p>
+<ul>
+<li>Arrays, structures, dynamic data</li>
+</ul>
+</li>
+<li>
+<p>To Apply arthmetic operations</p>
+<ul>
+<li>Load values from memory innto registers</li>
+<li>Store result from register to memory</li>
+</ul>
+</li>
+<li>
+<p>Memory is byte addressed</p>
+<ul>
+<li>Each address identifies an 8-bit byte</li>
+</ul>
+</li>
+<li>
+<p>Words are aligned i nmemory</p>
+<ul>
+<li>Address must be a multiple of 4</li>
+</ul>
+</li>
+<li>
+<p>MIPS is Big Endian</p>
+<ul>
+<li>Most-significant byte at least address of a word</li>
+<li>c.f. Little Endian: least-significant byte at least address</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Memory Operand Example 1</p>
+<ul>
+<li>
+<p>C code: g = h + A[8];</p>
+<ul>
+<li>g in $s1, h in $s2 base address of A in $s3</li>
+</ul>
+</li>
+<li>
+<p>Compiled MIPS code:</p>
+<ul>
+<li>
+<p>Index 8 requires offset of 32</p>
+<ul>
+<li>
+<p>4 bytes per word</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">lw  $t0, 32($s3)    # lw: load word
+add $s1, $s2, $t0</code></pre></div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Register vs Memory</p>
+<ul>
+<li>Registers are faster to access than memory</li>
+<li>
+<p>Operating on memory data requires loads and stores (Load-Store Architecture)</p>
+<ul>
+<li>More instructions to be executed</li>
+</ul>
+</li>
+<li>
+<p>Compiler must use registers for variables as much as possible</p>
+<ul>
+<li>Only spill to memory for less frequently used variables</li>
+<li>Register optimization is important!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>레지스터</p>
+<ul>
+<li>
+<p>메인 메모리보다 빠르다</p>
+<ul>
+<li>But register files with more locations are slower</li>
+<li>e.g. a 64 word file could be as much as 50% slower than a 32 word file</li>
+<li>Read/write port increase impacts speed quadratically</li>
+</ul>
+</li>
+<li>
+<p>컴파일러가 사용하기 더 쉽다(Easier for a compiler to use)</p>
+<ul>
+<li>e.g. (A*B) - (C*D) - (E*F) can do multiplies in any order vs stack</li>
+</ul>
+</li>
+<li>
+<p>Can hold variables so that</p>
+<ul>
+<li>code density improves (since register are named with fewer bits than a memory location. 레지스터의 경우 5bits, 메모리의 경우 32bits)</li>
+<li>density가 높다? 코드의 직접도가 높다는 것이고 적은 코드로 어떠한 일을 수행할 수 있다는 것. 즉 같은 일을 하더라도 명령의 수가 적다.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>MIPS Register Convention</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/e9b81628138cebe1baa055194c9bcc6a/14060/mips-register-convention.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 69%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACaUlEQVQ4y2WT2W7iUBBE+f+fyWPeo0Am2yRiiRe2YDCLjfHOEiA1VZ2xNNIgtYShb91T1e1WGIZ4enrC3d0dVqsV3t7e0G63rSaTCXa7ndVyucT9fRudhwdsNhukaYokSeA4Dh4fH03j/f0drSiKUJYl1us1vr6+0O12cXNzg9vbWwRBgOZzPp8RUShcBLicT/j+vrL/jPl8jk6nY0Am+PLygtfXVxOU+GKxwHg8xnQ6xWw2w282/Xp+RrffgzMM4M9z9EYxPoMVz6ywpCvf960E0JKYrImgqioURYH9fo+qrpHRajwYYMtauy4cb4jewOUlfTiuhzzPUbMvjmOLQRG0lJmIpK4/JKhcrWG7xYhiY+Y0JYHicF2HmSaWa5plKNm/obOQpDrfUpMIhayhHI9Hs63bROB43k+RUJcURYnL5WIlR/vDATWFqtUSCQdllkXo8oBENCAJ6rAoer0eXBIOZJ3EEjpQ5HQ6WW/NeDIK7giTsN8sj0YjKx3IaEPfNRQ9ay10mUdKlVFRRKJyUPI5i7hGXKuY/Ubo/81HAtovCeg3ZdLv9+1ZwsPh0IbwnyCnnS7miDUUrY2INAjRSVDPzZC0W3KhC0XYCKpyDYWCCeOJGJMRPnPHRKBsdKOmrGXVXopYDpSfSJWn/peoZUfBnDmW7K842E1jWXkpZDX/K6ihiEz2Jeb7Ho6H/U9xGwxAu0t3RTBD1BBK4Hq9WuAqvbdNnh8fH2Z1MOjD84dIshppcaAQl590FUlrTrimxlZTlh3l14QsGw2d1kh02lOPsXwGISbLgq9fiiCMLcOMjnIC5PPAhvIHz0IFbBTVPLwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="mips-register-convention"
+        title="mips-register-convention"
+        src="/static/e9b81628138cebe1baa055194c9bcc6a/5a190/mips-register-convention.png"
+        srcset="/static/e9b81628138cebe1baa055194c9bcc6a/772e8/mips-register-convention.png 200w,
+/static/e9b81628138cebe1baa055194c9bcc6a/e17e5/mips-register-convention.png 400w,
+/static/e9b81628138cebe1baa055194c9bcc6a/5a190/mips-register-convention.png 800w,
+/static/e9b81628138cebe1baa055194c9bcc6a/14060/mips-register-convention.png 949w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>
+<p>Immediate Operands</p>
+<ul>
+<li>
+<p>Constant data specified in an instruction</p>
+<ul>
+<li>addi $s3, $s3, 4</li>
+</ul>
+</li>
+<li>
+<p>No subtract immediate instruction</p>
+<ul>
+<li>Just use a negative constant</li>
+<li>addi $s2, $s1, -1</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>Design Principle 3: Make the common case fast</h4>
+<blockquote>
+<ul>
+<li>Small constants are common</li>
+<li>Immediate operand avoids a load instruction</li>
+</ul>
+</blockquote>
+<ul>
+<li>
+<p>The Constant Zero</p>
+<ul>
+<li>
+<p>MIPS register 0($zero) is the constant 0</p>
+<ul>
+<li>Cannot be overwritten</li>
+</ul>
+</li>
+<li>
+<p>Useful for common operations</p>
+<ul>
+<li>E.g., move between registers</li>
+<li>add $t2, $s1, $zero</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>2.4 Signed and Unsigned Numbers</h3>
+<ul>
+<li>
+<p>Unsigned Binary Integers</p>
+<ul>
+<li>
+<p>Given an n-bit number</p>
+<ul>
+<li><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 305px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b79a05dc37e90fe190bb49ab35d59a5e/a3e09/binary-number.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 10.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAkklEQVQI1x3NOQ6CUABFUfa/BBsDGjQSJlHZghYCGkCCCHwGB8A1XH8sXnOKd5WqtHj2HkI4DJ8D4VlD1A5t49LIjYNPFCwocoO+2zKOPu/XjrqySGKdR2HStx73fEMYrFBSiaIyiS9LslTnEqlM456yMLiGGlkiLVT5Tj6tsGXcpWucv0XBXJpFdltzOs7kqc0PHbWHf0n2jVMAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="binary-number"
+        title="binary-number"
+        src="/static/b79a05dc37e90fe190bb49ab35d59a5e/a3e09/binary-number.png"
+        srcset="/static/b79a05dc37e90fe190bb49ab35d59a5e/772e8/binary-number.png 200w,
+/static/b79a05dc37e90fe190bb49ab35d59a5e/a3e09/binary-number.png 305w"
+        sizes="(max-width: 305px) 100vw, 305px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>Range: 0 to 2^n - 1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>2s-Complement(2의 보수) Signed Integers</p>
+<ul>
+<li>
+<p>Given an n-bit number</p>
+<ul>
+<li><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 785px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/255bf670de4a4e81c6b4c851fb15c321/cda19/2s-complement-signed-integers.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 9.499999999999998%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAkUlEQVQI1x2OWwqCUABE2/8KKqPANMvS6LGHEKPoIb7zeTPS1nC6+DHMx8xwZiAqi7q0SJMlorJxTkPKfEOemqSxwafZ4TpjQl+jKiza74F3vSWR2cWdEIcG2WtFFGpyqzCoyzVFZnK/TvE9VWrOrzuSRAset1kv76nStXsJMmmE3Xsgu2dHQcgzcaBL6Ehudf6id4ZTqX5/awAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="2s-complement-signed-integers"
+        title="2s-complement-signed-integers"
+        src="/static/255bf670de4a4e81c6b4c851fb15c321/cda19/2s-complement-signed-integers.png"
+        srcset="/static/255bf670de4a4e81c6b4c851fb15c321/772e8/2s-complement-signed-integers.png 200w,
+/static/255bf670de4a4e81c6b4c851fb15c321/e17e5/2s-complement-signed-integers.png 400w,
+/static/255bf670de4a4e81c6b4c851fb15c321/cda19/2s-complement-signed-integers.png 785w"
+        sizes="(max-width: 785px) 100vw, 785px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>Range: -2^(n-1) to 2^(n-1) - 1</li>
+</ul>
+</li>
+<li>
+<p>Bit 31(MSB) is sign bit</p>
+<ul>
+<li>1 for negative numbers</li>
+<li>0 for non-negative numbers</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Signed Negation</p>
+<ul>
+<li>Complement and add 1</li>
+<li>여기서 Complement란 1 -> 0, 0 -> 1와 같이 바꿔주는 것</li>
+</ul>
+</li>
+<li>
+<p>Sign Extension</p>
+<ul>
+<li>
+<p>Representing a number using more bits(2진수를 8진수, 32진수와 같이 더큰 진수로 나타내는 것. 그리고 이 때 값과 부호는 유지되어야 한다.)</p>
+<ul>
+<li>Preserve the numeric value</li>
+</ul>
+</li>
+<li>
+<p>In MIPS instruction set</p>
+<ul>
+<li>addi: extend immediate value</li>
+<li>lb, lh: extend loaded byte/halfword</li>
+<li>beq, bne: extend the displacement</li>
+</ul>
+</li>
+<li>
+<p>Replicate the sign bit to the left</p>
+<ul>
+<li>c.f. unsigned values: extend with 0s</li>
+</ul>
+</li>
+<li>
+<p>Examples: 8-bit to 16-bit</p>
+<ul>
+<li>+2: 0000 0010 => 0000 0000 0000 0010</li>
+<li>-2: 1111 1110 => 1111 1111 1111 1110</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>2.5 Representing Instructions in the Computer</h3>
+<ul>
+<li>
+<p>Representing Instructions</p>
+<ul>
+<li>
+<p>Instructions are encoded in binary</p>
+<ul>
+<li>Called machine code</li>
+</ul>
+</li>
+<li>
+<p>MIPS instructions</p>
+<ul>
+<li>Encoded as 32-bit instruction words</li>
+<li>Small number of formats encoding operationn code (opcode), register numbers, ...</li>
+<li>Regularity!(이전에 이야기했던 디자인 원칙 1에 해당)</li>
+</ul>
+</li>
+<li>
+<p>Register numbers</p>
+<ul>
+<li>$t0 - $t7 are reg's 8 - 15</li>
+<li>$t8 - $t9 are reg's 24 - 25</li>
+<li>$s0 - $s7 are reg's 16 - 23</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>MIPS R-format Instructions</p>
+<ul>
+<li><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/360bf6e0b72e583d73b309b7d9ceecc6/a2b88/mips-r-format-instructions.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 13.999999999999998%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAlUlEQVQI1z2Puw6FIBBE/f//MpaEyob4KhSJgoKJxsK5mSnuJJvdGQ5kqUop2LYN13UhpYTjOFScc85/z3nfd5znKX5ZFoQQxDH33uusYmiMQYxRUNd1GIZBAKvve/V1XdG2rbpzDnVdw1qrO/RN04irUooYxxH3fYNiSE+VkgW/74vnefQ4N/2+D/M8a1OKP5imSdwPbTvgM10gW0cAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="mips-r-format-instructions"
+        title="mips-r-format-instructions"
+        src="/static/360bf6e0b72e583d73b309b7d9ceecc6/5a190/mips-r-format-instructions.png"
+        srcset="/static/360bf6e0b72e583d73b309b7d9ceecc6/772e8/mips-r-format-instructions.png 200w,
+/static/360bf6e0b72e583d73b309b7d9ceecc6/e17e5/mips-r-format-instructions.png 400w,
+/static/360bf6e0b72e583d73b309b7d9ceecc6/5a190/mips-r-format-instructions.png 800w,
+/static/360bf6e0b72e583d73b309b7d9ceecc6/a2b88/mips-r-format-instructions.png 908w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Instruction fields</p>
+<ul>
+<li>op: operation code (opcode)</li>
+<li>rs: first source register number</li>
+<li>rt: second source register number</li>
+<li>rd: destination register number</li>
+<li>shamt: shift amount (00000 for now)</li>
+<li>funct: function code (extends opcode)</li>
+</ul>
+</li>
+<li>
+<p>Example</p>
+<ul>
+<li><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/4dc4726ded218fa007791a72ad96f245/aa08e/r-format-example.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 47%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABNklEQVQoz5WS246CQBBE+f+fMwqi4IUoiCLeJdy1dk8n+LD7skvS9FDdU1U9g3O9XrVYLLTf7xVFkU6nk+I41uPx0Gq1Utu24nm/338Khw11XdvH69V/x0td1xnJQPafx+EF4fF41OFwEI7P57M5fj6f5hj8crkoTVPlea77/a7b7WYYmR6CfiNkvNlsJtd1td1uLZbLpbIs02az0Xq9VpIkhlFDgNjtdiZMnT5IjRBm1ABQpGnYNJwpm5mCQIgajgdiMCb7EAKykQJuCDZADk6A0Qc+9LMeBD8Oi6JQEAQajUZWwL7neabOiPP53MYKw9DW9IzHY02nUyMkc2S4d7hVbrOqKouyLH+tubSfeNM0H5wM3ve9HFRRwyEqZP5H1tR83ze39HApuJlMJnY0jEofdTJ/yBdoQqPSqhKKpAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="r-format-example"
+        title="r-format-example"
+        src="/static/4dc4726ded218fa007791a72ad96f245/5a190/r-format-example.png"
+        srcset="/static/4dc4726ded218fa007791a72ad96f245/772e8/r-format-example.png 200w,
+/static/4dc4726ded218fa007791a72ad96f245/e17e5/r-format-example.png 400w,
+/static/4dc4726ded218fa007791a72ad96f245/5a190/r-format-example.png 800w,
+/static/4dc4726ded218fa007791a72ad96f245/aa08e/r-format-example.png 967w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Hexadecimal</p>
+<ul>
+<li>
+<p>Base 16</p>
+<ul>
+<li>Compact representation of bit strings</li>
+<li>4 bits per hex digit</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>MIPS I-format Instructions</p>
+<ul>
+<li><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ca147fac617d3f58742de7c7730a2492/b7877/mips-i-format-instructions.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 12.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAnElEQVQI101OSwqFMBDr/S8mSDdVWl0ofqhVK9YPLgqKecws5GWTZJiEiGEYsO87vPfYtg3TNH0+hMC8LAvr4zjgnEPf9+i6DpQl3zQN2rbFPM8QSil+HMeRQ3Vds6diKqM78bquOM8TeZ5DSok0TaG1hjGGdZIkqKoKoigKXka4rgtZlvEigrWWAzFGPM+D+77xD1pWluXn3/fFD1hW3vGJhopYAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="mips-i-format-instructions"
+        title="mips-i-format-instructions"
+        src="/static/ca147fac617d3f58742de7c7730a2492/5a190/mips-i-format-instructions.png"
+        srcset="/static/ca147fac617d3f58742de7c7730a2492/772e8/mips-i-format-instructions.png 200w,
+/static/ca147fac617d3f58742de7c7730a2492/e17e5/mips-i-format-instructions.png 400w,
+/static/ca147fac617d3f58742de7c7730a2492/5a190/mips-i-format-instructions.png 800w,
+/static/ca147fac617d3f58742de7c7730a2492/b7877/mips-i-format-instructions.png 891w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Immediate arithmetic and load/store instructions</p>
+<ul>
+<li>rt: destination or source register number</li>
+<li>Constant: -2^15 to +2^15 - 1</li>
+<li>Address: offset added to base address in rs</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>Design Principle 4: Good design demands good compromises</h4>
+<blockquote>
+<ul>
+<li>Different formats complicate decoding, but allow 320bit instructions uniformly</li>
+<li>Keep formats as similar as possible</li>
+<li>MIPS I-format instructions를 살펴보면 Immediate arithmetic 과 load/store instructions는 서로 다른 명령이지만 같은 포맷을 가진다. 이것이 바로 good compromises.</li>
+</ul>
+</blockquote>
+<ul>
+<li>
+<p>Stored Program Computers
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 400px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/6b43860fd23d9d8eff19ebc4e7648a2f/e17e5/stored-program-computers.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 129.99999999999997%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAAsSAAALEgHS3X78AAAEZ0lEQVRIx31VaU8bVxT1/1dVJVVbtVWVD1WVtClKQknMYgiLd8DrePbxMt5tbLyDwWZOz3tjHGgIzzq6M+M3d+5yzn0BPLE8z/Mt7jCf3+Bqhfntgk+ABf9eEjeLpXx+fUPQLpdLBL7p0PNdhsMagkEdoZCFdx/S+O7FBn57FcQvv2/jr40EdvYNbO8ROwra7YvnHXr8HR5r+HzkIJqo4eDIwB+vQ3jzzwn+fHOAzWAKkbiLSKyK3T0dzeZDh94K65SZ8J2HxJkFy7ZRLBZRr9dRq1VRrdbQarfhui5sx0GlUoaSLfN5e+XQexjelxoKh/FTHZeXlzANA6lUSiKZTCKfz+Ps9BSRSAT9fhemXuMHmgiIl9cpruq2dkgbiWmYTK8ZUZdOVOi6Dd1wUCpVoWs2CgUDt2yWkne/OBSRrLG6lx+i06OwgkRCRz5XgarW6MCHSuhaEwWlhky2iMNDBY1G9+mm3K87ciSaUHG7uEH3ooVM7hy2baBac2GYGlRNQblSlHtNo+lHeHN7iwa702z1iZ609UYP3e5AliCS1OQL3W4H6XRa1k7gvqbiWizbarE5DQQuh1NsfsrjY1DFFvFxW8WHfws4PCrIjcfRAiNqwylWkcsbKKg2I3NgWa60maxO/vVwfubIfYHhaIbtkIHdkL1GcMdCJGrKBh1HdKZXQ63eQ7HUJH0apEodplklneqkygUddZGIm6RVx3co2L7/uYyDwzJJXMFeqIRozJTEjiYMLCgpsXr9HkrlErusI51JseMalncL+Z9l1lFxmfJ0doNfX+3ixU8bePnzO3z/w1u8/HEToYOs3CiaIjre6XSQy+XYXRWaqrFerrS5nF9Dy2YN3ZYf4futDDbep/D3xhlllcTrt0kcnShyo6BNQSlB0yp82ZFQeC9wf29ZNZZIl80MDNiUnZD5OOV9P2U5HGI6Wuz8YDChIiaYTOYYDmcS4nowmGI8niGTKVGWXd/h1icVn7ZNdtigNbC5pTNCTRI7Stosl6s6WSYjLUgrkEmnMJtNfR6yhq7LpghZRaIqJcaJErMRi9sIR7g56/gOWcOr6yspzaura0bZx3Q6wXgykdfz+Vw6NDR2XDh8Ynitp4UvPZUcKyKfrUDJuWu5qQKFOiXpktxlHJO3DVHD++HwFISuBW1EjRZMe8KoLgcDGd1oNMZoPJYRet4ddS7GWufbDv1pA8RYw8WqhqPREOfnpyiXHBjkYJmcvF+WJbTcfpyyB+/xPKSJxlWp6/HoCkN2dI2hb0WXp9M5dV72I/y6gt6DQ8rDCaWnFiqsHSeMUV1D13mvV5lqhdHVEY1alN5TZ8oTE1t0WaRomgZlp7GbguRZOfprVZfdn8Bx2l+n/P9j1D9TDEkTm7xziGQyzmldlB9QlBwJnWZt+xwaHX7gWYeenIdHxzlOaKHbKunCwygnZFcmVUqkk45sxpEph8MFKuUZh/dR9vtDHo99zrwhMVjZITpEtzPi0BhKabbbJDkP/P8AojB6ZY6pSNAAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="stored-program-computers"
+        title="stored-program-computers"
+        src="/static/6b43860fd23d9d8eff19ebc4e7648a2f/e17e5/stored-program-computers.png"
+        srcset="/static/6b43860fd23d9d8eff19ebc4e7648a2f/772e8/stored-program-computers.png 200w,
+/static/6b43860fd23d9d8eff19ebc4e7648a2f/e17e5/stored-program-computers.png 400w"
+        sizes="(max-width: 400px) 100vw, 400px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span> </p>
+<ul>
+<li>Instructions represented in binary, just like data</li>
+<li>Instructions and data stored in memory</li>
+<li>
+<p>Programs can operate on programs</p>
+<ul>
+<li>e.g., compilers, linkers, ...</li>
+</ul>
+</li>
+<li>
+<p>Binary comptibility allows compiled programs to work on different computers</p>
+<ul>
+<li>표준화된 ISA가 지원되면 가능하다.(Standardized ISAs)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>2.6 Logical Operations</h3>
+<ul>
+<li>
+<p>Logical Operations(논리 연산)</p>
+<ul>
+<li>Instructions for bitwise manipulation </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th>C</th>
+<th>Java</th>
+<th>MIPS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shift left</td>
+<td>&#x3C;&#x3C;</td>
+<td>&#x3C;&#x3C;</td>
+<td>sll</td>
+</tr>
+<tr>
+<td>Shift right</td>
+<td>>></td>
+<td>>>></td>
+<td>srl</td>
+</tr>
+<tr>
+<td>Bitwise AND</td>
+<td>&#x26;</td>
+<td>&#x26;</td>
+<td>and, andi</td>
+</tr>
+<tr>
+<td>Bitwise OR</td>
+<td>|</td>
+<td>|</td>
+<td>or, ori</td>
+</tr>
+<tr>
+<td>Bitwise NOT</td>
+<td>~</td>
+<td>~</td>
+<td>nor</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Useful for extracting and inserting groups of bits in a word</li>
+</ul>
+</li>
+<li>
+<p>Shift Operations</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/0006ff3beadaf655582a3ee199927f78/c4b7c/shift-operations.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 12.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAlElEQVQI1z1O0QqAIAz0/3/MB98kkoqCkjRTK8o3g4vtoYHc7tzuJrZtw3meOI4DOWfEGLnf9x3Xdf1IekoJIQSe895jnmc45/4/4qJpmt+EcJomRlqkoGVZcN83c+qttWzY9z2klDDGcCgdppSCIIGGqUopGIYB67oyJ0OtNevv+/IF4zii1sqv6zoOp3qeB23b4gPxd98bVmxM3QAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="shift-operations"
+        title="shift-operations"
+        src="/static/0006ff3beadaf655582a3ee199927f78/5a190/shift-operations.png"
+        srcset="/static/0006ff3beadaf655582a3ee199927f78/772e8/shift-operations.png 200w,
+/static/0006ff3beadaf655582a3ee199927f78/e17e5/shift-operations.png 400w,
+/static/0006ff3beadaf655582a3ee199927f78/5a190/shift-operations.png 800w,
+/static/0006ff3beadaf655582a3ee199927f78/c4b7c/shift-operations.png 903w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>shamt: how many positions to shift</li>
+<li>
+<p>Shift left logical</p>
+<ul>
+<li>Shift left and fill whit 0 bits</li>
+<li>sll bt i bits multiplies by 2^i</li>
+</ul>
+</li>
+<li>
+<p>Shift right logical</p>
+<ul>
+<li>Shift right and fill with 0 bits</li>
+<li>srl by i bits divides by 2^i (unsigned only)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>AND Operations</p>
+<ul>
+<li>
+<p>Useful to mask bits in a word</p>
+<ul>
+<li>Select some bits, clear others to 0</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>OR Operations</p>
+<ul>
+<li>
+<p>Useful to include bits in a word</p>
+<ul>
+<li>Set some bits to 1, leave others unchanged</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>NOT Operations</p>
+<ul>
+<li>
+<p>Useful to innvert bits in a word</p>
+<ul>
+<li>Change 0 to 1, and 1 to 0</li>
+</ul>
+</li>
+<li>
+<p>MIPS has NOR 3-operand instruction</p>
+<ul>
+<li>a NOR b == NOT (a OR b)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>2.7 Instructions for Making Decisions</h3>
+<ul>
+<li>
+<p>Conditional Operations</p>
+<ul>
+<li>
+<p>Branch to a labeled instruction if a condition is true</p>
+<ul>
+<li>Otherwise, continue sequentially</li>
+</ul>
+</li>
+<li>
+<p>beq rs, rt, L1</p>
+<ul>
+<li>if (rs == rt) branch to instruction labeled L1;</li>
+</ul>
+</li>
+<li>
+<p>bne rsm rtm L1</p>
+<ul>
+<li>if (rs != rt) branch to instruction labeled L1;</li>
+</ul>
+</li>
+<li>
+<p>j L1</p>
+<ul>
+<li>unconditional jump to instruction labeled L1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Compiling If Statements</p>
+<ul>
+<li>
+<p>C code</p>
+<div class="gatsby-highlight" data-language="c"><pre class="language-c"><code class="language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>i<span class="token operator">==</span>j<span class="token punctuation">)</span> f <span class="token operator">=</span> gh<span class="token punctuation">;</span>
+<span class="token keyword">else</span> f <span class="token operator">=</span> g<span class="token operator">-</span>h<span class="token punctuation">;</span></code></pre></div>
+<ul>
+<li>f, g, ... in $s0, $s1, ...</li>
+</ul>
+</li>
+<li>
+<p>Compiled MIPS code</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">	bne $s3, $s4, Else
+	add $s0, $s1, $s2
+	j Exit
+Else: sub $s0, $s1, $s2
+Exit: ... &lt;- Assembler calculates addresses</code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p>Compiling Loop Statements</p>
+<ul>
+<li>
+<p>C code</p>
+<div class="gatsby-highlight" data-language="c"><pre class="language-c"><code class="language-c"><span class="token keyword">while</span> <span class="token punctuation">(</span>save<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> k<span class="token punctuation">)</span> i <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span></code></pre></div>
+<ul>
+<li>i in $s3, k in $s5, address of save in $s6</li>
+</ul>
+</li>
+<li>
+<p>Compiled MIPS code</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">Loop: sll $t1, $s3, 2
+	add $t1, $t1, $s6
+	lw $t0, 0($t1)
+	bne $t0, $s5, Exit
+	addi $s3, $s3, 1
+	j Loop
+Exit: ...</code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p>Basic Blocks</p>
+<ul>
+<li>
+<p>A basic block is a sequence of instructios with</p>
+<ul>
+<li>No embedded branches (except at end)</li>
+<li>No branch targets (except at beginning)</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 190px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ec0b83949c94b1c97f58b185f18836a0/a2d4f/basic-blocks.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 84.73684210526315%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAACXElEQVQ4y5WU+2/SUBTH+ef9WZ1bYhZAHlMTo2aOBAUWx7M8CozOhInCgI1XRqEtr5by+HrunR0wNqJNvtz2W/o55/SeUxvoWC6XWF//9Xjs/7aHNxeLBebz+YZ0XcdsNtvyH4PamGGZ0+kUN40GWq02mq0WV7vdRkGS0OD+yqvVatAGAzys0LZOZ1GVfg/GeITJcMhljMf4dXmJ0UCDPrrzp5MJ5NtbKIpyD7KgPMMBRdI0jWeRKZYgXTdRqN5wXdSb8EUSyFXqkGoN7knkiaUK+oq6nSH7GVMWI4oud7t4H8/AHsvCGc/Cwdccnp8EYY+K/NxJnoOt4RTkfn93yeTAl/sBdyKHI+EcXiGPt8kC9n1BeBNZ7nGRdxRNbwA3SrYuTNPEl+wFXA+Ar3wheOMWMA8vB6bQW8+Qcay2sYAzDpTwhh5mMA+BvQTZo5LdVKonced5yPNEkk+XvA48zhb4+3MT0CXQw8lzvDwJwEWehwUhucnzRFfvkPWuVekmkJr3cyqPw7MUnJE0HCRnNIMXx19pTVPmIilDAUW4wsL9Lm9Nygpo4iMBXxPQTrBD2klHLINn7z5hz/8dB4EIKYz9QBQH/lNcU5sZhoEh9SbTVoYmTUqa+itWukKC1vjPCoTfNXw4PcO3dB4h2rCgKCFEneAXRFxVq7x/ZVnm07MFZDOr9HowDR3GZMxlklevVTHVJxTQ4PfmVImq9Cmrwe6S2Sx3qbk1bQBVVbnYvBaLRd4iqqpB+et1Oh2e3ZObsg5lmVpi1+VymU8Te1+Wz87X22UDuOv79r/fxD8NHu8F25CIrAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="basic-blocks"
+        title="basic-blocks"
+        src="/static/ec0b83949c94b1c97f58b185f18836a0/a2d4f/basic-blocks.png"
+        srcset="/static/ec0b83949c94b1c97f58b185f18836a0/a2d4f/basic-blocks.png 190w"
+        sizes="(max-width: 190px) 100vw, 190px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>A compiler identifies basci blocks for optimization</li>
+<li>An advanced processor can accelerate execution of basic blocks</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>More Conditional Operations</p>
+<ul>
+<li>
+<p>Set result to 1 if a condition is true</p>
+<ul>
+<li>Otherwise, set to 0</li>
+</ul>
+</li>
+<li>
+<p>slt rd, rs, rt</p>
+<ul>
+<li>if(rs&#x3C;rt) rd = 1; else rd = 0;</li>
+</ul>
+</li>
+<li>
+<p>slti rt, rs ,constant</p>
+<ul>
+<li>if(rs&#x3C;constant) rt = 1; else rt = 0;</li>
+</ul>
+</li>
+<li>
+<p>Use in combination with beq, bne</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">slt $t0, $s1, $s2 # if ($s1 &lt; $s2)
+bne $t0, $zero, L # branch to L</code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p>Branch Instruction Design</p>
+<ul>
+<li>Why not blt, bge, etc?</li>
+<li>
+<p>Hardware for &#x3C;, >=, ... slower than =, !=</p>
+<ul>
+<li>Combining with branch involves more work per instruction, requiring a slower clock(clock period)</li>
+<li>All instructions penalized!</li>
+</ul>
+</li>
+<li>beq and bne are the common case</li>
+<li>This is good design compromise</li>
+</ul>
+</li>
+<li>
+<p>Signend vs Unsigned</p>
+<ul>
+<li>Siged comparison: slt, slti\</li>
+<li>Unsigned comparison: sltu, sltui</li>
+</ul>
+</li>
+</ul>
+<h3>2.8 Supporting Procedures in Computer Hardware</h3>
+<ul>
+<li>
+<p>Six Steps in Execution of a Procedure(프로시져 또는 함수)</p>
+<ol>
+<li>
+<p>Main routine (caller: 호출하는 함수) places parameters in a place where the procedure (callee: 호출당하는 함수) can access them(caller는 callee가 접근할 수 있는 곳에 매개변수를 위치시킨다.)</p>
+<ul>
+<li>$a0 - $a3: four argument registers</li>
+</ul>
+</li>
+<li>Caller는 calllee에게 control을 넘긴다.(callee가 실행된다.)</li>
+<li>Callee는 필요한 저장공간(메모리)를 할당 받는다.</li>
+<li>Callee는 해야할 일을 수행한다.</li>
+<li>
+<p>할 일을 모두 마친 Callee는 결과값(return 값)을 caller가 접근할 수 있는 곳에 위치시킨다.</p>
+<ul>
+<li>$v0 - $v1: two value registers for result values</li>
+</ul>
+</li>
+<li>
+<p>Callee가 caller에게 control을 넘긴다.</p>
+<ul>
+<li>$ra: one return address register to return to the point of origin</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>Register Usage</p>
+<ul>
+<li>$a0 - $a3: arguments(reg's 4 - 7)</li>
+<li>$v0, $v1: result values(reg's 2 and 3)</li>
+<li>
+<p>$t0 - $t9: temporaries</p>
+<ul>
+<li>Can be overwritten by callee</li>
+</ul>
+</li>
+<li>
+<p>$s0 - $s7: saved</p>
+<ul>
+<li>Must be saved/restored by callee</li>
+</ul>
+</li>
+<li>$gp: global pointer for static data(reg 28)</li>
+<li>$sp: stack pointer(reg 29)</li>
+<li>$fp: frame pointer(reg 30)</li>
+<li>$ra: return address(reg 31)</li>
+</ul>
+</li>
+<li>
+<p>Procedure Call Instructions</p>
+<ul>
+<li>
+<p>Procedure call: jump and link</p>
+<ul>
+<li>jal ProcedureLabel</li>
+<li>Address of following instruction put in $ra</li>
+<li>Jumps to target address</li>
+</ul>
+</li>
+<li>
+<p>Procedure return: jump register</p>
+<ul>
+<li>jr $ra</li>
+<li>Copies $ra to program counter (program counter란? 줄여서 pc라고도 불림, 현재 실행하고있는 명령어의 메모리 주소를 가리키는 레지스터)</li>
+<li>
+<p>Can also be used for computed jumps</p>
+<ul>
+<li>e.g., for case/switch statements</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Leaf Procedure Example (Leaf Procedure: 함수(프로시져) 내부에서 다른 함수(프로시져)를 호출 하지 않는 함수(프로시져))</p>
+<ul>
+<li>
+<p>C code</p>
+<div class="gatsby-highlight" data-language="c"><pre class="language-c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">leaf_example</span> <span class="token punctuation">(</span><span class="token keyword">int</span> g<span class="token punctuation">,</span> h<span class="token punctuation">,</span> i<span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">int</span> f<span class="token punctuation">;</span>
+	f <span class="token operator">=</span> <span class="token punctuation">(</span>g <span class="token operator">+</span> h<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token punctuation">(</span>i <span class="token operator">+</span> j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token keyword">return</span> f<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>Arguments g, ..., j in $a0, ..., $a3</li>
+<li>f in $s0 (hence, need to save $s0 on stack)</li>
+<li>Result in $v0</li>
+<li>
+<p>MIPS code</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">leaf_example:
+# Save $s0 on stack
+addi $sp, $sp, -4
+sw $s0, 0($sp) # 기존에 있을지 모르는 $s0 값을 스택 포인터에 저장
+# Procedure body
+add $t0, $a0, $a1
+add $t1, $a2, $a3
+sub $s0, $t0, $t1
+# Result
+add $v0, $s0, $zero # move 명령어와 같은 결과(add + $zero)
+# Restore $s0
+lw $s0, 0($sp) # 위에서 저장한 값 복구
+addi $sp, $sp, 4
+# Return
+jr $ra</code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p>Non-Leaf Procedures</p>
+<ul>
+<li>Procedures that call other procedures</li>
+<li>
+<p>For nested call, caller needs to save on the stack:</p>
+<ul>
+<li>Its return address</li>
+<li>Any arguments and temporaries needed after the call</li>
+</ul>
+</li>
+<li>Restore from the stack after the call</li>
+</ul>
+</li>
+<li>
+<p>Non-Leaf Procedure Example</p>
+<ul>
+<li>
+<p>C code</p>
+<div class="gatsby-highlight" data-language="c"><pre class="language-c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">fact</span> <span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">return</span> f<span class="token punctuation">;</span>
+	<span class="token keyword">else</span> <span class="token keyword">return</span> n <span class="token operator">*</span> <span class="token function">fact</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span></code></pre></div>
+<ul>
+<li>Argument n in $a0</li>
+<li>Result in $v0</li>
+</ul>
+</li>
+<li>MIPS code
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/5eec05763247bd0f2750cd89660ea89d/eb390/non-leaf-procedure-mips-code.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACj0lEQVQozyVTaVfaUBTk/7fnVC0uKKAgihIWkfZYqbtgRfaAYBBCWJKAuLTHHzCd+/LhnZCTeXPnzgy+ZiOGejUCw0hgOEzzZGBZGYxGR5hMjtXTtnPqORik+O0I43EWppnGSH6PsgrX72u8ewrfi5vFzE6hdL8O4ymKaiWAbieC+z9reOruwp0m8eKk0XncQbHwHboeQrMRQoU4vRHEXdGvcN12CEY3Bd/cOYYzSfFCBMPBAf7ceURXl8t4KG3g8+MEzjiJx/YOCrd+tFvbuL1ZIfkqGvUQhuYhRsME/r0d431xAZ8zzWA61lAuB9DpRKlsHXpz21NsxDCdpuDwPPf20KAi4ymGlr6N/vM+iQ7xMjvC2yKHmZviycM3tpKwzDjyp19Q58RiwY9aLYiz/FcqCCrlY+tQEcgAk9jBIE5boiTfpXckthKYORpc5xd8CzeHuZ3G9dWymlwpex4KmdGN4nWehW1pGJBQrLgrrqJn7Cm8YOROSw/jsRXivSR8w4GmpNdr3jql+w0qpqLePuxJkpNpyUhT73ozTF8DqFW9TXrEi10uBTnTBBybCp+NA1gkLNz4aXxEeSiriCLXFv/SKjTv2xpqlS2UHwIqMDky/OP1BzfJYDE7g2/GlO2JptIzmXJRVmIADwylWQ/j/TWHCT2SwIRIlEloQlZ+2FQYsx9XhHP3t+fhgknpjTBVxRlMkB7FlFLp2+ffE+WxySAkIJ1+NYkVr9uskngqYVrmvleb8SjJLh3g8vybAouCanlT9VHWkzTHowQJNtnNJfq3pcjkCLZEpdLPYmGFuJ/SQ/59uJIUV1QU+dFmkSWIKZ82/RPjqyS/uV5Rgy7Ol7xBLPSM6idsgTvVGGAe/wG9SB03+y5iaQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="non-leaf-procedure-mips-code"
+        title="non-leaf-procedure-mips-code"
+        src="/static/5eec05763247bd0f2750cd89660ea89d/5a190/non-leaf-procedure-mips-code.png"
+        srcset="/static/5eec05763247bd0f2750cd89660ea89d/772e8/non-leaf-procedure-mips-code.png 200w,
+/static/5eec05763247bd0f2750cd89660ea89d/e17e5/non-leaf-procedure-mips-code.png 400w,
+/static/5eec05763247bd0f2750cd89660ea89d/5a190/non-leaf-procedure-mips-code.png 800w,
+/static/5eec05763247bd0f2750cd89660ea89d/eb390/non-leaf-procedure-mips-code.png 935w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>Local Data on the Stack
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/5f6f8c65bf628f6c48214c45686319ad/fe9f1/local-data-on-the-stack.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 48.50000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABn0lEQVQoz3VSaUvDQBDt///sB1HbatQPgoLWoxV62FOlFC8QtSWeUGttTbc5dnM9dzY2RtGBR7LMm7fzZifV7/dBcBwHIYAgCCRChTD8G9+cby79Uy5FQmw6RefyGZXmPeonjyjVdegPQ1C4rotkeJ4HwR08vYxRrPYUn+raZ89KNOX7PmzHRqv9iFzhFvlSFzv5G9zc9eWNPibMknkXNvcU1Nm20LsfYnv/GgXJ3z28Ra2lR4LUJt1qSOLEFBJcfT8MBiG47EDHolZBdv0ImbWqLL6SF3CFkWGBfdUYzI4E8TU3z/tpjXOuvsXKFebm95FdLWEhfYiNzabMufB9TzoIYn4gncaCZFsIoRLR4KEeiaJx3MPSchkZrYi0Vkbu4FzmhHJFIC6BZv2vIIXjRB22TnWkV8rQpGVtvYa9/AUcHglSXfKxYkGK34KWZakxHDW6mE8XsbQiLWdL2Mp1pKCrciQyi7hDwzAwGo3i9ZgJ0lm4Au9jC69vUwzeTQyGBKY6i3YwMcPZHlInjDGYppmYYRgTaef+CnI06zDJ/wSQifOY2nipjAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="local-data-on-the-stack"
+        title="local-data-on-the-stack"
+        src="/static/5f6f8c65bf628f6c48214c45686319ad/5a190/local-data-on-the-stack.png"
+        srcset="/static/5f6f8c65bf628f6c48214c45686319ad/772e8/local-data-on-the-stack.png 200w,
+/static/5f6f8c65bf628f6c48214c45686319ad/e17e5/local-data-on-the-stack.png 400w,
+/static/5f6f8c65bf628f6c48214c45686319ad/5a190/local-data-on-the-stack.png 800w,
+/static/5f6f8c65bf628f6c48214c45686319ad/fe9f1/local-data-on-the-stack.png 883w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>
+<p>Local data allocated by callee</p>
+<ul>
+<li>e.g., C automatic variables</li>
+</ul>
+</li>
+<li>
+<p>Procedure frame (activation record) (그림에서 보라색으로 칠해진 영역)</p>
+<ul>
+<li>Used by some compilers to manage stack storage</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Memory Layout
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 431px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/45188e79f32a972ee3486d7943aa782f/9cb4e/memory-layout.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 78.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACxUlEQVQ4y52U6VPaUBTF+f8/dMZxpk5bO7UztpTFgIAhgopWLSgJghWQLYBlEYGwhCUsenrfC1jaD23HzBzybhh+nLvFMhqNMBwOYUxnMCZT9Ps9sGeTyYTOfX6fzWa4+/GA0t0DyqRS+Z7UoHOTx0wqxa12D5bBYIB2u42uPsJgZEAnyHBoAnVdR7fbRbPZgk/6Do8/jb1AFp/tF3i15sCb9xJ2xRR8+xkIviSUuAoL/uMajQ1IB2n4D/KkHPYPC3C6ZLi9CX6WDnMcGv9ehuXp6Ql/kwmcwB9MQQzmSFmC5OH2XZPjFMHMP/FKBLx+AdB/kDWhRwUOY2cTeEvA0iJl9kMuHmD5uQoUnx3mOMjliVP9bhYOsy9xmIYUzJOYO5Xqx5qU5EAm77KGWDhZBaw+WzbFH0jCu3dDnfVjY1PExjsRW9vHWFsXsG09oynI4CpRNB3+ogCPj4/PMHZml2FM4fIqEChNmxCFzXkJhyBTp2Ow78hwuBTYBQVyLAcLm7N6rQqtN0B/MML9fR2apqHT6aBWq9FdQ6+v87EJhEoQvHGsv3aTuxA2t4J4+yHAuy7SfF6zlJkLwzAwm89pUyaoVCpotVocWK1UaagfKG5TExQ4PQk4d2OwOiNwuhVyFoXVcYkdcm4XYpCV3O+DzdJkmzMej/mmsJVksaZ1qRkpagyNDbnx7d/i46dj2BwXCNJgm11ejA2DTKdTTKZzvssGwVjMxHaaZ0Bwj3iFXWoK66xXSmL7yymt4DeCp+nZDblM0OoVYJlTqqxm+tBAp9enulV5zGtbr1PKTUq5ia9nEZyHZZycRiAFQgidhHF0fI7g0SnOwlGc0PepdObfu8ycshKELyKQ41cEDcNqs1O6Duy4XPD4fIjGFETkKDLZLKX8xxyuzh97bS3TLqgql1os0uvqjl5fZVOlMlS1iFy+gEajgZ+1ToFC3I/+2QAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="memory-layout"
+        title="memory-layout"
+        src="/static/45188e79f32a972ee3486d7943aa782f/9cb4e/memory-layout.png"
+        srcset="/static/45188e79f32a972ee3486d7943aa782f/772e8/memory-layout.png 200w,
+/static/45188e79f32a972ee3486d7943aa782f/e17e5/memory-layout.png 400w,
+/static/45188e79f32a972ee3486d7943aa782f/9cb4e/memory-layout.png 431w"
+        sizes="(max-width: 431px) 100vw, 431px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>Text program code</li>
+<li>
+<p>Static data: global variables</p>
+<ul>
+<li>e.g., static variables in C, constant arrays and strings</li>
+<li>$gp initialized to address allowing +-offsets into this segment</li>
+</ul>
+</li>
+<li>
+<p>Dynamic data: heap</p>
+<ul>
+<li>E.g., malloc in C, new in Java</li>
+</ul>
+</li>
+<li>Stack: automatic storage</li>
+<li>우리가 코딩하다가 stackoverflow를 만나게 되는 경우? stack이 계속 쌓여 나가다가 dynamic data 영역을 침범하게 될 때</li>
+<li>$gp의 역햘: 여기서 static data의 중앙값을 가지지만 그 값은 프로세서에 따라 다를 수 있다. 하지만 그 목적(역할)은 static data에 수월하게 접근하기 위한 것으로 동일하다.</li>
+</ul>
+</li>
+</ul>
+<h3>2.9 Communicating with People</h3>
+<ul>
+<li>
+<p>Character Data</p>
+<ul>
+<li>
+<p>Byte-encoded character sets (1 byte로 표현)</p>
+<ul>
+<li>
+<p>ASCII: 128 characters</p>
+<ul>
+<li>95 graphic, 33 control</li>
+</ul>
+</li>
+<li>
+<p>Latin-1: 256 characters</p>
+<ul>
+<li>ASCII, +96 more graphic characters</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Unicode: 32-bit character set</p>
+<ul>
+<li>Used in Java, C++ wide characters, ...</li>
+<li>Most of the world's alphabets, plus symbols</li>
+<li>UTF-8, UTF-16: variable-length encodings(1 byte 이상의 값으로 표현)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Byte/Halfword Operations</p>
+<ul>
+<li>Could use bitwise operations</li>
+<li>
+<p>MIPS byte/halfword load/store</p>
+<ul>
+<li>
+<p>String processing is a common case</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">lb rt, offset(rs)	lh rt, offset(rs)</code></pre></div>
+</li>
+<li>
+<p>Sign extend to 32 bits in rt</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">lbu rt, offset(rs)	lhu rt, offset(rs)</code></pre></div>
+</li>
+<li>
+<p>Zero extend to 32 bits in rt</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">sb rt, offset(rs)	sh rt, offset(rs)</code></pre></div>
+</li>
+<li>Store just rightmost byte/halfword</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>String Copy Example</p>
+<ul>
+<li>
+<p>C code</p>
+<ul>
+<li>
+<p>Null-terminated string</p>
+<div class="gatsby-highlight" data-language="c"><pre class="language-c"><code class="language-c"><span class="token keyword">void</span> <span class="token function">strcpy</span> <span class="token punctuation">(</span><span class="token keyword">char</span> x<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">char</span> y<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+<span class="token keyword">int</span> i<span class="token punctuation">;</span>
+i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token punctuation">(</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>y<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token string">'\0'</span><span class="token punctuation">)</span>
+	i <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>Addresses of x, y in $a0, $a1</li>
+<li>i in $s0</li>
+</ul>
+</li>
+<li>MIPS code
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/61cb632a6f2b27ee28962b5d389e778d/a0b80/string-copy-mips-code.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACKElEQVQozz2SW2/aQBSE+f8PVRtBQAQod0oJJa1IpUohzQ0SSIIN+AYGAhjb2Jj+henskvbBsnd9zuw3czYWeJfw3QaeHk9hGgX0unEYeh6PfFtmEdHuAn/C77CMIvcSGPSTUF7T0EY5LGZVLO0qXKcJY5LF+q2N2HbTxnpVZ/EphQq4uz3BZPwZv68/QlWzUIZZjNQctEkeY+4rSgZTs4TAv8DObcHftuBumoiCFvbBNWKLeQuzWZlkCSk4GKSga3kSJymUhU0Kb9uEqZckvc4aQy9CpfByWYNNQrEO/HMKdhDz3Es2nP8n7D8lKVhA9yGB15czrN7q2NP2P3pJOjqSin+LRQ0micOdoCThzvsJZ/2VzWks5jUKpkhTxMN9HMNhBhv+C7xvUrDHQzWtIL9F5kuKiUf0uU6doleIuU5bNnWuPjCvDMnitJPF7Q1paF0UO5uGzFVQmRzO8yDNPHOY065FOkFp2yWK/kLMf7cscrNnFWlpu25gKU5ldlH4AyEHIKY85mQtqyQjmVDQnpYpWjkKG3nmSEJ72qRQWRZNrQoGtDxlU48ZCqoDBXe0LGIQgxr0UxgxQ5GxuAniLXrnM5Fj50joOg0pJLLp3p+Qrirv5Hr1hUUtXo8mdJLf3XyCNs7LwanK2TtdRR62oOVITDncm9j5Kjx3hDCYMM8hokhHtNexD3XuaQj4eK6CzeoFW0fhBX6Gy/UhMhiJjsPeYO2Eaxt/AbE1nYUZXmWeAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="string-copy-mips-code"
+        title="string-copy-mips-code"
+        src="/static/61cb632a6f2b27ee28962b5d389e778d/5a190/string-copy-mips-code.png"
+        srcset="/static/61cb632a6f2b27ee28962b5d389e778d/772e8/string-copy-mips-code.png 200w,
+/static/61cb632a6f2b27ee28962b5d389e778d/e17e5/string-copy-mips-code.png 400w,
+/static/61cb632a6f2b27ee28962b5d389e778d/5a190/string-copy-mips-code.png 800w,
+/static/61cb632a6f2b27ee28962b5d389e778d/a0b80/string-copy-mips-code.png 955w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+<h3>2.10 MIPS Addressing for 32-Bit Immediates and Addresses</h3>
+<ul>
+<li>
+<p>32-bit Constants</p>
+<ul>
+<li>
+<p>Most constants are small</p>
+<ul>
+<li>16-bit immediate is sufficient</li>
+</ul>
+</li>
+<li>
+<p>For the occasional 32-bit-constant</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">lhi rt, constant</code></pre></div>
+<ul>
+<li>Copies 16-bit constant to left 16 bits of rt</li>
+<li>
+<p>Clears right 16 bits of rt to 0</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">lhi $s0, 61
+ori $s0, $s0, 2304
+# 이와같이 두 개의 명령어를 사용해서 32bit 상수를 만들 수 있다.</code></pre></div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Branch Addressing</p>
+<ul>
+<li>
+<p>Branch instruction specify</p>
+<ul>
+<li>Opcode, two registers, target address</li>
+<li>
+<p>Most branch targets are near branch</p>
+<ul>
+<li>Foward or backward
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 764px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/05e3eef07777df7cdb80a785347af2d7/f3c12/branch-addressing.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 13%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAnElEQVQI1zVOywqAMAzz/7/Lg4J4mxN0MoawzcfmEy9qpAUDoSFt2iYxBqzrimVZsG0b11+TT4wx4jxPhBDgvWfO84xhGGCtxTiO2PedM0lVVTDGwDnHbJuGhyiktWav73s+IqVElmXI8xxCCBRFgTRNUZYlpmniTKJUyxcI13Whrmscx4HneaCU4i8I933jfV/W1Ou6jhf8II/4ATkS4H+HKFYrAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="branch-addressing"
+        title="branch-addressing"
+        src="/static/05e3eef07777df7cdb80a785347af2d7/f3c12/branch-addressing.png"
+        srcset="/static/05e3eef07777df7cdb80a785347af2d7/772e8/branch-addressing.png 200w,
+/static/05e3eef07777df7cdb80a785347af2d7/e17e5/branch-addressing.png 400w,
+/static/05e3eef07777df7cdb80a785347af2d7/f3c12/branch-addressing.png 764w"
+        sizes="(max-width: 764px) 100vw, 764px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>PC(Program Counter)-relative addressing</p>
+<ul>
+<li>Target address = PC + offset x 4</li>
+<li>PC already incremented by 4 by this time</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Jump Addressing</p>
+<ul>
+<li>
+<p>Jump (j and jal) targets could be anywhere in text segment</p>
+<ul>
+<li>Encode full address in instruction
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 742px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ef06a5f20597567394315a74f1495c77/0f2bc/jump-addressing.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 14.500000000000002%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAdElEQVQI13VPuQrFIBD0///Lzl4EsRbE+ypEJ9HuvSTFsMPOsSzJOSPGiD1TSmitodb6gHMO1lrEEF71UsrJEq01OOcwxmDzXR7u0D8YY6CUQghxPD74H917f46STZRS6L1jzokxxgNrrROQUiLdn3z59v4CbBTlJQeG5mwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jump-addressing"
+        title="jump-addressing"
+        src="/static/ef06a5f20597567394315a74f1495c77/0f2bc/jump-addressing.png"
+        srcset="/static/ef06a5f20597567394315a74f1495c77/772e8/jump-addressing.png 200w,
+/static/ef06a5f20597567394315a74f1495c77/e17e5/jump-addressing.png 400w,
+/static/ef06a5f20597567394315a74f1495c77/0f2bc/jump-addressing.png 742w"
+        sizes="(max-width: 742px) 100vw, 742px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>(Pseudo)Direct jump addressing</p>
+<ul>
+<li>Target address = PC31...28 : (address x 4)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Branching Far Away</p>
+<ul>
+<li>If branch target is too far to encode with 16-bit offset, assembler rewrites code</li>
+</ul>
+</li>
+<li>
+<p>Addressing Mode Summary</p>
+<ol>
+<li>Immediate addressing ex) addi</li>
+<li>Register addressing ex) R-type</li>
+<li>Base addressing ex) lw/sw</li>
+<li>PC-relative addressing ex) branch</li>
+<li>Pseudodirect addressing ex) jump</li>
+</ol>
+</li>
+</ul>
+<h3>2.11 Parallelism and Instruction: Synchronization</h3>
+<ul>
+<li>
+<p>Synchronization</p>
+<ul>
+<li>
+<p>Two processors sharing an area of memory</p>
+<ul>
+<li>P1 writes, then P2 reads</li>
+<li>
+<p>Data race if P1 and P2 don't synchronnize</p>
+<ul>
+<li>Result depends of order of access</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Hardware support required</p>
+<ul>
+<li>Atomic read/write meomory operation (어떤 오퍼레이션을 할 때 중간에 interrupt가 일어나지 않는 것)</li>
+<li>No other access to the location allowed between the read and write</li>
+</ul>
+</li>
+<li>
+<p>Could be a single instruction</p>
+<ul>
+<li>E.g., atomic swap of register &#x3C;-> memory</li>
+<li>Or an atomic pair of instructions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Synchronization in MIPS</p>
+<ul>
+<li>Load linked: ll rt, offset(rs)</li>
+<li>
+<p>Store conditional: sc rt, offset(rs)</p>
+<ul>
+<li>
+<p>Succeeds if location not changed since the ll</p>
+<ul>
+<li>Returns 1 in rt</li>
+</ul>
+</li>
+<li>
+<p>Fails if locationn is changed</p>
+<ul>
+<li>Returns 0 in rt</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>2.12 Translating and Starting a Program</h3>
+<ul>
+<li>Translation and Startup
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b842dd040a020018b79e524c38dffc2b/f73a1/translation-and-startup.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 57.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABZ0lEQVQoz4VSi06DQBDk/z9KE2NqGqPRGiFt2vA+KG+KvDlG9loqbVHnMuwSdvd2dpE47yBvGB6WKoK4BIFzjrZt4TgO1us1NE2DLMtQVRWKosDzPBHX9/2Rp0OQ6GE7MV7eVZj2HnVVIM+/UNe1SDRNE67rnq1hGCiK4qLg2R+ORE4cR4giH7bN8CFvsdnqqKrqHDyH6bepL01fsrzB3ULD8s1C13EhfY5jztHnP9IHCslhGApJjNmDLAe6rg2Wia4ZY2KWZIm2bQtaloU0TW9UiIK0AJrZyLZrsVIY7hc7BNFBdNG23dB1h6ZpRAxZGgvNmWZLl0ZRdCn5LD3LsFMZVp8aHNdDdkiRJMkw61hcPoIK53kuljRSulj/iUkSIwoDHNIYge9D0y0wZw9/8KnICOpyVnL/y/ZEUtvj8dnA06sF3mP+d7leyn9BTdNBNywxJ9rsdcy0EQl/YNotSS3L8qbANb4B3MVU7aMcfFMAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="translation-and-startup"
+        title="translation-and-startup"
+        src="/static/b842dd040a020018b79e524c38dffc2b/5a190/translation-and-startup.png"
+        srcset="/static/b842dd040a020018b79e524c38dffc2b/772e8/translation-and-startup.png 200w,
+/static/b842dd040a020018b79e524c38dffc2b/e17e5/translation-and-startup.png 400w,
+/static/b842dd040a020018b79e524c38dffc2b/5a190/translation-and-startup.png 800w,
+/static/b842dd040a020018b79e524c38dffc2b/f73a1/translation-and-startup.png 822w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Assembler Pseudoinstructions</p>
+<ul>
+<li>Most assembler instructions represent machine instructions one-to-one</li>
+<li>Pseudoinstructions: figments of the assembler's imagination</li>
+<li>MIPS 어셈블러에는 수두인스트럭션이 존재한다. 실제 MIPS에는 존재하지 않는 명령어지만 MIPS에서 사용할 수 있는 가짜 명령어. 이런 경우 어셈블러가 해당되는 실제 MIPS 명령어로 바꿔준다. ex) move</li>
+</ul>
+</li>
+<li>
+<p>Producing an Object Module</p>
+<ul>
+<li>Assembler(or compiler) translates program into machine instructions</li>
+<li>
+<p>Provides information for building a complete program from the pieces</p>
+<ul>
+<li>Header: described contents of object module</li>
+<li>Text segment: translated instructions</li>
+<li>Static data segment: data allocated for the life of the program</li>
+<li>Relocation info: for contents that depend on absolute location of loaded program</li>
+<li>Symbol table: global definitions and external refs</li>
+<li>Debug info: for associating with source code</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Linking Object Modules</p>
+<ul>
+<li>
+<p>Produces an executable image</p>
+<ol>
+<li>Merges segments</li>
+<li>Resolve labels (determine their addresses)</li>
+<li>Patch location-dependent and external refs</li>
+</ol>
+</li>
+<li>
+<p>Could leave location dependencies for fixing by a relocating loader</p>
+<ul>
+<li>But with virtual memory, no need to do this</li>
+<li>Program can be loaded into absolute location in virtual memory space</li>
+<li>virtual memory에 있는 절대 주소값을 사용하면 된다는 것(?)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Load a Program</p>
+<ul>
+<li>
+<p>Load from image file on disk into memory</p>
+<ol>
+<li>Read header to determine segment size</li>
+<li>Create virtual address space</li>
+<li>
+<p>Copy text and intialized data into memory</p>
+<ul>
+<li>Or set page table entries so they can be faulted in</li>
+</ul>
+</li>
+<li>Set up arguments on stack</li>
+<li>Initialize registers (including $sp, $fp, $gp)</li>
+<li>
+<p>Jump to startup routine</p>
+<ul>
+<li>Copies arguments to $a0, ... and calls main</li>
+<li>When main returns, do exit syscall</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>Dynamic Linking</p>
+<ul>
+<li>
+<p>Only link/load library procedure when it is called</p>
+<ul>
+<li>Requires procedure code to be relocatable</li>
+<li>Avoids image bloat caused by static linking of all (transitively) referenced libraries</li>
+<li>Automatically picks up new library versions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Lazy Linkage
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 744px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ca67da667f8f27ef237e1ecb73405279/cab8c/lazy-linkage.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 75.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACIklEQVQ4y4VU227iMBDN//9ZXxaxUKls0bYQArk6thPn4iScnRlwt9ptxUgjI2PPnMs4Eb6I6/UqybEsC7quwzRNWOZZVg5evff384uc44jwTYSCXd+jKAr0w4BKN1RklMt1XaNpGtTWwTYO83xrFAU0/2Yo2vWDXFC6xfM+wUzIxtHD0N5ATV4PGS65wvURQqqGhbIfRhhrURuLtzgT+qOf0LQObdvinCmkVDDQj/hHlmXI8xxVVeFyuRCCMdQkZBbHY4zWdYKoJwn8tCBOUqRZTnv+1uR+J5pJaKWUpCUkZVmC96QgpbYtaWURZzVOqULnWgxEWdUatTZ4PxWoVE1F+1tBdiu46JyTTkyFBZ+osG07lJUSUwaiHyi7jtASur4fRecPl/nier3GbreTdbvdYrVaYb/fC1LTtOSoEi3ZUR4dpun9/OVkiMvclbVhdIySm7BeHI6oWCpa1ga/3s73c5Og/DyzYTLEFJ4p1pD1M8ZIhigVFXrdy/+NNTdZ/IOC7C5ncJqTNeEzjtCz8++HGE8/toSwE4TTvPz3qj4ofzuKlKxhfEqQFzRvhRZ5/DSLyywNN2ZQ4UlGTI/N2Gw2Ygaj+9sZ5LLD+ZwgSRJByxd5bCql6WyJvLxNQBg1GRumlKapvFnW8zMVHmhDryTNK/x8ORDdQZ6etg29IIPd7xOOSSb7QvnR18bSRTZLaw1NND0BYDSiOQHgfQbBK4P7Az5KiflWYAxFAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="lazy-linkage"
+        title="lazy-linkage"
+        src="/static/ca67da667f8f27ef237e1ecb73405279/cab8c/lazy-linkage.png"
+        srcset="/static/ca67da667f8f27ef237e1ecb73405279/772e8/lazy-linkage.png 200w,
+/static/ca67da667f8f27ef237e1ecb73405279/e17e5/lazy-linkage.png 400w,
+/static/ca67da667f8f27ef237e1ecb73405279/cab8c/lazy-linkage.png 744w"
+        sizes="(max-width: 744px) 100vw, 744px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+<h3>2.13 A C Sort Example to Put it All Together</h3>
+<ul>
+<li>
+<p>C Sort Example</p>
+<ul>
+<li>Illustrates use of assembly instructionns for a C bubble sort function</li>
+<li>
+<p>Swap procedure (leaf)</p>
+<div class="gatsby-highlight" data-language="c"><pre class="language-c"><code class="language-c"><span class="token keyword">void</span> <span class="token function">swap</span><span class="token punctuation">(</span><span class="token keyword">int</span> v<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> it k<span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">int</span> temp<span class="token punctuation">;</span>
+	temp <span class="token operator">=</span> v<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token punctuation">;</span>
+	v<span class="token punctuation">[</span>k<span class="token punctuation">]</span> <span class="token operator">=</span> v<span class="token punctuation">[</span>k<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+	v<span class="token punctuation">[</span>k<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> temp<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<ul>
+<li>v in $a0, k in $a1, temp i $t0</li>
+<li>In MIPS...
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/7a714f18b33e495849c61483a9ef5864/1e088/the-procedure-swap.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 35.50000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABnElEQVQozyWRWVPCQBCE+f+PXggqKkdAQA4tsawSLxAIREI4A0TkjDnw+Adt7/owldlNzzc9s4HVqgWjk8Ny8QDLuoM5umF+j0H/Wn4/7ScsFmUMB+JcxmbziNWyDOfzGT/fdRnfXzV8bSv4/TERcJxH2OskxSkYehjDfgTzD0XmMyuO0eAU00kUPeMYY/OMcU4D/zrfyxOcxdYvEJhlqAj4XlVe2Os8oRnC0nSQxew9hcU8w4ICgQqmYwVq/RCv1QP0umcERvGmHaPVDFNThOtcsgGBnlchMI+P2QW6RgRaK4TJOIHa6z6dnFB0hYkZh9oIEpxAUz0kOMhmaVhThSvJYetdEyicCqBbkdYF0NAjeGuFOVYc1ZddtLUjeG5ROhRAcW+OYmwaRp8uRT4aRuUUvkew3xQOX5jkMJ9xhx2OoAbZOQ6tGWSR2JMYOSbv21qIo8fQpc7Qj9Co7aFa2cF6lYW9SbF5HQHXbcBxStxZkR0zhCrYrEuw7VuKShzpFu9WHh09Ab2d4GunZfR7F/LcNZKsSfJ/jG9Qxx/eLdmnYBwKYAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="the-procedure-swap"
+        title="the-procedure-swap"
+        src="/static/7a714f18b33e495849c61483a9ef5864/5a190/the-procedure-swap.png"
+        srcset="/static/7a714f18b33e495849c61483a9ef5864/772e8/the-procedure-swap.png 200w,
+/static/7a714f18b33e495849c61483a9ef5864/e17e5/the-procedure-swap.png 400w,
+/static/7a714f18b33e495849c61483a9ef5864/5a190/the-procedure-swap.png 800w,
+/static/7a714f18b33e495849c61483a9ef5864/1e088/the-procedure-swap.png 840w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>The Sort Procedure in C</p>
+<ul>
+<li>
+<p>Non-leaf(calls swap)</p>
+<div class="gatsby-highlight" data-language="c"><pre class="language-c"><code class="language-c"><span class="token keyword">void</span> <span class="token function">sort</span> <span class="token punctuation">(</span><span class="token keyword">int</span> v<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">int</span> n<span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">int</span> i<span class="token punctuation">,</span> j<span class="token punctuation">;</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> i <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">for</span><span class="token punctuation">(</span>
+			j <span class="token operator">=</span> i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span>
+			j <span class="token operator">>=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> v<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">></span> v<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+		<span class="token punctuation">)</span><span class="token punctuation">{</span>
+			<span class="token function">swap</span><span class="token punctuation">(</span>v<span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<ul>
+<li>v in $a0, k in $a1, i in $s0,j in $s1</li>
+<li>In MIPS...
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/8265d5fcabb60e57d603670f0b9990ed/3f3b9/the-sort-procedure-in-c.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 63%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACzUlEQVQ4y0VTaW/aUBD0//9aqW1SSDhDuCHQtCGBKoSktAkQcwUfGAwYY8yRfqhytNJ0nlFUS6tn7Xs7O7uzK203HWzXNTh2FUP9DOa4jJFRwsK+pP87Vu41jGEJunaGIU9jeO7ZZnWNNW27vsbcvsHpzyauHjRItl2BPY/xUQT1+ju0WvtoND6i3zvAaplhohSazT3c068oQQwGAahqiDEpLBZpuE4aYzOLveIZgheXkKbTCrNHCBiHqkQJFEavF0K7fQhNjWI2TaPbDUHTYgSMQBlECSos4pmhH2E0ykPWh2ioOiTHqcJZpLzATueQQVE8PIQJcERfikyyXuBoFIdhHHu+N5tOeG+lYM0+4+2TLOsbH0fJ8JjMAuh2AgQ+8P6nkyQsK437ex9Bw14icQ71GPt5xKRRTMw4bPsUz6+vePnzF5Jo7K/tCTNlWU6YxlJYmggWLJZOHm35gAAEIUPTTNCfZO/ycJd59jmH6ayIckPG19sWpJVbo2I5AmYwZlkiu8reifLXyxNs1gUPfDxOQOedPc9gRbDtusi4Ai3Pln3B76cnPD2/7Bg+rvOYE1Bng0Vwrx+k2j7MWLJLUJkMFVWIEPKEEYlFqSvePW4KHK3S/x4unSsG7dg1GvuQ7/3smZ/AIfY1xrlMeOCy7PfuO1S/2fSh3w+h1w1CZyJFSVJlA6plQ3KXV8yUhUWVBTuhshBoYWfJvOgxFCp3GSzGSYyWADXNpFe+Y6fZ2yzeF0qI136QoQB0c2SSosJBDrAfAwJPTKFwhgrmvJnsE0z4vVklu/EowXHJUrQcJpMiStyUcqsNyTTFOgXoFGPj323K3QeqGuHjNJmmmOQTWfm4klHPxhyzoR6BpnBjrGNMpzmUbpso1u9YstumSlWuUY0lVDmTFwQ7h+PUsFrdwHVvoIv9NS5gTiostcJVK+/OcWUX69Qha0O0NAP/ANqceplXFJGXAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="the-sort-procedure-in-c"
+        title="the-sort-procedure-in-c"
+        src="/static/8265d5fcabb60e57d603670f0b9990ed/5a190/the-sort-procedure-in-c.png"
+        srcset="/static/8265d5fcabb60e57d603670f0b9990ed/772e8/the-sort-procedure-in-c.png 200w,
+/static/8265d5fcabb60e57d603670f0b9990ed/e17e5/the-sort-procedure-in-c.png 400w,
+/static/8265d5fcabb60e57d603670f0b9990ed/5a190/the-sort-procedure-in-c.png 800w,
+/static/8265d5fcabb60e57d603670f0b9990ed/3f3b9/the-sort-procedure-in-c.png 870w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>The Full Procedure
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 778px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/e2e08b9df8ef79d35db662a803035f17/20982/the-full-procedure.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACKUlEQVQozy1SaVPiUBDM//8HLoeQwAoq4RC2ynJVrN0VDw4NuQgQwCUhJ+Av6O0890PXS2Zez/T0PMnzhthuH7BPXrGY32K5vIPj3GCz7jP+C8fDEB+bBxFz3Tu4zK9W2XmPDeOe9xsrt8/cT8SRCWnnXyMOLxAFDZjmKXQ9j/e3HCbjE+z8CxzSFhspIq5pOczsMqbTPM8SeQ3yLhHsLhH6Z0iiP5CSqI/j/orJDmxbgWHIJMt4mxRw2PdYsEc1dRYpCcznZ9DeT6m4gs/DD07WFXcOaZt4gRQGt0jiJrs0BUHTingnYfh6whHa7NqGM6tCmxYxmeRhWQrPAixTRhp3KKTFex2hNomfIAU7zh6qCFnQ8xrwtw3sPBUez6xgRnKXNehsZuhljqrANMpCQNYsCppEi7jg/wCS790g8FUWagolm1Udy8WZwMyuith6dQ7bqmDufIdjV/itiCZzp0qeSn6LIriH8BFSFNxhH7dEF10vEWWB0fAbl6IKtSu3htEoJywxqE7TTgXG4xxC8tL4iupUpMkzpDi8p5mZB236UxGkzMPJOI9PLuVIuIua8C8b2zQVkc+aZouL6OEh7VJUE/tsKVF4y019KbRtmQWL/8lF+qQy18F6XaciLsKSxZ3seRkGixNJ/OVzGjeokEvxtn14fzv4WHc4loLxSMbMOufba3DUJnyvx2XUMHgsYDyUqVzB06CAl+cSbeEz0+vYfnSJFgW84B8MAqqhXo5vvgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="the-full-procedure"
+        title="the-full-procedure"
+        src="/static/e2e08b9df8ef79d35db662a803035f17/20982/the-full-procedure.png"
+        srcset="/static/e2e08b9df8ef79d35db662a803035f17/772e8/the-full-procedure.png 200w,
+/static/e2e08b9df8ef79d35db662a803035f17/e17e5/the-full-procedure.png 400w,
+/static/e2e08b9df8ef79d35db662a803035f17/20982/the-full-procedure.png 778w"
+        sizes="(max-width: 778px) 100vw, 778px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Effect of Compiler Optimization
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 772px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b86c6d31aff303c0e6221124e30d702e/940c5/effect-of-compiler-optimization.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 69%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAClUlEQVQ4y11Th27bMBT0//9SijYtEmc227Wivbdk2ZItyet6j4kDtAQIStTj8cbT5Hg8Qkbf93BdF7quwzRNWJYFz/Pg+77ak/coitQqe7ZtY7lcqrOCcZoTfI7D4YCqqpDnuVqLokCaZajrWr03TYPlaoU0TdEsFmpvHEf8PybCrGaBaRjwhRGnTRZd234VdV0Hg9932xFbgtiOo1QI8yAIlDqZiuGCN8sB06M0x4XDgplpIS1KmGFMkK1idTWdwosT6EGIkuwzss8+1XTrtZIvKicLssN+h7cgwW/bh5lkuDYJnGb49jrHnoB1vcDz4wNeHA9T3cZ+HNAPA4ZBmG3QbzZoacd+v8fEI0C1XGEepbj/BLwxHXh5gfM/Og67HUqy+H52hmfLUd+aRY2iqlHyooqEYqoJeA4i+frdxJMbwkzzL4a3lgs/L/FLM7ETNv0Ay9Ax8wK8UokWRHjxQmgkoUUJ92I88IwKJS9LpGTTkLLctiZ9ub2lrxFln4aEkZcVgij+YEbvpa4g+7L+YKsAA/ZUT1PFB0lPm8/hcF0TUPbEaElvSy9Hsm3bFUb657ge1uwE8VjqJDyV8uXFBV7cAFYYIWdyIZs3YarSfxLYRkBZWFKJPA8M4clhR/gh/CxHVFRqvzmlfHdzg0umarBFDmSwIVs5JAzXZCPF8jNJiuJxSmnXlgevqHHnBNDp+SxM8Hjy8Gp6iSsWCKDMjD690/Sc/mhk8QF4RLts8FOz4GYFbm02v4RIZQYBn/0I90z/C/DWCRXY+dyAE6f4MdPhJCm+vb0rQOmvssjVxZK+MBPAB3aHAP6Tcte1MGmwpC2pyv/qxzHXFi59FTBhODAIg3WSasg66YqIHkpnyF+VsFNk/AVIAhZeEhG7HQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="effect-of-compiler-optimization"
+        title="effect-of-compiler-optimization"
+        src="/static/b86c6d31aff303c0e6221124e30d702e/940c5/effect-of-compiler-optimization.png"
+        srcset="/static/b86c6d31aff303c0e6221124e30d702e/772e8/effect-of-compiler-optimization.png 200w,
+/static/b86c6d31aff303c0e6221124e30d702e/e17e5/effect-of-compiler-optimization.png 400w,
+/static/b86c6d31aff303c0e6221124e30d702e/940c5/effect-of-compiler-optimization.png 772w"
+        sizes="(max-width: 772px) 100vw, 772px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Compiler Benefits</p>
+<ul>
+<li>Comparing performance for bubble sort</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>gcc opt</th>
+<th>Relative performance</th>
+<th>Clock cycles(M)</th>
+<th>Instr cout(M)</th>
+<th>CPI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>None</td>
+<td>1.00</td>
+<td>158,615</td>
+<td>114,938</td>
+<td>1.38</td>
+</tr>
+<tr>
+<td>O1(medium)</td>
+<td>2.37</td>
+<td>66,990</td>
+<td>37,470</td>
+<td>1.79</td>
+</tr>
+<tr>
+<td>O2(full)</td>
+<td>2.38</td>
+<td>66,521</td>
+<td>39,993</td>
+<td>1.66</td>
+</tr>
+<tr>
+<td>O3(proc mig)</td>
+<td>2.41</td>
+<td>65,747</td>
+<td>44,993</td>
+<td>1.46</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O3가 명령어 수는 O1, O2에 비해 많지만 CPI가 제일 낮아 성능이 제일 좋다.</li>
+</ul>
+</li>
+<li>
+<p>Lessons Learnt</p>
+<ul>
+<li>명령어 수와 CPI 각각으로는 성능의 좋은 지표가 될 수 없다.</li>
+<li>Compiler optimization are sensitive to the algorithm</li>
+<li>
+<p>Java/JIT compiled code is significantly faster than JVM interpreted</p>
+<ul>
+<li>Comparable to optimized C in some cases</li>
+</ul>
+</li>
+<li>Nothing can fix a dumb algorithm!</li>
+</ul>
+</li>
+</ul>
+<h3>2.14 Arrays versus Pointers</h3>
+<ul>
+<li>
+<p>Arrays vs Pointers</p>
+<ul>
+<li>
+<p>Array indexing involves</p>
+<ul>
+<li>Multiplying index by element size</li>
+<li>Adding to array base address</li>
+</ul>
+</li>
+<li>
+<p>Pointers correspond directly to memory addresses</p>
+<ul>
+<li>Can avoid indexing complexity</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Example: Clearing and Array
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/49c0f4c47b9303e7df6eb5b2d68d3a35/6da96/example-clearing-and-array.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 48%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABaklEQVQoz12Si7KCMAxE+f8/dMb3g4egIlCgiMae9dZxLjOZhHaz2SRNNpuNHY9HOxwOsjzP5U+nk91uN7ter/pfrVa23+8tTVPdZVn2xd/vdxlnCQCSmqYx55wuxnFUHD9iwOfzWUXwbdta13XKJafve6uqypJhGAQiyXtvz+fTXq+XPN88zzoHd7lcREQy52Aej4dN06QcERKgiASAxPE/ElEw3uPH0YsE88GGYZRXy3Vd2263s/V6bYvFQlVoqSxLJXwIRqlh1sw8zQtrglIwdWi36wfrXG9FmKcUQsosMGJIme3vKPi44ywui4WAa9tOGIQkALmEJHrmxLyIGbwL1acwKxZXhqQq3KHQBfUuqGsCIV2gWIRFUagSzwASyNicZhQqA6YTFKCK1tUyxTtn898CvwpRRHWMtiCkGp722Cgfan+xaZpZxbMJsffTh5AkFEbjEFsul7bdbrUstvcfF7E8eDAYD/8Nfgr5cc9zOsgAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="example-clearing-and-array"
+        title="example-clearing-and-array"
+        src="/static/49c0f4c47b9303e7df6eb5b2d68d3a35/5a190/example-clearing-and-array.png"
+        srcset="/static/49c0f4c47b9303e7df6eb5b2d68d3a35/772e8/example-clearing-and-array.png 200w,
+/static/49c0f4c47b9303e7df6eb5b2d68d3a35/e17e5/example-clearing-and-array.png 400w,
+/static/49c0f4c47b9303e7df6eb5b2d68d3a35/5a190/example-clearing-and-array.png 800w,
+/static/49c0f4c47b9303e7df6eb5b2d68d3a35/6da96/example-clearing-and-array.png 922w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>예제에서 명령어 줄 수는 같지만 loop의 줄 수를 살펴보면 array의 경우는 6줄, pointer의 경우는 4줄이다. 따라서 반복 횟수가 많아질 수 록 pointer로 구현하는 것이 성능이 더 좋다.</li>
+</ul>
+</li>
+<li>
+<p>Comparison of Array vs Ptr</p>
+<ul>
+<li>Multiply "strength reduced" to shift</li>
+<li>
+<p>Array version requires shift to be inside loop</p>
+<ul>
+<li>Part of index calculation for incremented!</li>
+<li>c.f. incrementing pointer</li>
+</ul>
+</li>
+<li>
+<p>Compiler can achieve same effect as manual use of pointers</p>
+<ul>
+<li>Induction variable elimination</li>
+<li>Better to make program clearer and safer</li>
+</ul>
+</li>
+<li>결론: 컴파일러가 배열을 사용하더라도 포인터를 사용하는 것과 유사한 효과를 준다. 또한 포인터를 사용할 경우 프로그램을 이해하기 까다롭고 배열을 사용하는게 더 이해하기쉽고 버그가 적게 생기므로 배열을 사용하자.</li>
+</ul>
+</li>
+</ul>
+<h3>2.16 Real Stuff: ARM Instructions</h3>
+<ul>
+<li>
+<p>ARM &#x26; MIPS Similarities</p>
+<ul>
+<li>ARM: the most popular embedded core</li>
+<li>Similar basic set of instructions to MIPS</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>ARM</th>
+<th>MIPS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data announced</td>
+<td>1985</td>
+<td>1985</td>
+</tr>
+<tr>
+<td>Instruction size</td>
+<td>32 bits</td>
+<td>32 bits</td>
+</tr>
+<tr>
+<td>Address space</td>
+<td>32-bit flat</td>
+<td>32-bit flat</td>
+</tr>
+<tr>
+<td>Data alignment</td>
+<td>Aligned</td>
+<td>Aligned</td>
+</tr>
+<tr>
+<td>Data addressing modes</td>
+<td>9</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Registers</td>
+<td>15 * 32-bit</td>
+<td>31 * 32-bit</td>
+</tr>
+<tr>
+<td>I/O</td>
+<td>Memory mapped</td>
+<td>Memory mapped</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Compare and Branch in ARM</p>
+<ul>
+<li>
+<p>Uses condition codes for result of an arithmetic/logical instruction</p>
+<ul>
+<li>Negative, zero, carry, overflow</li>
+<li>Compare instructions to set condition codes without keeping the result</li>
+</ul>
+</li>
+<li>
+<p>Each instruction can be conditional</p>
+<ul>
+<li>Top 4 bits of instruction word: condition value</li>
+<li>Can avoid branches over single instructions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Instruction Encodeing
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 610px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/87faa14c4e8649903741725e5f95e090/5aae9/instruction-encoding.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 80.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACiUlEQVQ4y3WUC1faQBCF+f+/qK1t7WkVEEVCDGBIAhogLwgJEOSl3s6dnFhrT3PObHaXzZ2Zb2ap4d3z+vqK4/GIzWaDJEmQ5ytst1sURaHzp6cntf1uj/V6LecK+W2r891uh5eXF9Q47Pd7HA4HnE4nFej1+qg3mmi1btBoXKHRvILV62E+nyMKI3XW6XRlv4WmWH9wj+UyxfPzM2oc8jzHarVSLxQ0uibOf/zExWVdRbIsw2KxQJqmuubZ6XQKy+qha5r4+u0c9XpTA6t9TJkOFosUvj9BHCeaRoWCH1TZ0HGW5RJZpmeDICwjfC/IDUY5nc7Q6/fheh4cx4U9dDAej+XjpRojjqJIHQdhiGUm+7JHZDUOPETwjIQReN4IA+FyZ1mwbRtDEfR9X+GXxcqRkGcUw59MVJzGLGoUoShT40ZRbGAYJr6cfVcu63VZaXKjICO1bQeu68G8szQDVwIYjcal4EeGFGbaVcscjwdlRhw0fsQ1jedKrgd9a9u8F2Sk7EEyY6vctG9xfdPGo6QbRiFmAj6U1Dxh+/D4iFBaiHuzkL8FZYQcmA6j40MvenAWKEuyYRG45pxFSNOlthArXBUqFdOiVGnyoTg53XYMfPp8hsvLhhaAguTZ7w/gCauhcHOEYde8k2yGypDO/2JI4Uqc14tC223xxov8tB9Pfxgqv8P+bf5fhqxcq3WNdrujHP2JMCSn2Uzf3mgkDB+UZ0iuYgEZijO9emRAL1Xa4/GDpmWaFkbSJmxg9l+SzNUoFMWx7vE2xfLm+q0Pq4KUfVigY3SV4a+Lugg7WvV7e6i8+EfQMQxdkyP70XFdjfqfPvzIs2LKSJhqLFEEkna1JqLqTHXnfwMgarQcJm3z9gAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="instruction-encoding"
+        title="instruction-encoding"
+        src="/static/87faa14c4e8649903741725e5f95e090/5aae9/instruction-encoding.png"
+        srcset="/static/87faa14c4e8649903741725e5f95e090/772e8/instruction-encoding.png 200w,
+/static/87faa14c4e8649903741725e5f95e090/e17e5/instruction-encoding.png 400w,
+/static/87faa14c4e8649903741725e5f95e090/5aae9/instruction-encoding.png 610w"
+        sizes="(max-width: 610px) 100vw, 610px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+<h3>2.17 Real Stuff: x86 Instructions (Intel)</h3>
+<ul>
+<li>CISC (Complex Instruction Set Computer)</li>
+<li>
+<p>Complex instruction set makes implementation difficult</p>
+<ul>
+<li>
+<p>Hardware translates Instruction to simpler microoperations</p>
+<ul>
+<li>Simple instructions: 1-1</li>
+<li>Complex instructions: 1-many</li>
+</ul>
+</li>
+<li>Microengine similar to RISC</li>
+<li>Market share makes this economically viable</li>
+</ul>
+</li>
+<li>
+<p>Comparable performance to RISC</p>
+<ul>
+<li>Compilers avoid complex instructions</li>
+</ul>
+</li>
+</ul>
+<h3>2.18 Real Stuff: ARM v8 (64-bit) Instructions</h3>
+<ul>
+<li>In moving to 64-bit, ARM did a complete overhaul</li>
+<li>
+<p>ARM v8 resembles MIPS</p>
+<ul>
+<li>
+<p>Changes from v7:</p>
+<ul>
+<li>No conditional execution field</li>
+<li>Immediate fields is 12-bit constant</li>
+<li>Dropped load/store multiple</li>
+<li>PC is no longer a GPR</li>
+<li>GPR set expanded to 32</li>
+<li>Addressing modes work for all word size</li>
+<li>Divide instruction</li>
+<li>Branch if equal/branch if not equal instructions</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>2.19 Fallacies and Pitfalls</h3>
+<h4>Fallacies</h4>
+<ul>
+<li>
+<p>Powerful instruction -> higher performance</p>
+<ul>
+<li>Fewer instructions required</li>
+<li>But complex instructions are hard to implement</li>
+<li>Compilers are good at making fast code from simple instructions</li>
+</ul>
+</li>
+<li>
+<p>Use assembly code for high performance</p>
+<ul>
+<li>But modern compilers are better at dealing with mordern processors</li>
+<li>More lines of code -> more errors and less productivity</li>
+</ul>
+</li>
+<li>
+<p>Backward compatibility -> instruction set doesn't change</p>
+<ul>
+<li>But they do accrete more instructions</li>
+</ul>
+</li>
+</ul>
+<h4>Pitfalls</h4>
+<ul>
+<li>
+<p>Sequentail words are not at sequential addresses</p>
+<ul>
+<li>Increment by 4, not by 1!</li>
+</ul>
+</li>
+<li>
+<p>Keeping a pointer to an automatic variable after procedure returns</p>
+<ul>
+<li>e.g., passing pointer back via an argument</li>
+<li>Pointer becomes invalid when stack popped</li>
+</ul>
+</li>
+</ul>
+<h3>2.20 Concluding Remarks</h3>
+<ul>
+<li>
+<p>Design principles</p>
+<ol>
+<li>Simplicity favors regularity</li>
+<li>Smaller is faster</li>
+<li>Make the common casse fast</li>
+<li>Good design demands good compromises</li>
+</ol>
+</li>
+<li>
+<p>Layers of software/hardware</p>
+<ul>
+<li>Compiler, assembler, hardware</li>
+</ul>
+</li>
+<li>
+<p>MIPS: typical of RISC ISAs</p>
+<ul>
+<li>c.f. x86</li>
+</ul>
+</li>
+</ul></div><div></div></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-181031687-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/computerArchitecture/2-instructions-language-of-the-computer/2020-06-24 09:00:00 +0900";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-d8b803c152e4e53a0b70.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c7869fa3e5c9d31ecb8e.js"],"component---src-pages-index-js":["/component---src-pages-index-js-ff371c780530ee3e7cbf.js"],"component---src-pages-page-2-js":["/component---src-pages-page-2-js-b63e06953e40f148ff6b.js"],"component---src-templates-post-template-jsx":["/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"]};/*]]>*/</script><script src="/webpack-runtime-92b8d634de3575c5751f.js" async=""></script><script src="/styles-9b6f388623a2ec93d35f.js" async=""></script><script src="/framework-d54fcf3f0204b459cf2d.js" async=""></script><script src="/app-d8b803c152e4e53a0b70.js" async=""></script><script src="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js" async=""></script></body></html>

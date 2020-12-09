@@ -1,0 +1,1284 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.a430335728e3cf41addc.css">code[class*=language-],pre[class*=language-]{color:#000;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{position:relative;margin:.5em 0;overflow:visible;padding:0}pre[class*=language-]>code{position:relative;border-left:10px solid #358ccb;box-shadow:-1px 0 0 0 #358ccb,0 0 0 1px #dfdfdf;background-color:#fdfdfd;background-image:linear-gradient(transparent 50%,rgba(69,142,209,.04) 0);background-size:3em 3em;background-origin:content-box;background-attachment:local}code[class*=language]{max-height:inherit;height:inherit;padding:0 1em;display:block;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background-color:#fdfdfd;box-sizing:border-box;margin-bottom:1em}:not(pre)>code[class*=language-]{position:relative;padding:.2em;border-radius:.3em;color:#c92c2c;border:1px solid rgba(0,0,0,.1);display:inline;white-space:normal}pre[class*=language-]:after,pre[class*=language-]:before{content:"";z-index:-2;display:block;position:absolute;bottom:.75em;left:.18em;width:40%;height:20%;max-height:13em;box-shadow:0 13px 8px #979797;transform:rotate(-2deg)}:not(pre)>code[class*=language-]:after,pre[class*=language-]:after{right:.75em;left:auto;transform:rotate(2deg)}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#7d8b99}.token.punctuation{color:#5f6364}.token.boolean,.token.constant,.token.deleted,.token.function-name,.token.number,.token.property,.token.symbol,.token.tag{color:#c92c2c}.token.attr-name,.token.builtin,.token.char,.token.function,.token.inserted,.token.selector,.token.string{color:#2f9c0a}.token.entity,.token.operator,.token.url,.token.variable{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.class-name,.token.keyword{color:#1990b8}.token.important,.token.regex{color:#e90}.language-css .token.string,.style .token.string{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.important{font-weight:400}.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.namespace{opacity:.7}@media screen and (max-width:767px){pre[class*=language-]:after,pre[class*=language-]:before{bottom:14px;box-shadow:none}}.token.cr:before,.token.lf:before,.token.tab:not(:empty):before{color:#e0d7d1}pre[class*=language-].line-numbers.line-numbers{padding-left:0}pre[class*=language-].line-numbers.line-numbers code{padding-left:3.8em}pre[class*=language-].line-numbers.line-numbers .line-numbers-rows{left:0}pre[class*=language-][data-line]{padding-top:0;padding-bottom:0;padding-left:0}pre[data-line] code{position:relative;padding-left:4em}pre .line-highlight{margin-top:0}html{font-family:Apple SD Gothic Neo,arial,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em Apple SD Gothic Neo,arial,sans-serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:Apple SD Gothic Neo,arial,sans-serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}</style><meta name="generator" content="Gatsby 2.23.1"/><title data-react-helmet="true"></title><link rel="icon" href="/favicon-32x32.png?v=db33395577ec4a434ab68177782919fb"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#000000"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=db33395577ec4a434ab68177782919fb"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"/><link as="script" rel="preload" href="/app-d8b803c152e4e53a0b70.js"/><link as="script" rel="preload" href="/framework-d54fcf3f0204b459cf2d.js"/><link as="script" rel="preload" href="/styles-9b6f388623a2ec93d35f.js"/><link as="script" rel="preload" href="/webpack-runtime-92b8d634de3575c5751f.js"/><link as="fetch" rel="preload" href="/page-data/computerArchitecture/6-storage-and-other-io-topics/2020-10-11 09:00:00 +0900/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header style="margin-bottom:1.45rem"><div style="margin:0 auto;max-width:960px;padding:1.45rem 1.0875rem"><h1 style="margin:0"><a style="color:black;text-decoration:none" href="/">JaeHyeonKim19</a></h1></div></header><div style="margin:0 auto;max-width:960px;padding:0 1.0875rem 1.45rem"><main><h2>[컴퓨터구조론] 6. Storage and Other I/O Topics</h2><h4>2020-10-11</h4><hr/><div><blockquote>
+<p>본 글은 영남대학교 최규상 교수님의 <a href="http://www.kocw.net/home/cview.do?cid=184062fa9a833237">컴퓨터 구조</a> 강의를 듣고 작성된 글입니다.</p>
+</blockquote>
+<h3>6.1 Introduction</h3>
+<ul>
+<li>
+<p>Introduction</p>
+<ul>
+<li>
+<p>I/O devices can be characterized by</p>
+<ul>
+<li>Behaviour: input, output, storage</li>
+<li>Partner: human or machine</li>
+<li>Data rate: bytes/sec, transfers/sec</li>
+</ul>
+</li>
+<li>I/O bus connections
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 570px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/8b234cd9d71336bccb0ed2ed146befbe/432e7/introduction.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 72%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACIklEQVQ4y4VT/W/TMBDN//9fAENjgKBITAjKWNexDu0nqqkUug+atF0/0jTNVxMnTh9+Tl26MQlLp7PPd+/OvneWlBJFUWjhnpKmKebzOXzfR1mWWK/XW232RsyincsSQiAMQwyHQ0wmE2RZhsVigdlshvF4rMFpo6xWKyRJsj2bu3uAeZ6DoFEU6QCRiW1m3u06G19jozDmHiA3zLJcBjq7EBUIn/4w+2OArHK9C8jAJE708/hUOpj/ISD9/geIHR+Lp0IWSLNUNSaHLIsqYGPfXeW6/MeWqbjdxljOKMCX0z4aZ79x0uqjeW6j2bJxfHqDD/UO6o0ePh13UVfy8aiDzydX+p6+lMbXWxw1b3H5Y1JV2Lvx8PJtB7XDLmrvK3l3+Auva5d48vwMewcX2HvxDc/2z/F0v4WDN9/V/c+tL+Ne1TpoXTibLhcSUaKaEiSI4gxxIpCsBPxlrHSOIFwhy0vEyhbGKfwg1v5JmmMZJlj4kdaZkKbLpf6H6+sruO4MUhFciExxM4Bj24oWib6n7e5uBFfxk/tCNSiKQjiOjTiOUMoNILsZRTEGgwGm0+mWtK7rwnYcVYGvO0tK0Wc0GlV8VTbPW6Df72stpfzLw4fjRSpwejiOQRBouhS6cqGTmRHlvuJuZWe8hUcW+cgx9DxPa4JyktrtNnq9nnpirJPyrtvt6rk3/LUMQY1wMZhgrJLazC+/hME8m6qpKSb2DztULAj+WoFFAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="introduction"
+        title="introduction"
+        src="/static/8b234cd9d71336bccb0ed2ed146befbe/432e7/introduction.png"
+        srcset="/static/8b234cd9d71336bccb0ed2ed146befbe/772e8/introduction.png 200w,
+/static/8b234cd9d71336bccb0ed2ed146befbe/e17e5/introduction.png 400w,
+/static/8b234cd9d71336bccb0ed2ed146befbe/432e7/introduction.png 570w"
+        sizes="(max-width: 570px) 100vw, 570px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>I/O System Characteristics</p>
+<ul>
+<li>
+<p>Dependablility is important</p>
+<ul>
+<li>Particularly for storage devices</li>
+</ul>
+</li>
+<li>
+<p>Performance measures</p>
+<ul>
+<li>Latency (response time)</li>
+<li>Throughput (bandwidth)</li>
+<li>
+<p>Desktops &#x26; embedded systems</p>
+<ul>
+<li>Mainly interested in response time &#x26; diversity of devices</li>
+</ul>
+</li>
+<li>
+<p>Servers</p>
+<ul>
+<li>Mainly interested in throughput &#x26; expandability of devcies</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>6.2 Dependability, Reliability, and Availability</h3>
+<ul>
+<li>
+<p>Dependability
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 550px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/079cf3ac6fcf8e48987ae9bd968cba1f/dd45a/dependability.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 121%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsSAAALEgHS3X78AAADf0lEQVQ4y6VVC1PaQBD2p/ethdqq2I7a1rEiqBAeIkgRtSpMR3wAIhG1OoJjS4vIK+EVwK97h8GgTDvThln2srf33e7d7pc+4Absublp63991PV9TKsvrVYLl9d5JJlc5e4kq9HZ/K20x+eZa5TKlQ5oH/tTAXNyGcMLPuhtHrz7vAHD0hrefl7HiHsVBs8qRhb9GKL5QZpnmr0PCB4ExRMNIO4AryUZBjc5mQW8NNsxYLKR2NFvFKCbdeDJpAlPp2bx3GghmxX6WTt0ghub4jFD44fXBXhVLGFu9wCuo3MMObx4QYBvvWsYcfkwuriMFzMCz2DQ5ka/ScDcTgxC/BRfj08JsHULqEk5UyhieiuC+UgCdvEUkxsh6CmC104vBihCvdWFZ8Z5vBIWIRycwEJ+M3siAolvvQHlShXuSBwOEmEnCutWGMYvQUyvBTG1sgFzYAvT9G7a3IIjHIczIsK2G4OYuuw+Q+21N5tN5ItFXP74AYXGSqNB0uTjOhs322OpXEYmm0WtXu+s5YBaMFVLkkQZtP5ae8yvQZuoa9mvA8hqkGm2Y6FQ6LL1EvbUyTdPvvcKu7tDWMpaW68O0toURemy8wiTySRCoRCi0SgSiQQikQjC4TAymcxdOveiy+Vy3C8Wo0sRRZ4Vj5DfriwjlUpxYK1mZ6QF1EbHIkun0zg7O8PFxQUqlUrvlNm5tDQX0pm/gcojXSmrQA9uWb0AtnM+n+/YWkzfl1YbsEylo82ik/L9aKplGc2G8teykUulh/SlpqMa8kQQyV9XOP+Zwc+ihDS1Y7pQ4lp9/1WSkMpkcZS6wPdcAdfFUu/CrlO67ughjKEoDIs+jK8EMUEytrxJ4wBGPX6ux/0BorRlbp/ZjsFJ7acojbsIVcBKtYqF/SPM7sXRP2PB86l56OacnK708048+mAku4DHHxmNmWnOgbk91s9xagjlIWC1VoNrP0Fsc4iFwzMME4UNEsMML3g5XQ2RNriWoSPwMd86nORjIV87UV5dUXpH6CAHa+wYn4K70FlceG33oN9s4yBviMbeOJYw7Gqz9lRwh3xPYN3e5y37AJA1uv/gCFZK2fx1FwZa/N73BR9IxpZWMOmns1xaxeRqABNEvCYGGBbhJbprEiN1lY0KynbKUTkUqcZkGkvVGhe5xsZV0jWuJdJF+jgx32qt/mf6+p/P6G/4TeO2Pl5ZlQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="dependability"
+        title="dependability"
+        src="/static/079cf3ac6fcf8e48987ae9bd968cba1f/dd45a/dependability.png"
+        srcset="/static/079cf3ac6fcf8e48987ae9bd968cba1f/772e8/dependability.png 200w,
+/static/079cf3ac6fcf8e48987ae9bd968cba1f/e17e5/dependability.png 400w,
+/static/079cf3ac6fcf8e48987ae9bd968cba1f/dd45a/dependability.png 550w"
+        sizes="(max-width: 550px) 100vw, 550px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>
+<p>Fault: failure of a component</p>
+<ul>
+<li>May or may not lead to system failure</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Dependability Measures</p>
+<ul>
+<li>Reliability: mean time to failure (MTTF)</li>
+<li>Service interruption: mean time to repair (MTTR)</li>
+<li>
+<p>Mean time between failures</p>
+<ul>
+<li>MTBF = MTTF + MTTR</li>
+</ul>
+</li>
+<li>Availability = MTTF / (MTTF + MTTR)</li>
+<li>
+<p>Improving Availability</p>
+<ul>
+<li>Increase MTTF: fault avoidance, fault tolerance, fault forecasting</li>
+<li>Reduce MTTR: improved tools and processes for diagnosis and repair</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>6.3 Disk Storage</h3>
+<ul>
+<li>
+<p>Disk Storage</p>
+<ul>
+<li>Nonvolatile, rotating magnetic storage
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/6e265fdb31c9bbef569c22a647fbacf1/78797/disk-storage.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 53.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB00lEQVQoz41Ty2oiURDtv8hjviDMJv/gKhMCAX9gNu4HIhOy0WTRyTJrE5yVbgQZZyeTxEWiKC5UFN/atk98K77fZ6wKLT1iIAXVdZt776k6deoKq9UKZBR7vR7G4zG2TTnz0b/ahOVyyYtgMAiLxQKv14tMJoNsNotoNIpms7kB2XY1uBIF+kwmE7jdbiQSCYTDYfh8PsRiMZhMJoiiyAcp8a5Kt50BQ6EQIpEIkskknp7+wuVyQZbzeH55gc1m48uLxWIDUq/XuT07KdMGUXU4HIiuq0qt6eZyOeSkNO5uRUiSxJen0ykzGQwGaLVa6Ha73O/ZbMbJ+v0+sxCcTif8fj+kNYjn7RX34g30l1e4+H6O658/OOtkfbFaraJYLHIy6i9FWZZRLpe54k6n8w5oMBhgNBphNv+C+fEBx1+PcHBwiC/7e/jj+M2Ao9EIlUoFhUKBnUTL5/MbV4RjylarFXq9HjqdDlqtFqdnZ9BoNDg5+YZarfYfYKlUYsBUKsUV0pqqbjQaUKZFUJCHwyECgQDsdjs8Hg8rrRj1j8CpmnQ6jXg8zqBEnQCJ7mZs1DO1a6CVvfl8zklJoHa7zaKQECSMehYF9QyRWmr/zMvYPvMPmxsimHLq0KQAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="disk-storage"
+        title="disk-storage"
+        src="/static/6e265fdb31c9bbef569c22a647fbacf1/5a190/disk-storage.png"
+        srcset="/static/6e265fdb31c9bbef569c22a647fbacf1/772e8/disk-storage.png 200w,
+/static/6e265fdb31c9bbef569c22a647fbacf1/e17e5/disk-storage.png 400w,
+/static/6e265fdb31c9bbef569c22a647fbacf1/5a190/disk-storage.png 800w,
+/static/6e265fdb31c9bbef569c22a647fbacf1/78797/disk-storage.png 1125w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>Disk Sectors and Access</p>
+<ul>
+<li>
+<p>Each sector records</p>
+<ul>
+<li>Sector ID</li>
+<li>Data (512 bytes, 4096 bytes proposed)</li>
+<li>
+<p>Error correcting code (ECC)</p>
+<ul>
+<li>Used to hide defects and recording errors</li>
+</ul>
+</li>
+<li>Synchronization fields and gaps</li>
+</ul>
+</li>
+<li>
+<p>Access to a sector involves</p>
+<ul>
+<li>Queuing delay if other accesses are pending</li>
+<li>Seek: move the heads</li>
+<li>Rotational latency</li>
+<li>Data transfer</li>
+<li>Controller overhead</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Disk Access Example</p>
+<ul>
+<li>
+<p>Given</p>
+<ul>
+<li>512B sector, 15,000rpm, 4ms average seek time, 100MB/s transfer rate, 0.2ms controller overhead, idle disk</li>
+</ul>
+</li>
+<li>
+<p>Average read time</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">4 ms seek time
++ (1/2) / (15,000/60) = 2ms rotational latency
++ 512 / 100MB/s = 0.005ms transfer time
++ 0.2ms controller delay
+= 6.2ms</code></pre></div>
+</li>
+<li>
+<p>If actual average seek time is 1ms</p>
+<ul>
+<li>Average read time = 3.2ms</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Disk Performance Issues</p>
+<ul>
+<li>
+<p>Manufacturers quote average seek time</p>
+<ul>
+<li>Based on all possible seeks</li>
+<li>Locality and OS scheduling lead to smaller actual avaerage seek times</li>
+</ul>
+</li>
+<li>
+<p>Smart disk controller allocate physical sectors on disk</p>
+<ul>
+<li>Present logical sector interface to host</li>
+<li>SCSI, ATA, SATA, SAS</li>
+</ul>
+</li>
+<li>
+<p>Disk drives include caches</p>
+<ul>
+<li>Prefetch sectors in anticipation of access</li>
+<li>Avoid seek and rotational delay</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>6.4 Flash Storage</h3>
+<ul>
+<li>
+<p>Flash Storage</p>
+<ul>
+<li>
+<p>Nonvolatile semiconductor storage</p>
+<ul>
+<li>100 times ~ 1000 times faster than disk</li>
+<li>Smaller, lower power, more robust</li>
+<li>But more $/GB (between disk and DRAM)
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/0f312f610be6426ea64c2db19504670b/5b481/flash-storage.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 41%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVQoz4WS0UvTURTHf2/Rg+BTQX9AQRDSkqD6C3qQipAYY05H0+bCphg2WoKFrXJZCYE+pg9tQlo4Mlk9lEpLLZw0E4KIkonObb/9fnNrW799ur/9FlEvHe6551zOud97vnyvRLmsLzQMLwkvV3NNL+jnavyfaZqGpF/KC08XNeK5IqtynuefEqymfqAInKJmgBUKBaZCISKRBWJra7wIz/BS+NK7CKNjo0Sj0UqfpLfHMyoudyeOdidmh5Or4x/wBFYIrcTJVV/PZDK4LnbQcPY0Z5rOYbZbudDh5N5dP602mwAPG4A6tXVZxeZyY3d3Y+/q4eZYiDuBWZ583GSnCqioKh6vB5ujmd5b/fTdH+SSrx/PwG0GRL60sGgA/hSUsiLxjkxwwtpHu2+YqZlp3s6+4f33LTbzpUpjYiuB+3IXQxOPsZxvpcFiofuhH4uYclfN7grtCqC+qaUibQ+CHHL6aPEP8yi8zFxkkenXc3zLGDNmszs0njpJs7eFKyODtPV0Un/8KLW1NUiSRHA8+BuwTFGI8kXOMv85xlDoFY3XnxGYX+armien/VH5Ru81jtUfxtxkxWQysf/gAeqO1LF33x4mn05WRfnnRyQFxdjGNunS319Gj7rS28kkG/E4shBJURRkWSaVTlVquv0CWd8KMNvc90UAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="flash-storage"
+        title="flash-storage"
+        src="/static/0f312f610be6426ea64c2db19504670b/5a190/flash-storage.png"
+        srcset="/static/0f312f610be6426ea64c2db19504670b/772e8/flash-storage.png 200w,
+/static/0f312f610be6426ea64c2db19504670b/e17e5/flash-storage.png 400w,
+/static/0f312f610be6426ea64c2db19504670b/5a190/flash-storage.png 800w,
+/static/0f312f610be6426ea64c2db19504670b/5b481/flash-storage.png 846w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Flash Types</p>
+<ul>
+<li>
+<p>NOR flash: bit cell like a NOR gate</p>
+<ul>
+<li>Random read/write access</li>
+<li>Used for instruction memory in embedded systems</li>
+</ul>
+</li>
+<li>
+<p>NAND flash: bit cell like a NAND gate</p>
+<ul>
+<li>Denser (bits/area), but block-at-a-time access</li>
+<li>Cheaper per GB</li>
+<li>Used for USB keys, media storage, ...</li>
+</ul>
+</li>
+<li>
+<p>Flash bits wears out after 10000's of accesses</p>
+<ul>
+<li>Not suitable for direct RAM or disk replacement</li>
+<li>Wear leveling: remap data to less used blocks</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>6.5 Connecting Processors, Memory, and I/O Devices</h3>
+<ul>
+<li>
+<p>Interconnecting Components</p>
+<ul>
+<li>
+<p>Need interconnections between</p>
+<ul>
+<li>CPU, memory, I/O controllers</li>
+</ul>
+</li>
+<li>
+<p>Bus: shared communication channel</p>
+<ul>
+<li>Parallel set of wires for data and synchronization of data transfer</li>
+<li>Can become a bottleneck</li>
+</ul>
+</li>
+<li>
+<p>Performance limited by physical factors</p>
+<ul>
+<li>Wire length, number of connections</li>
+</ul>
+</li>
+<li>
+<p>More recent alternative: high-speed serial connections with switches</p>
+<ul>
+<li>Like networks</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Bus Types</p>
+<ul>
+<li>
+<p>Processor-Memory buses</p>
+<ul>
+<li>Short, high speed</li>
+<li>Design is matched to memory organization</li>
+</ul>
+</li>
+<li>
+<p>I/O buses</p>
+<ul>
+<li>Longer, allowing multiple connections</li>
+<li>Specified by standards for interoperability</li>
+<li>Connect to processor-memory bus through a bridge</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Bus Signals and Synchronization</p>
+<ul>
+<li>
+<p>Data lines</p>
+<ul>
+<li>Carry address and data</li>
+<li>Multiplexed or separate</li>
+</ul>
+</li>
+<li>
+<p>Control lines</p>
+<ul>
+<li>Indicate data type, synchronize transactions</li>
+</ul>
+</li>
+<li>
+<p>Synchronous</p>
+<ul>
+<li>Uses a bus clock</li>
+</ul>
+</li>
+<li>
+<p>Asynchronous</p>
+<ul>
+<li>Uses request/acknowledge control lines for handshaking</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>I/O Bus Examples
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/a73e9d26dbd371f95f7ef2ae866aba91/e2e58/io-bus-examples.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 61.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABv0lEQVQoz6VROapqURA8uZt4ezEzVMTMQBFB0W24ADPRRAMRVEzEwMzQ1AFnFIfAeZ61HtXQj5t+fsPh1u2hurrbxGIxOBwOuN1uecFgEOFwGE6nE4FAAJFIBB6PB36/H9FoFKFQCF6vV/zMYw2xz+dDPB6HsdvtMMb81/v5+YHNZoPL5YKp1WpIpVLIZrPI5XKCi8UiyuUyEokE8vk8qtUq0uk0MpmM4EKhgGQyiUqlIrn0l0olNBoNmNPphPl8jsvlgu/3i8/nA7XH44F/NbNardDtdrHZbISApHy32w3v91vw8/nEfr/H/X6Xf37ZmHHmKX69XjCLxUIIz+czDocDms0m2IRF9K/Xa+nc6XTQarWwXC7FNxgMcL1ecTwe0e/3wUlFIR3T6VQI2WE0GmG73Yraer0uMXbnBFwNlVIR4zqBFRuOo0asO+QoVMomTJxMJtLISqB7Vsxa2eF4PJYR+ahUEzmSJlIhc4l5QI1Z8R9hu90Gd0lVqoJYE2l6NCVhnEYBxKyhUkOCXq8nB2FwOBzK0unngegnARvOZjMh2e12f1PxSKxnvhCSWc2KqY5X5gQktOZY86iaxDryL0NcNXGCM7dsAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="io-bus-examples"
+        title="io-bus-examples"
+        src="/static/a73e9d26dbd371f95f7ef2ae866aba91/5a190/io-bus-examples.png"
+        srcset="/static/a73e9d26dbd371f95f7ef2ae866aba91/772e8/io-bus-examples.png 200w,
+/static/a73e9d26dbd371f95f7ef2ae866aba91/e17e5/io-bus-examples.png 400w,
+/static/a73e9d26dbd371f95f7ef2ae866aba91/5a190/io-bus-examples.png 800w,
+/static/a73e9d26dbd371f95f7ef2ae866aba91/e2e58/io-bus-examples.png 1069w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>Typical x86 PC I/O System
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 752px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ab27f19c293f876966ee5a49a90aa6c7/442cb/typical-x86-pc-io-system.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 89.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAACs0lEQVQ4y4VU+2/SUBTm/0/8wddmnNHFGc2G7hGzZZvK4mY00W2hlBUYHc9SHqOFQgsFyj7PObOkg6knubnAvfe73+NcYqC6ublBdI4W/xaOf62F67F5wHa7jWq1CsMw0Gg0MJ3ervHc7XZRq9VkWJZFv00XLohF0YMggOM4AlgsluRQEEx4K0Yjn9a6uLq6kmHbNnzfx2QykXGHYbSGwyGcXk/YOI6L63YP5WoDmVwRl/mSsGYwVtLpdGRuNptyTgAZmW9iZjyz1HQ6jWxWg6qZeBtX8HRlHy/XfuDopCSHq5UKCoUCyuUyWq2WMLwj2XVdJJNJ1Ot1uZXZuW4P6oWJ1+9O8Xh5F8srCXw5LpD0kazzXmYatWwGOBgMxDf2jMH5u+8PkNNbWN88x8qrA6yuHRNDfSGIaCAzD/lWlsw+sASWY9sW+t4QSTVPTHXysIxfp6p4GG2Z+c8zQPaGDa6QP7qu00ETWs5EfFvB1scUzUkkTvIY0KWsYDweL7CbAXK79CjZfr8vwfAIJiMCbJLkC2zv5rCxpUkonudBVVVRwUT+yjBsAfbRsmyyoINU2iCgC8S3FAJOIUGh8BoHqGmagN8LyPTDvmJw1/UwDcbI5q8JKE2hJCjtn/j6vSKhhc0d9t4CYNiHDMzSs9ksye9CL9l4sfoNS8/38eTZAT4dXQqrXC6LTCYj4PNvWgBN0xQQNpsP3Ha+RwxbBHSIBw838WhpD/ufM8KeQ2OGIWC0YrcPfyrBcPHDV5QUrlsN5AsWpavhw44q8zFJ5svOzs5ojyI2sWy2isFnjR0Wy+W2MYwaGvUazpMlxHc07Ozl8J5mDmX4p208byBWcYjho5hJDkHZQ5bMm8djH2qmjrV1hZJO481GCodHOv5XsfuaMyyn74vsQtmGXrRg1J2FP9X58Rssvkewsvw/KAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="typical-x86-pc-io-system"
+        title="typical-x86-pc-io-system"
+        src="/static/ab27f19c293f876966ee5a49a90aa6c7/442cb/typical-x86-pc-io-system.png"
+        srcset="/static/ab27f19c293f876966ee5a49a90aa6c7/772e8/typical-x86-pc-io-system.png 200w,
+/static/ab27f19c293f876966ee5a49a90aa6c7/e17e5/typical-x86-pc-io-system.png 400w,
+/static/ab27f19c293f876966ee5a49a90aa6c7/442cb/typical-x86-pc-io-system.png 752w"
+        sizes="(max-width: 752px) 100vw, 752px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+<h3>6.6 Interfacing I/O Devices to the Processor, Memory, and Operating System</h3>
+<ul>
+<li>
+<p>I/O Management</p>
+<ul>
+<li>
+<p>I/O is mediated by the OS</p>
+<ul>
+<li>
+<p>Multiple programs share I/O resources</p>
+<ul>
+<li>Need protection and scheduling</li>
+</ul>
+</li>
+<li>
+<p>I/O causes asynchronous interrupts</p>
+<ul>
+<li>Same mechanism as exceptions</li>
+</ul>
+</li>
+<li>
+<p>I/O programming is fiddly</p>
+<ul>
+<li>OS provides abstractions to programs</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I/O Commands</p>
+<ul>
+<li>
+<p>I/O devices are managed by I/O controller hardware</p>
+<ul>
+<li>Transfers data to/from device</li>
+<li>Synchronizes operations with software</li>
+</ul>
+</li>
+<li>
+<p>Command registers</p>
+<ul>
+<li>Cause device to do something</li>
+</ul>
+</li>
+<li>
+<p>Status registers</p>
+<ul>
+<li>Indicate what the device is doing and occurrence of errors</li>
+</ul>
+</li>
+<li>
+<p>Data registers</p>
+<ul>
+<li>Write: transfer data to a device</li>
+<li>Read: transfer data from a device</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I/O Register Mapping</p>
+<ul>
+<li>
+<p>Memory mapped I/O</p>
+<ul>
+<li>Registers are addressed in same space as memory</li>
+<li>Address decoder distinguishes between them</li>
+<li>OS uses address translation mechanism to make them only accessible to kernel</li>
+</ul>
+</li>
+<li>
+<p>I/O instructions</p>
+<ul>
+<li>Seperate instructions to access I/O register</li>
+<li>Can only be executed in kernel mode</li>
+<li>Example: x86</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Polling</p>
+<ul>
+<li>
+<p>Periodically check I/O status register</p>
+<ul>
+<li>If device ready, do operation</li>
+<li>If error, take action</li>
+</ul>
+</li>
+<li>
+<p>Common in small or low-performance real-time embedded system</p>
+<ul>
+<li>Predictable timing</li>
+<li>Low hardware cost</li>
+</ul>
+</li>
+<li>In other systems, wastes CPU time</li>
+</ul>
+</li>
+<li>
+<p>Interrupts</p>
+<ul>
+<li>
+<p>When a device is ready or error occurs</p>
+<ul>
+<li>Controller interrupts CPU</li>
+</ul>
+</li>
+<li>
+<p>Interrupt is like an exception</p>
+<ul>
+<li>But not synchronized to instruction execution</li>
+<li>Can invoke handler between instructions</li>
+<li>Cause information often identifies the interrupting device</li>
+</ul>
+</li>
+<li>
+<p>Priority interrupts</p>
+<ul>
+<li>Devices needing more urgent attention get higher priority</li>
+<li>Can interrupt handler for a lower priority interrupt</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I/O Data Transfer</p>
+<ul>
+<li>
+<p>Polling and interrupt-driven I/O</p>
+<ul>
+<li>CPU transfers data between memory and I/O data registers</li>
+<li>Time consuming for high-speed devices</li>
+</ul>
+</li>
+<li>
+<p>Direct memory access (DMA)</p>
+<ul>
+<li>OS provides starting address in memory</li>
+<li>I/O controller transfers to/from memory autonomously</li>
+<li>Controller interrupts on completion or error</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>DMA/Cache Interaction</p>
+<ul>
+<li>
+<p>If DMA writes to a memory block that is cached</p>
+<ul>
+<li>Cached copy becomes stale</li>
+</ul>
+</li>
+<li>
+<p>If write-back cache has dirty block, and DMA reads memory block</p>
+<ul>
+<li>Reads stale data</li>
+</ul>
+</li>
+<li>
+<p>Need to ensure cache coherence</p>
+<ul>
+<li>Flush blocks from cache if they will be used for DMA</li>
+<li>Or use non-cacheable memory locations for I/O</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>DMA/VM Interaction</p>
+<ul>
+<li>
+<p>OS uses virtual addresses for memory</p>
+<ul>
+<li>DMA blocks may not be contiguous in physical memory</li>
+</ul>
+</li>
+<li>
+<p>Should DMA use virtual addresses?</p>
+<ul>
+<li>Would require controller to do translation</li>
+</ul>
+</li>
+<li>
+<p>If DMA uses physical addresses</p>
+<ul>
+<li>May need to break transfers into page-sized chunks</li>
+<li>Or chain multiple transfers</li>
+<li>Or allocate contiguous physical pages for DMA</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>6.7 I/O Performance Measures: Examples from Disk and File Systems</h3>
+<ul>
+<li>
+<p>Measuring I/O Performance</p>
+<ul>
+<li>
+<p>I/O performance depends on</p>
+<ul>
+<li>Hardware: CPU, memory, controllers, buses</li>
+<li>Software: operating system, database, management system, application</li>
+<li>Workload: request rates and patterns</li>
+</ul>
+</li>
+<li>
+<p>I/O system design can trade-off between response time and throughput</p>
+<ul>
+<li>Measurements of throughput often done with constrained response-time</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Transaction Processing Benchmarks</p>
+<ul>
+<li>
+<p>Transactions</p>
+<ul>
+<li>Small data accesses to a DBMS</li>
+<li>Interested in I/O rate, not data rate</li>
+</ul>
+</li>
+<li>
+<p>Measure throughput</p>
+<ul>
+<li>Subject to response time limits and failure handling</li>
+<li>ACID (Atomicity, Consistency, Isolation, Durability)</li>
+<li>Overall cost per transaction</li>
+</ul>
+</li>
+<li>
+<p>Transaction Processing Council (TPC) benchmarks (www.tcp.org)</p>
+<ul>
+<li>TPC-APP: B2B application server and web services</li>
+<li>TCP-C: on-line order entry environment</li>
+<li>TCP-E: on-line transaction processing for brokerage firm</li>
+<li>TPC-H: decision support - buisiness oriented ad-hoc queries</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>File System &#x26; Web Benchmarks</p>
+<ul>
+<li>
+<p>SPEC System File System (SFS)</p>
+<ul>
+<li>Synthetic workload for NFS server, based on monitoring real systems</li>
+<li>
+<p>Results</p>
+<ul>
+<li>Throughput (operations/sec)</li>
+<li>Response time (average ms/operation)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>SPEC Web Server benchmark</p>
+<ul>
+<li>Measures simultaneous user sessions, subject to required throughput/session</li>
+<li>Three workloads: Banking. Ecommerce, and Support</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I/O vs. CPU Performance</p>
+<ul>
+<li>
+<p>Amdahl's Law</p>
+<ul>
+<li>Don't neglect I/O performance as parallelism increases compute performance</li>
+</ul>
+</li>
+<li>
+<p>Example</p>
+<ul>
+<li>Benchmark takes 90s CPU time, 10s I/O time</li>
+<li>
+<p>Double the number of CPUs/2 years</p>
+<ul>
+<li>I/O unchanged
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/88b4f589501fc1bbceafe0f8409d5f5a/eb2af/io-vs-cpu-performance.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 28.500000000000004%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABB0lEQVQY0z1QCQ6CQAzk/z8zkIABQZBDuQ8BFZDDkJqZRDfZbHc6bWeqHI9HybJMHMcRxKZpyul0ImZZFjHkwjAUTdP+HF3XJQgCcvH/4YrnefJ8PqWqKrleryzu2u6P4V/XtXRdxyEocl1XyrIkBg6aFkUhvu+LkiSJvF4vXhRiwL7v8ng85P1+U8U4jszjQOntdpPP50NsWRY2BCdNU1Hu9zsTeDHFtm02atuWKs/nM5XgzvMsl8uFTsABBg5W0/c9cTacpomKmqah7G3bSMRUKB6GgUOhCupgfV1XYshhLXjhVsE+EPysGIZBpVEUSRzHoqoqJ+MCx/LhIs9zYqg5HA6MYf0L7VS4QwsyGl4AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="io-vs-cpu-performance"
+        title="io-vs-cpu-performance"
+        src="/static/88b4f589501fc1bbceafe0f8409d5f5a/5a190/io-vs-cpu-performance.png"
+        srcset="/static/88b4f589501fc1bbceafe0f8409d5f5a/772e8/io-vs-cpu-performance.png 200w,
+/static/88b4f589501fc1bbceafe0f8409d5f5a/e17e5/io-vs-cpu-performance.png 400w,
+/static/88b4f589501fc1bbceafe0f8409d5f5a/5a190/io-vs-cpu-performance.png 800w,
+/static/88b4f589501fc1bbceafe0f8409d5f5a/eb2af/io-vs-cpu-performance.png 954w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>6.8 Designing an I/O System</h3>
+<ul>
+<li>
+<p>I/O System Design</p>
+<ul>
+<li>
+<p>Satisfying latency requirements</p>
+<ul>
+<li>For time-critical operations</li>
+<li>
+<p>If system is unloaded</p>
+<ul>
+<li>Add up latency of components</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Maximizing throughput</p>
+<ul>
+<li>Find "weakest link" (lowest-bandwidth component)</li>
+<li>Configure to operate at its maximun bandwidth</li>
+<li>Balance remaining components in the system</li>
+</ul>
+</li>
+<li>
+<p>If system is loaded, simple analysis is insuffcient</p>
+<ul>
+<li>Need to use queuing models or simulation</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>6.9 Parallelism and I/O: Redundant Arrays of Inexpensive Disks</h3>
+<ul>
+<li>
+<p>RAID</p>
+<ul>
+<li>
+<p>Redundant Array of Inexpensive (Independent) Disks</p>
+<ul>
+<li>Use multiple smaller disks (c.f. one large disk)</li>
+<li>Parallelism improves performance</li>
+<li>Plus extra disk(s) for redundant data storage</li>
+</ul>
+</li>
+<li>
+<p>Provides fault tolerant storage system</p>
+<ul>
+<li>Especially if failed disks can be "hot swapped"</li>
+</ul>
+</li>
+<li>
+<p>RAID 0</p>
+<ul>
+<li>
+<p>No redundancy ("AID"?)</p>
+<ul>
+<li>Just stripe data over multiple disks</li>
+</ul>
+</li>
+<li>But it does improve performance</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>RAID 1 &#x26; 2</p>
+<ul>
+<li>
+<p>RAID 1: Mirroring</p>
+<ul>
+<li>
+<p>N + N disks, replicate data</p>
+<ul>
+<li>Write data to both data disk and mirror disk</li>
+<li>On disk failure, read from mirror</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>RAID 2: Error correcting code (ECC)</p>
+<ul>
+<li>N + E disks (e.g., 10 + 4)</li>
+<li>Split data at bit level across N disks</li>
+<li>Generate E-bit ECC</li>
+<li>Too complex, not used in practice</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>RAID 3: Bit-Interleaved Parity</p>
+<ul>
+<li>
+<p>N + 1 disks</p>
+<ul>
+<li>Data striped across N disks at byte level</li>
+<li>Redundant disk stores parity</li>
+<li>
+<p>Read access</p>
+<ul>
+<li>Read all disks</li>
+</ul>
+</li>
+<li>
+<p>Write access</p>
+<ul>
+<li>Generate new parity and access all disks</li>
+</ul>
+</li>
+<li>
+<p>On failure</p>
+<ul>
+<li>Use parity to reconstruct missing data</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Not widely used</li>
+</ul>
+</li>
+<li>
+<p>RAID 4: Block-Interleaved Parity</p>
+<ul>
+<li>
+<p>N + 1 disks</p>
+<ul>
+<li>Data striped across N disks at block level</li>
+<li>Redundant disk stores parity for a group of blocks</li>
+<li>
+<p>Read access</p>
+<ul>
+<li>Read only the disk holding the required block</li>
+</ul>
+</li>
+<li>
+<p>Write access</p>
+<ul>
+<li>Just read disk containing modified block, and parity disk</li>
+<li>Calculate new parity, update data disk and prity disk</li>
+</ul>
+</li>
+<li>
+<p>On failure</p>
+<ul>
+<li>Use parity to reconstruct missing data</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Not widely used</li>
+</ul>
+</li>
+<li>RAID 3 vs RAID 4
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/04fc5651a035cc007ed86a0991cd5c46/48ca3/raid3-vs-raid4.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 38.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABCUlEQVQoz1WRh66DQAwE+f9PhIgSRCd0QsfR+MlIz9LlEpe98cZpmkamaZLzPKXve2nbVrquk8/nI+u6yn3fT95q13WJBd/RWJZFfzuv10uyLNMTRZEEQaDH8zzNzfOs4r7vS5qmWquqSvI8l6IotOf9fsv3+/0TZIBXOZAOw6A3eQhp5HVyCCBODzkOc9xsooJ8bNum6MdxKL6RWQ1hguG6rqUsS9n3XXuN7J8gQjQQeIlXDFnN/EGcOkEOWkQtEHVMGeN5DRpbFSLWM0K2sBWtj00AMCDH1DEbczE8SRL1K45jzRshQ67r6p/DBvRxh2H4bPQIgm6+GTUENJog6/Kg0ViM46jkxA+M92hOocI1PwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="raid3-vs-raid4"
+        title="raid3-vs-raid4"
+        src="/static/04fc5651a035cc007ed86a0991cd5c46/5a190/raid3-vs-raid4.png"
+        srcset="/static/04fc5651a035cc007ed86a0991cd5c46/772e8/raid3-vs-raid4.png 200w,
+/static/04fc5651a035cc007ed86a0991cd5c46/e17e5/raid3-vs-raid4.png 400w,
+/static/04fc5651a035cc007ed86a0991cd5c46/5a190/raid3-vs-raid4.png 800w,
+/static/04fc5651a035cc007ed86a0991cd5c46/48ca3/raid3-vs-raid4.png 1084w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>RAID 5: Distributed Parity</p>
+<ul>
+<li>
+<p>N + 1 disks</p>
+<ul>
+<li>
+<p>Like RAID 4, but parity blocks distributed across disks</p>
+<ul>
+<li>Avoids parity disk being a bottleneck</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Widely used
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/57920fa42504f36043e05c0a7ee0733d/77800/raid5-distributed-parity.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 51%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABlUlEQVQoz02S6ZaCMAyF5/1fbfY/46gjigJdaMvixqZ3kigo54Skbfrlpu0L6Ou6AW3bo2m6u++nMa8NwwVdP8j4eW30fX/L4e+Ff1mWYxUlWK0SbOIMUZRivWZL8P6xhFIO1gYsllusNxniWGG+iBFvFXY7hde3Oe3TD2BdV3Auh/cOIXjxbFUZ8PlFQO1wPO6R51bmiyKQOSpkpGgUbWl/eADLsiQFFsYY2uTuPhf4Deix39fQ2khh5zxmswhJoknphvIcre+fgEUpkBHEngt4n08KDwRkhcu/LZJU44eArJbnlNKoquoBLIpCIFrrCWiMFTVf30sY62k+ECwWYEpA56woZZi1BvUz0HteUBMwyzKJOfHtY0ExXwq1+RvB5be20zSVXKUy/M7XJMDdgNfrVfpnlSEE8XymY7xLLI1rnE7H+2UUdIm1wDivLAu5+RDuCi+XC72jHufzmTadxHj8iDuxtm3ppk/07hrJbc6NxGxt29A77MHipOVhGMQYzhBulwFjMfZsYx7P8TkfDocpZ3zY/5WW9zkEp0cEAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="raid5-distributed-parity"
+        title="raid5-distributed-parity"
+        src="/static/57920fa42504f36043e05c0a7ee0733d/5a190/raid5-distributed-parity.png"
+        srcset="/static/57920fa42504f36043e05c0a7ee0733d/772e8/raid5-distributed-parity.png 200w,
+/static/57920fa42504f36043e05c0a7ee0733d/e17e5/raid5-distributed-parity.png 400w,
+/static/57920fa42504f36043e05c0a7ee0733d/5a190/raid5-distributed-parity.png 800w,
+/static/57920fa42504f36043e05c0a7ee0733d/77800/raid5-distributed-parity.png 855w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>RAID 6: P + Q Redundancy</p>
+<ul>
+<li>
+<p>N + 2 disks</p>
+<ul>
+<li>Like RAID 5, but two lots of parity</li>
+<li>Greater fault tolerance through more redundancy</li>
+</ul>
+</li>
+<li>
+<p>Multiple RAID</p>
+<ul>
+<li>More advanced systems give similar fault tolerance with better performance</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>RAID Summary</p>
+<ul>
+<li>
+<p>RAID can improve performance and availability</p>
+<ul>
+<li>High availability requires hot swapping</li>
+</ul>
+</li>
+<li>
+<p>Assumes independent disk failures</p>
+<ul>
+<li>Too bad if the building burns down!</li>
+</ul>
+</li>
+<li>
+<p>See "Hard Disk Performance, Quality and Reliability"</p>
+<ul>
+<li><a href="http://www.pcguide.com/ref/hdd/perf/index.htm">http://www.pcguide.com/ref/hdd/perf/index.htm</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>6.10 Real Stuff: Sun Fire x4150 Server</h3>
+<ul>
+<li>pass</li>
+</ul>
+<h3>6.12 Fallacies and Pitfalls</h3>
+<ul>
+<li>
+<p>Fallacy: Disk Dependability</p>
+<ul>
+<li>
+<p>If a disk manufacturer quotes MTTF as 1,200,000hr (140yr)</p>
+<ul>
+<li>A disk will work that long</li>
+</ul>
+</li>
+<li>
+<p>Wrong: this is the mean time to failure</p>
+<ul>
+<li>What is the distribution of failures?</li>
+<li>
+<p>What if you have 1000 disks</p>
+<ul>
+<li>How many will fail per year?</li>
+</ul>
+</li>
+<li><code class="language-text">Annual Failure Rate (AFR) = 1000 disks * 8760 hrs/disk / 1200000 hrs/failure = 0.73%</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Fallacies</p>
+<ul>
+<li>
+<p>Disk failure rates are as specified</p>
+<ul>
+<li>
+<p>Studies of failure rates in the field</p>
+<ul>
+<li>Schroeder and Gibson: 2% to 4% vs. 0.6% to 0.8%</li>
+<li>Pinheiro, et al.: 1.7% (first year) to 8.6% (third year) vs. 1.5%</li>
+</ul>
+</li>
+<li>Why?</li>
+</ul>
+</li>
+<li>
+<p>A 1GB/s interconnect transfers 1GB in one sec</p>
+<ul>
+<li>But what's a GB?</li>
+<li>For bandwidth, use 1GB = 10^9B</li>
+<li>For storage, use 1GB = 2^30B = 1.075 * 10^9B</li>
+<li>
+<p>So 1GB/sec is 0.93GB in one second</p>
+<ul>
+<li>About 7% error</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Pitfall: Offloading to I/O Processors</p>
+<ul>
+<li>
+<p>Overhead of managing I/O processor request may dominate</p>
+<ul>
+<li>Quicker to do small operation on the CPU</li>
+<li>But I/O architecture may prevent that</li>
+</ul>
+</li>
+<li>
+<p>I/O processor may be slower</p>
+<ul>
+<li>Since it's supposed to be simpler</li>
+</ul>
+</li>
+<li>
+<p>Making it faster makes it into a major system component</p>
+<ul>
+<li>Might need its own coprocessors!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Pitfall: Backing Up to Tape</p>
+<ul>
+<li>
+<p>Magnetic tape used to have advantages</p>
+<ul>
+<li>Removable, high capacity</li>
+</ul>
+</li>
+<li>Advantages eroded by disk technology developments</li>
+<li>
+<p>Makes better sense to replicate data</p>
+<ul>
+<li>E.g., RAID, remote mirroring</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Fallacy: Disk Scheduling</p>
+<ul>
+<li>
+<p>Best to let the OS schedule disk accesses</p>
+<ul>
+<li>
+<p>But mordern drives deal with logical block addresses</p>
+<ul>
+<li>Map to physical track, cylinder, sector locations</li>
+<li>Also, blocks are cached by the drive</li>
+</ul>
+</li>
+<li>
+<p>OS is unaware of physical locations</p>
+<ul>
+<li>Reordering can reduce performance</li>
+<li>Depending on placement and caching</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Pitfall: Peak Performance</p>
+<ul>
+<li>
+<p>Peak I/O rates are nearly impossible to achieve</p>
+<ul>
+<li>Usually, some other system component limits performance</li>
+<li>
+<p>E.g., transfers to memory over a bus</p>
+<ul>
+<li>Collision with DRAM refresh</li>
+<li>Arbitration contention with other bus masters</li>
+</ul>
+</li>
+<li>
+<p>E.g., PCI bus: peak bandwithd ~ 133 MB/sec</p>
+<ul>
+<li>In practice, max 80MB/sec sustainable</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>6.13 Concluding Remarks</h3>
+<ul>
+<li>
+<p>Concluding Remarks</p>
+<ul>
+<li>
+<p>I/O performance measures</p>
+<ul>
+<li>Throughput, response time</li>
+<li>Dependability and cost also important</li>
+</ul>
+</li>
+<li>
+<p>Buses used to connect CPU, memory, I/O controllers</p>
+<ul>
+<li>Polling, interrupts, DMA</li>
+</ul>
+</li>
+<li>
+<p>I/O benchmarks</p>
+<ul>
+<li>TPC, SPECSFS, SPECWeb</li>
+</ul>
+</li>
+<li>
+<p>RAID</p>
+<ul>
+<li>Improves performance and dependability</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></div><div></div></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-181031687-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/computerArchitecture/6-storage-and-other-io-topics/2020-10-11 09:00:00 +0900";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-d8b803c152e4e53a0b70.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c7869fa3e5c9d31ecb8e.js"],"component---src-pages-index-js":["/component---src-pages-index-js-ff371c780530ee3e7cbf.js"],"component---src-pages-page-2-js":["/component---src-pages-page-2-js-b63e06953e40f148ff6b.js"],"component---src-templates-post-template-jsx":["/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"]};/*]]>*/</script><script src="/webpack-runtime-92b8d634de3575c5751f.js" async=""></script><script src="/styles-9b6f388623a2ec93d35f.js" async=""></script><script src="/framework-d54fcf3f0204b459cf2d.js" async=""></script><script src="/app-d8b803c152e4e53a0b70.js" async=""></script><script src="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js" async=""></script></body></html>

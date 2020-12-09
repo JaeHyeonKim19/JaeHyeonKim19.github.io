@@ -1,0 +1,2776 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.a430335728e3cf41addc.css">code[class*=language-],pre[class*=language-]{color:#000;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{position:relative;margin:.5em 0;overflow:visible;padding:0}pre[class*=language-]>code{position:relative;border-left:10px solid #358ccb;box-shadow:-1px 0 0 0 #358ccb,0 0 0 1px #dfdfdf;background-color:#fdfdfd;background-image:linear-gradient(transparent 50%,rgba(69,142,209,.04) 0);background-size:3em 3em;background-origin:content-box;background-attachment:local}code[class*=language]{max-height:inherit;height:inherit;padding:0 1em;display:block;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background-color:#fdfdfd;box-sizing:border-box;margin-bottom:1em}:not(pre)>code[class*=language-]{position:relative;padding:.2em;border-radius:.3em;color:#c92c2c;border:1px solid rgba(0,0,0,.1);display:inline;white-space:normal}pre[class*=language-]:after,pre[class*=language-]:before{content:"";z-index:-2;display:block;position:absolute;bottom:.75em;left:.18em;width:40%;height:20%;max-height:13em;box-shadow:0 13px 8px #979797;transform:rotate(-2deg)}:not(pre)>code[class*=language-]:after,pre[class*=language-]:after{right:.75em;left:auto;transform:rotate(2deg)}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#7d8b99}.token.punctuation{color:#5f6364}.token.boolean,.token.constant,.token.deleted,.token.function-name,.token.number,.token.property,.token.symbol,.token.tag{color:#c92c2c}.token.attr-name,.token.builtin,.token.char,.token.function,.token.inserted,.token.selector,.token.string{color:#2f9c0a}.token.entity,.token.operator,.token.url,.token.variable{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.class-name,.token.keyword{color:#1990b8}.token.important,.token.regex{color:#e90}.language-css .token.string,.style .token.string{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.important{font-weight:400}.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.namespace{opacity:.7}@media screen and (max-width:767px){pre[class*=language-]:after,pre[class*=language-]:before{bottom:14px;box-shadow:none}}.token.cr:before,.token.lf:before,.token.tab:not(:empty):before{color:#e0d7d1}pre[class*=language-].line-numbers.line-numbers{padding-left:0}pre[class*=language-].line-numbers.line-numbers code{padding-left:3.8em}pre[class*=language-].line-numbers.line-numbers .line-numbers-rows{left:0}pre[class*=language-][data-line]{padding-top:0;padding-bottom:0;padding-left:0}pre[data-line] code{position:relative;padding-left:4em}pre .line-highlight{margin-top:0}html{font-family:Apple SD Gothic Neo,arial,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em Apple SD Gothic Neo,arial,sans-serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:Apple SD Gothic Neo,arial,sans-serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}</style><meta name="generator" content="Gatsby 2.23.1"/><title data-react-helmet="true"></title><link rel="icon" href="/favicon-32x32.png?v=db33395577ec4a434ab68177782919fb"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#000000"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=db33395577ec4a434ab68177782919fb"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"/><link as="script" rel="preload" href="/app-d8b803c152e4e53a0b70.js"/><link as="script" rel="preload" href="/framework-d54fcf3f0204b459cf2d.js"/><link as="script" rel="preload" href="/styles-9b6f388623a2ec93d35f.js"/><link as="script" rel="preload" href="/webpack-runtime-92b8d634de3575c5751f.js"/><link as="fetch" rel="preload" href="/page-data/computerArchitecture/4-the-processor/2020-09-16 09:00:00 +0900/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header style="margin-bottom:1.45rem"><div style="margin:0 auto;max-width:960px;padding:1.45rem 1.0875rem"><h1 style="margin:0"><a style="color:black;text-decoration:none" href="/">JaeHyeonKim19</a></h1></div></header><div style="margin:0 auto;max-width:960px;padding:0 1.0875rem 1.45rem"><main><h2>[컴퓨터구조론] 4. The Processor</h2><h4>2020-09-16</h4><hr/><div><blockquote>
+<p>본 글은 영남대학교 최규상 교수님의 <a href="http://www.kocw.net/home/cview.do?cid=184062fa9a833237">컴퓨터 구조</a> 강의를 듣고 작성된 글입니다.</p>
+</blockquote>
+<h3>4.1 Introduction</h3>
+<ul>
+<li>
+<p>CPU performance factors</p>
+<ul>
+<li>
+<p>Instruction count</p>
+<ul>
+<li>Determined by ISA and compiler</li>
+</ul>
+</li>
+<li>
+<p>CPI and Cycle time</p>
+<ul>
+<li>Determined by CPU hardware</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>We will examine two MIPS implementations</p>
+<ul>
+<li>A simplified version</li>
+<li>A more realistic pipelined version</li>
+</ul>
+</li>
+<li>
+<p>Instruction Execution</p>
+<ul>
+<li>PC (program counter) -> instruction memory, fetch instruction</li>
+<li>Register numbers -> register file, read registers</li>
+<li>
+<p>Depending on instruction class</p>
+<ul>
+<li>
+<p>Use ALU to calculate</p>
+<ul>
+<li>Arithmetic result</li>
+<li>Memory address for load/store</li>
+<li>Branch target address</li>
+</ul>
+</li>
+<li>Access data memory for load/sotre</li>
+<li>PC &#x3C;- target address or PC + 4</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>CPU Overview
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 429px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b89922aa8d85a89bbae205e209e0725b/3d026/cpu-overview.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 59.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABc0lEQVQoz22Sba+CMAyF9///nInfTMxFg28o+IY4QFnvnrIt6L2LTWtZT89pZ5xz8nq9/tj7/U4+WjzU+F+I5eOYtm2laRqx1srz+Uye3Pl8lsfjkazrugkgSAF4AmoAcG5Iib7vpfbFNAKwrmttYu3YbAr4nylglDMMIzDs9vu9gvGtKAq53W7p3pfKj1EoIEBNM8q0rZXyVEpVVSr9fr8roAvDGrwfQvzNLs2Q4ddhRkjuWu99XJWlyobd9XpNM6Xx5XJRBcQ0JqZWGcYF0AVZ0R+PR1mv18qSQ2OA4iIhgDqA+E/egJ7nuaxWq7RJPgKSZZkUh4NsN1u9wxgogg2NDv5b6VXEuWMGJlxkTiyCC4DFRrvdTplSPH1GxNyhdrlcplEY5EGZxHw+l9lslt4bTbLsRzabXKXRfLFYyPjUnOYAhS2sqTNxWzqLsBRMF+UvsQwYE2MwBQQCsI/zjcs105V/H5qkzXtPEXEiEPKRBPlfQYajyiL6OSkAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="cpu-overview"
+        title="cpu-overview"
+        src="/static/b89922aa8d85a89bbae205e209e0725b/3d026/cpu-overview.png"
+        srcset="/static/b89922aa8d85a89bbae205e209e0725b/772e8/cpu-overview.png 200w,
+/static/b89922aa8d85a89bbae205e209e0725b/e17e5/cpu-overview.png 400w,
+/static/b89922aa8d85a89bbae205e209e0725b/3d026/cpu-overview.png 429w"
+        sizes="(max-width: 429px) 100vw, 429px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+<h3>4.2 Logic Design Conventions</h3>
+<ul>
+<li>
+<p>Loginc Design Basics</p>
+<ul>
+<li>
+<p>Information encoded in binary</p>
+<ul>
+<li>Low voltage = 0, High voltage = 1</li>
+<li>One wire per bit</li>
+<li>Multi-bit data encoded on multi-wire buses</li>
+</ul>
+</li>
+<li>
+<p>Combinational element</p>
+<ul>
+<li>Operate on data</li>
+<li>Output is a function of input</li>
+</ul>
+</li>
+<li>
+<p>State (sequential) elements</p>
+<ul>
+<li>Store information</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Clocking Methodology</p>
+<ul>
+<li>
+<p>Combinational logic transforms data during clcock cycles</p>
+<ul>
+<li>Between clock edges</li>
+<li>Input from state elements, output to state element</li>
+<li>Longest delay determines clock period</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>4.3 Building a Datapath</h3>
+<ul>
+<li>
+<p>Building a Datapath</p>
+<ul>
+<li>
+<p>Datapath</p>
+<ul>
+<li>
+<p>Elements that process data and addresses in the CPU</p>
+<ul>
+<li>Registers, ALUs, mux's, memories, ...</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>We will build a MIPS datapath incrementally</p>
+<ul>
+<li>Refining the overview design</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>R-Format Instructions</p>
+<ul>
+<li>Read two register operands</li>
+<li>Perform arithmetic/logical operation</li>
+<li>Write register result</li>
+</ul>
+</li>
+<li>
+<p>Load/Store Instructions</p>
+<ul>
+<li>Read register operands</li>
+<li>
+<p>Calculate address using 16-bit offset</p>
+<ul>
+<li>Use ALU, but <a href="https://en.wikipedia.org/wiki/Sign_extension">sign-extend</a> offset</li>
+</ul>
+</li>
+<li>Load: Read memory and update register</li>
+<li>Store: Write register value to memory</li>
+</ul>
+</li>
+<li>
+<p>Branch Instructions</p>
+<ul>
+<li>Read register operands</li>
+<li>
+<p>Compare operands</p>
+<ul>
+<li>Use ALU, subtract and check Zero output</li>
+</ul>
+</li>
+<li>
+<p>Calculate target address</p>
+<ul>
+<li>Sign-extend displacement</li>
+<li>Shift left 2 places (word displacement)</li>
+<li>Add to PC + 4
+Already calculated by instruction fetch</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Full Datapath
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 417px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/069f921ccac37f5f72be3577f48a2639/f27fb/full-datapath.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 68%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAB4ElEQVQ4y21T25KqMBDk/z/PF6u8IsiChksgIAhqn+nhxGXXTdVIYiY9091J8Hw+wXi9Xhp+vYzfe7KA/MxzznQ9j2AYBtzvdzjncLvdME0TxnH8EX3fazB3GHrY2uFaWDRy5gOQAF3XoW1bWGsVnJUfj4d+CcT/WbCqKs3tBficfCHP809AdsDK0zSiKAo0TaMg7JZfAnkWdV1rjrUVLpeL5n4AMtFTIvhfgwcPhwNKATPXKxoBZu5SXw8akCrDC+4lYAEW4/pyNTidYnTS9TBOuI8PvP4oTNAgSRIcj0dst1ulR0qbzUbn1JH7aWZgyhqldbDuhrqTQrLXtAOKWqQZJlnPjgfshofZDUUnAOnFcaxUsyxFWZaiIzW0ol2GIjeqp3Mt8qKCqRy6fpYr4A/prddrrFYrpGmqHYfhEVfRKwxDLXA+JwoShidEUaTOt63Tgl/JWWV7A5IaXSMAY7/fi05zRSZSjizL1HmawY7JiHOy4BkWU8Cl5RxVVaKwrVzcRgB6Maj9DzC+jYqiWEyKtHuyYUPcU1O8O/5pGWPUZV7a3W6nWvrqfhjRLU5zeSmt6NjAX7034PJyEsy/FNL8DTZL9P08ea04KMdbw+XF5MbsoFN9GMu5Xy/Dvy6Of94COrOxJHd4AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="full-datapath"
+        title="full-datapath"
+        src="/static/069f921ccac37f5f72be3577f48a2639/f27fb/full-datapath.png"
+        srcset="/static/069f921ccac37f5f72be3577f48a2639/772e8/full-datapath.png 200w,
+/static/069f921ccac37f5f72be3577f48a2639/e17e5/full-datapath.png 400w,
+/static/069f921ccac37f5f72be3577f48a2639/f27fb/full-datapath.png 417w"
+        sizes="(max-width: 417px) 100vw, 417px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+<h3>4.4 A Simple Implement Scheme</h3>
+<ul>
+<li>
+<p>ALU Control</p>
+<ul>
+<li>
+<p>ALU used for</p>
+<ul>
+<li>Load/Store: F = add</li>
+<li>Branch: F = subtract</li>
+<li>R-type: F depends on funct field
+|ALU control|Function|
+|---|---|
+|0000|AND|
+|0001|OR|
+|0010|add|
+|0110|substract|
+|0111|set-on-less-than|
+|1100|NOR|</li>
+</ul>
+</li>
+<li>
+<p>Assume 2-bit ALUOp derived from opcode</p>
+<ul>
+<li>Combinational logic derives ALU control
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 423px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/d42922ef11117e11e24c073a8dc5ba9d/f687d/alu-control.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 40.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABMElEQVQozz2Si66CQAxE+f+/IyoiKCrKWxAEIRCTuTlN9m7SAG1nOrPFK4pCh8NBWZbpfr8rCAJdLhedTiedz2fVda2qqpSmqdWJOI51PB6V57lut5v1R1Gk5/MpL0kSS47jaKQUrterdrudNU7TpK7rbCjDGAKwaRq9328b6DCPx0MeLyS3bTMlkBJhGBpB3/cG3O/3pgpClC3LYiKoo5oceA92gCghwRRnnWE0AkIxpNjlOsh9Ph+1bfuvrixLeZC8Xi/9fj99v1+t62p2uAqGoBwl2IcM9YBRSEBKDpeEhx13AHKY5Pu+TZ/n2Sxj11nmSS/B/TIMV2aZhDuAORRYFN+AhmEwIrdAHFAjj3Vy/C1mGbsoQDqSaWKL3JPbLJYggxQwC0MlPZDwS7ml/AFxOk7yQ2qVdwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="alu-control"
+        title="alu-control"
+        src="/static/d42922ef11117e11e24c073a8dc5ba9d/f687d/alu-control.png"
+        srcset="/static/d42922ef11117e11e24c073a8dc5ba9d/772e8/alu-control.png 200w,
+/static/d42922ef11117e11e24c073a8dc5ba9d/e17e5/alu-control.png 400w,
+/static/d42922ef11117e11e24c073a8dc5ba9d/f687d/alu-control.png 423w"
+        sizes="(max-width: 423px) 100vw, 423px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>The Main Control Unit</p>
+<ul>
+<li>Control signals derived from instruction
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 445px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ebcf25a27a068a52d00d24fd39146feb/e66bf/the-main-control-unit.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACWElEQVQozz2R208TURDG+5eb+OiriU/64IMRNcEQgyhIoEBpuFgKSq3Qlm6323Zv3fv23v0550A8yeyZPZnvm2++KS2WS5YS0+mUyWSi7yzLdJ7n+ePbbEruh6S2ryN2x0RxTJIkpGlKLLmqK4qC0tC0sAdD0ixlMBjgui5BEGAYhs5938eyLELLpmea2P0BgweDWr3OcDTEGlg0Gg3CMGS9XlNisYblipX8KLDqqhTbtq27ZqLA9TyyJGXYaJGKukU2JeiPmAcJkzQjfsJohY3mHxxRogharZYOpdRxHP2mmviuh2c7eE/EVrPNVe2KjtSG5og4ivB871Gh2zaYRAmz+Ryj29VESlmv19PeKK/Mhy6RAKMkZjabkXshw7sOY3NAZHvaa/WuFc6XC72IXBahOimSWIBj8VGRaVIZKRyJn44rC5oRxpFu6In6UDDK/1SUF2shtEShM7LJpXDo2HqsSIoMUeVLPhaQafQIXR/XsLQaZcHN9Y1MZOBJk1QaxmnCWilkuqBIp6y8iLDVIzNGLJ2A4N5gZjqkTYPots2y7zExbNZRBvOCpdxqKZmMrDh0yHJLBXIWKzoC+rB/zPbJGZXyBe8OTijXflM9vOTr5h7ddp8oy9k6vWCzcs610SeTqbbOfvKpXGVj7wjT8YSw0JQEoqZ5c0/voU+1es2rzR12q3U+fjnk+cu3XP66w8snvNja5dn7z2zXb0nkf6Nyyeudfd78OKYrtpRkNWhK9XkiL+YLVjLOKs45O7jg+7dj+m1Ttj/jtFLjqHzO32aHx1Pw/wj+H6xGMNxtSCNkAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="the-main-control-unit"
+        title="the-main-control-unit"
+        src="/static/ebcf25a27a068a52d00d24fd39146feb/e66bf/the-main-control-unit.png"
+        srcset="/static/ebcf25a27a068a52d00d24fd39146feb/772e8/the-main-control-unit.png 200w,
+/static/ebcf25a27a068a52d00d24fd39146feb/e17e5/the-main-control-unit.png 400w,
+/static/ebcf25a27a068a52d00d24fd39146feb/e66bf/the-main-control-unit.png 445w"
+        sizes="(max-width: 445px) 100vw, 445px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>Datapath With Control
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 365px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/73534d5c152087298dc1c2922906c363/2e8d1/datapath-with-control.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 76.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACcklEQVQ4y2VU2ZLaQAzk/z8q+YBUNps8LQsGjI1ve8b3TUct1oSqTJVq7LFGarVa3k3TBNqyLLrP84zt7NV4Tp/Ntnd+u9/v4OK+6/setLqu0TQNlnXF/evjZlzDMKAsS1RVpX68Y4xBnufPYFw7OtKBexzHsNbqc9932JLRiqLQvWlaeTb6TP8gCJ4BFSEvt22rxux106Fp5WI3oJa97UctjYs+xhRIkhi+78HYEr3c/y8gEfJlWe8Y5xXbmpcVt7SCl1RY5ZvrXnE8ntB2Um7ZoKh68X8ku3/deQZc10UPkzTH7eaLBchMhf21wPe3Kw7XDElew1QjUtMizGokpkHZDLBiZdMLgOVfycwhIGDLWkqcMY4TerFPr8C3n64G9GPhbpzRDhNMLY3sRozTovBs1WGSzu8YjIQz8DTNyHIjz72+t10Hx4txCYygK+FFhdKiXRffQYJrQFlWEkxS/o5SOJ/PcBxH0JU4CEfH4wGXy0XIT/W8tAXcq9AQZSilcaNojygnCbYFZOmKkAKlBLIsw9E5wTldYEVfvu9L4KMGpDyckwsvSFRWtyDE2fVVl3GcIE1T5LZ6cLh11HGO+PX+G6eziziKNMHHfo+9WEXkzhk/3v4gCkOVi+u6T5FTi/vPg6AVhJt+iJRmpCnU3jCtyIoHUiYgoo/DGXVVIsqs0JEgknNSQ1UUxirnu9fx4uI40ZGNoog5WofDp3B4QyyBUkvJVIrO82/KLcvWYWi7R8mvQTnsnWQax1HLJn9xHCGV7rMpflKqXF7Fz87XEoxT8+TwdcC3RX6unodQOLqFMm5hJpS0T3oef5xZh4JSI5i/Iod+7OuFRYoAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="datapath-with-control"
+        title="datapath-with-control"
+        src="/static/73534d5c152087298dc1c2922906c363/2e8d1/datapath-with-control.png"
+        srcset="/static/73534d5c152087298dc1c2922906c363/772e8/datapath-with-control.png 200w,
+/static/73534d5c152087298dc1c2922906c363/2e8d1/datapath-with-control.png 365w"
+        sizes="(max-width: 365px) 100vw, 365px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Performance Issues</p>
+<ul>
+<li>
+<p>Longest delay determines clock period</p>
+<ul>
+<li>Critical path: load instruction</li>
+<li>Instruction memory -> register file -> ALU -> data memory -> register file</li>
+</ul>
+</li>
+<li>Not feasible to vary period for different instructions</li>
+<li>
+<p>Violates design principle</p>
+<ul>
+<li>Making the common case fast</li>
+</ul>
+</li>
+<li>We will improve performance by pipelining</li>
+</ul>
+</li>
+</ul>
+<h3>4.5 An Overview of Pipelining</h3>
+<ul>
+<li>
+<p>Pipelined laundry: overlapping execution</p>
+<ul>
+<li>Parallelism improves performance</li>
+</ul>
+</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 422px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/e1ce18c6601ff14782ea1c6d50ac104f/fa5c1/pipelining-analogy.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABoElEQVQoz32SWU/jMBSF8///ARqJF554HKksQkIMEotAakNpp80CpW0oDd2S1LETZ+nB16KhlOVKliXn+jvnXMcoyxJZlmHJYhTFCrFIwRhHuIwR80Sdc73HMYeUEt/VarWqdkMIjvl8DtPy8L/zAKfnKYDEPOQIIo7pguHlNUAUMSVYoCxzzGYzBEEA3/chhKhgGkhNdGg9+QrYxb/rO3QsF81mCyJJIROx5aZAtFzCcRzU63WMx+PPQIq8VqEKWYowDHHbdNBodnF6fgX7cQjbspHnedU3Go1g2zYGg4F2W0UmYJqm2g253a5FJPA4eIHrunqGZZkpSB+9Xk8vur9ZOrJUQKf/iuMrF2eX9+qCB865FspkStpabP0omXJKAo1GA8PhUEPpG/UYSZKogUfw/ACtVhfmXQeLIFJNxXuMj/lsvuhkMoFpmrAsS0Pb7baObtBc8kziptXHn72/ODk+qmZFymvYNpQckRHGmPqlYkynU32mI1M8qsOLLnZ291GrHVTz/A72WxnUkL9fllmBZ38BT0VIkvQLYBP603oDG3j9z2xdKJcAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="piplelining-analogy"
+        title="piplelining-analogy"
+        src="/static/e1ce18c6601ff14782ea1c6d50ac104f/fa5c1/pipelining-analogy.png"
+        srcset="/static/e1ce18c6601ff14782ea1c6d50ac104f/772e8/pipelining-analogy.png 200w,
+/static/e1ce18c6601ff14782ea1c6d50ac104f/e17e5/pipelining-analogy.png 400w,
+/static/e1ce18c6601ff14782ea1c6d50ac104f/fa5c1/pipelining-analogy.png 422w"
+        sizes="(max-width: 422px) 100vw, 422px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>
+<p>MIPS Pipeline</p>
+<ul>
+<li>
+<p>Five stages, one step per stage</p>
+<ol>
+<li>IF: Instruction fetch from memory</li>
+<li>ID: Instruction decode &#x26; register read</li>
+<li>EX: Execute operation or calculate address</li>
+<li>MEM: Access memory operand</li>
+<li>WB: Write result back to register</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>Pipeline Performance</p>
+<ul>
+<li>
+<p>Assume time for stages is</p>
+<ul>
+<li>100ps for register read or write</li>
+<li>200ps for other stages</li>
+</ul>
+</li>
+<li>Compare pipelined datapath with single-cycle datapath</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 436px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/1f16d420a2590116dac200ac1436ba8f/8574c/pipeline-performance.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 28.500000000000004%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABDklEQVQY0z2QuW6FQAxF+f8/SJ8/SJcySpOKArHvO2/YVyGaG64VUowYPPbxsbUwDDFNE6IogmVZcBwHruvCMAzEcQy++76PqqrkjSfLMpimKacsSwS+B9exkd9xbV1X7PsOpRS6rsM4jv+FvDPe9700ZUNC2raFrutI7objHU/KClndIC1KaNu24TxPMbRtG/xP01SsCPQ8TyyXZRHYM1GcJFBNg7hq8PbxifevH3xbHjQaMJnjEUjjoigQBIEACeb9yeGIBPKwOXOsu44rGYYBGs3yPBdDGhDIHdHsMSSUwOM4cF2XxJPb8IFw33X9B6QNIc/I3BeBhNCedrwzTtA8zxLnl01eLyV1lGLOLyPst3er8pPJAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="pipeline-performance"
+        title="pipeline-performance"
+        src="/static/1f16d420a2590116dac200ac1436ba8f/8574c/pipeline-performance.png"
+        srcset="/static/1f16d420a2590116dac200ac1436ba8f/772e8/pipeline-performance.png 200w,
+/static/1f16d420a2590116dac200ac1436ba8f/e17e5/pipeline-performance.png 400w,
+/static/1f16d420a2590116dac200ac1436ba8f/8574c/pipeline-performance.png 436w"
+        sizes="(max-width: 436px) 100vw, 436px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+</li>
+<li>Pipeline Performance
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 385px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/83a6b3ce1509b4277cb0d125b9b7a7f5/409e6/pipeline-performance-1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 73.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACEUlEQVQ4y31Uy27aUBD1/39Al120X1CpiySgtqraRZsHSbqoiHgEjHnY+BoMtjFgn84Zcw00Ta80us85c2bm2A4OoyxLNY44SeD6AcbzsDZP9jwLlzFeG/R3ttst8jw/HFQXj71nvPlwgXfNr3h7+RnvP33TNc8ad4/6pijKmsQpGafX6+HpqY3lconNZoM4jhEtFgiNgTERwtBgPp/rmR8ECMSMqc7CMFSbzWY1KWc8HsN1XUynU6zXa2RZht1uh2K/B9nTiqKwSb1gxTtazZDMFhKdwIPBAN1uF8PhUBl4nqdrBsuEvQYS570EI6NjIBwBjaZmMBqNsFqtlBHT7vf7OtORqbbbbQk41PR830en09FgfMNAdVOiKAKNDG0d/tNGeBKYBAjCEhGYGdSAf7edIxXg5u0DLn7e4ermHl9+/UZD9y2Eq/VZjMlkopmdMWQE1oUHZBlJGs2bFi6vBfC6peANAf74/Qfc6QxbeUN29Hmhw2dpBKXDJqRpqtG0lpustjxLsReQXO5jaSIbSSJ8b0GrrktTqCPSZkepMT4kSyNzkqS6Dw7BXilrDaYMrWwIamXDjnNPMBuMWiXzc0aHL+QEVGtIZgQjMM2CUha8Z1cpFQJzPn6qFUgFWJmTyI+A6ZCpFSrXlBFrS4acrfApE87U61EZZV0C519/DA46kB0Z2yZQxPqty/oU0LKj5x8xc3oITcxHCgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="pipeline-performance-1"
+        title="pipeline-performance-1"
+        src="/static/83a6b3ce1509b4277cb0d125b9b7a7f5/409e6/pipeline-performance-1.png"
+        srcset="/static/83a6b3ce1509b4277cb0d125b9b7a7f5/772e8/pipeline-performance-1.png 200w,
+/static/83a6b3ce1509b4277cb0d125b9b7a7f5/409e6/pipeline-performance-1.png 385w"
+        sizes="(max-width: 385px) 100vw, 385px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Pipeline Speedup</p>
+<ul>
+<li>
+<p>If all stages are balanced</p>
+<ul>
+<li>i.e., all take the same time</li>
+<li><code class="language-text">Time between instructions(pipelined) = Time between instructions(nonpipelined) / Number of stages</code></li>
+<li>If not balanced, speedup is less</li>
+<li>
+<p>Speedup due to increased throughput</p>
+<ul>
+<li>Latency (time for each instruction) does not decrease</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Pipelining and ISA Design</p>
+<ul>
+<li>
+<p>MIPS ISA designed for pipelining</p>
+<ul>
+<li>
+<p>All instructions are 32-bits</p>
+<ul>
+<li>Easier to fetch and decode in one cycle</li>
+<li>c.f. x86: 1 - to 17 byte instructions</li>
+</ul>
+</li>
+<li>
+<p>Few and regular instruction formats</p>
+<ul>
+<li>Can decode and read registers in one step</li>
+</ul>
+</li>
+<li>
+<p>Load/store addressing</p>
+<ul>
+<li>Can calculate address in 3nd stage, access memory in 4th stage</li>
+</ul>
+</li>
+<li>
+<p>Alignment of memory operands</p>
+<ul>
+<li>Memory access takes only one cycle</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>4.5 An Overview of Pipelining</h3>
+<ul>
+<li>
+<p>Hazards</p>
+<ul>
+<li>Situations that prevent starting the next instruction in the next cycle</li>
+<li>
+<p>Structure hazards</p>
+<ul>
+<li>A required resource is busy</li>
+</ul>
+</li>
+<li>
+<p>Data hazard</p>
+<ul>
+<li>Need to wait for previous instruction to complete its data read/write</li>
+</ul>
+</li>
+<li>
+<p>Control hazard</p>
+<ul>
+<li>Deciding on control action depends on previous instruction</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Structure Hazards</p>
+<ul>
+<li>Conflict for use of a resource</li>
+<li>
+<p>In MIPS pipeline with a signle memory</p>
+<ul>
+<li>Load/Store requires data access</li>
+<li>
+<p>Insturction fetch would have to stall for that cycle</p>
+<ul>
+<li>Would cause a pipeline "bubble"</li>
+</ul>
+</li>
+<li>
+<p>Hence, pipelined datapaths require separate instruction/data memories</p>
+<ul>
+<li>Or seperate instruction/data caches</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Data Hazards</p>
+<ul>
+<li>
+<p>An instruction depends on completion of data access by a previous instruction</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">add $s0, $t0, $t1
+sub $t2, $s0, $t3</code></pre></div>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 451px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/e40961c9a4a5b9dc77f7584fbe3cf521/38070/data-hazards.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 36.50000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABF0lEQVQoz31R2XKDMAzk/z8wnUlfoE24bWxsbK6w9apJhulDxWgk7NVKWmfHcYC27zu2bZM8hIAjfTFG8J5xXVcsyyJxmibBzPMM772cj+MoHBkLCOIFgU3TYBgGiVVV4Xr9hDFGvK4bKKUETzISvZqx9vF4IONEZCcJQWVZwjknZH2vcLl8wFoLrfWTUOM/y14rny0uGxo9wfoZvY3QIz3AOP4H1MqlPAqW9WfP/pLxcE+jr9sOm4q+a4POTKi1T0285N0QoFKjzgRMcf2te9bKhFyVIlOTs5F0WXc4H1A1HQY7oksyfN1K3MoaShuMzqPvetHvvTIfhKJT2PMabwlSs/v9Llq3bYuiKJDnuWjLszwv5IVpP32BHoOEgT5GAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="data-hazards"
+        title="data-hazards"
+        src="/static/e40961c9a4a5b9dc77f7584fbe3cf521/38070/data-hazards.png"
+        srcset="/static/e40961c9a4a5b9dc77f7584fbe3cf521/772e8/data-hazards.png 200w,
+/static/e40961c9a4a5b9dc77f7584fbe3cf521/e17e5/data-hazards.png 400w,
+/static/e40961c9a4a5b9dc77f7584fbe3cf521/38070/data-hazards.png 451w"
+        sizes="(max-width: 451px) 100vw, 451px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Fowarding</p>
+<ul>
+<li>
+<p>Use result when it is computed</p>
+<ul>
+<li>Don't wait for it to be stored in a register</li>
+<li>Requires extra connections in the datapath
+<img src="./forwarding.png" alt="forwarding"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Load-Use Data Hazard</p>
+<ul>
+<li>
+<p>Can't always avoid stalls by forwarding</p>
+<ul>
+<li>If value not computed when needed</li>
+<li>Can't forward backward in time!
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 368px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/c8032fce4d50bab4e8c02ff4ef00ae60/2b727/load-use-data-hazard.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 42%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABSElEQVQoz4VSi26DMAzk/7+tpVulrZq6AX3QQkIeQIBQoDcnHV03aZol4uDYZ/vsYBgGZFmGsqowy/V6xTRN/+rZ91EHbdvi+fkJnDPUdQ1jjHcuigIumRAC1lqv3b9SEpfLBXmee1/GOZqmAWPsBjiOo39Mzzn2+713TpIEUikcj6m3hWGIsiyx3W5xINuObHOVLn7WzhbQCUMZTNtDa+0fPqKIKlEUfMDplGKxWHrA180G79EOcRzjLwkcuqvqm7+bHsYJmTRQdQemWtIWXHeQlYWkO1MNcmFQ6ObOoa/wN+AXLPE1ghFgTZVzZVDWLUR5+3anArp24B206X4CusO1yhinbAbVw7RnSZKY2oxocAovb2eEqxXW6zVSosTxv1gu/UDvLfd977kbqc3HdZhXoSJnF2DtAF12nlchpI+ztoeUym+Ak0+Fymg0Br+XUgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="load-use-data-hazard"
+        title="load-use-data-hazard"
+        src="/static/c8032fce4d50bab4e8c02ff4ef00ae60/2b727/load-use-data-hazard.png"
+        srcset="/static/c8032fce4d50bab4e8c02ff4ef00ae60/772e8/load-use-data-hazard.png 200w,
+/static/c8032fce4d50bab4e8c02ff4ef00ae60/2b727/load-use-data-hazard.png 368w"
+        sizes="(max-width: 368px) 100vw, 368px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Code Scheduling to Avoid Stalls</p>
+<ul>
+<li>Reorder code to avoid use of load result in the next instruction</li>
+<li>C code for A = B + E; C = B + F;
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 444px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/02240d40496857ce9efe2917f9b287e1/9b7bd/code-scheduling-to-avoid-stalls.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 40.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABxUlEQVQoz22RW1PaYBCG/f/TXtnAKKCFnvReWzp22nJQUCCUhJAIMUA4FDlINAFKODz9KJ3iRXdmv9mZd/bZ3e/dQ8RqtWa5Wm1KZtM+rmcxGpt4kwajURXHqbHwhyyXPp5b50nko2vx6NwxGlbxvLpgzP70763Xa55Ht5vGqoSx0/s09SjZK4miHBBNBXzf49aIYRcPaeaCaGqETEai2XjPYtHfAjePdmeTyKsMxi7dTpqyfIB1fUhdeU05F6aTlfDMC+b+hFrthPH1AU5yn0o+RC4t0WqcsHwOlHWTj8kbBo5H/z6DWY2hF4+pW6eo5SiKAPbbSSYzl4oWwygdiWHH6IUwVQG/v5aYO/bu5G1u/7DducRUIvTE5LocQb4KoN8EcXpZcdYEXXuDrr/jtvoBQ42hpCQa2QC+195tGL+UkU7PsToDuu3vlIqvqJRC2OZbDOUIK/UCxzhjsZqiKiHKQmsKrWZEMfJB2umXYsPGDvhr7jOZTtn44z41GT+UKGhfScifSOTOsVtZobeEy3MeRgqdnwVSxTjfcmfI6heGgx/CZe9/Lu9qze7xOV8mUzF36l/ZnS1IaibxnEpn9PhP27B+A2KyP2yYA5kYAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="code-scheduling-to-avoid-stalls"
+        title="code-scheduling-to-avoid-stalls"
+        src="/static/02240d40496857ce9efe2917f9b287e1/9b7bd/code-scheduling-to-avoid-stalls.png"
+        srcset="/static/02240d40496857ce9efe2917f9b287e1/772e8/code-scheduling-to-avoid-stalls.png 200w,
+/static/02240d40496857ce9efe2917f9b287e1/e17e5/code-scheduling-to-avoid-stalls.png 400w,
+/static/02240d40496857ce9efe2917f9b287e1/9b7bd/code-scheduling-to-avoid-stalls.png 444w"
+        sizes="(max-width: 444px) 100vw, 444px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Data hazard는 RAW(read after write)에 발생한다</p>
+<ul>
+<li>
+<p>code dependency의 종류</p>
+<ol>
+<li>RAW</li>
+<li>RAR</li>
+<li>WAR</li>
+<li>WAW</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Control Hazards</p>
+<ul>
+<li>
+<p>Branch determines flow of control</p>
+<ul>
+<li>Fetching next instruction depends on branch outcome</li>
+<li>
+<p>Pipeline can't always fetch correct instruction</p>
+<ul>
+<li>Still working on ID stage of branch</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>In MIPS pipeline</p>
+<ul>
+<li>Need to compare registers and compute target early in the pipeline</li>
+<li>Add hardware to do it in ID stage</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Stall on Branch</p>
+<ul>
+<li>Wait until branch outcome determined before fetching next instruction
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 335px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/eefbfa83c5708a98f171997c920704a9/c0051/stall-on-branch.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 43.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABUklEQVQoz61SSW7DMAz0//+Wa4HWTROvkbxF3uV1qmHiIKeeSoAeWRSHQ0revu9YlgXruuI/zOu6DqfTCWEYCrG1VjDPc/R9j6qqwDNEYwzatpVY0zTQWkuMyJxt2+ANwwDf9yWBB+u6xjzPksgYkUl0FqBz78BxHF/IPI8frRWSOBZk5ditj2SqOpQeyv5smS3edIGiMiirWhSmaYrbTYlyFimKXJAeBFf3XzjF7YuE93C4Z6cJ93ZEN87o7eKkW0RRJKRKKZT3GlGikOocWXHHJUxwDSLEqYadV3TD5Ga3v4i9yRGy7WXd3E1vb1WdOwyVwXdUwg8z5zkuiSNNStn7iUt8nBXafpQEIeQwq7pDady82keAVMuyyn+SNTBNj88v3802gakbBO5FKKWRZTn877N0xEuTGT50vNujEo2tzI5Y3iq7eD6N+bkmskM692m/4BK1uIu2BpUAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="stall-on-branch"
+        title="stall-on-branch"
+        src="/static/eefbfa83c5708a98f171997c920704a9/c0051/stall-on-branch.png"
+        srcset="/static/eefbfa83c5708a98f171997c920704a9/772e8/stall-on-branch.png 200w,
+/static/eefbfa83c5708a98f171997c920704a9/c0051/stall-on-branch.png 335w"
+        sizes="(max-width: 335px) 100vw, 335px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>Branch Prediction</p>
+<ul>
+<li>
+<p>Longer pipelines can't readily determine branch outcome early</p>
+<ul>
+<li>Stall penalty becomes unacceptable</li>
+</ul>
+</li>
+<li>
+<p>Predict outcome of branch</p>
+<ul>
+<li>Only stall if prediction is wrong</li>
+</ul>
+</li>
+<li>
+<p>In MIPS pipeline</p>
+<ul>
+<li>Can predict branches not taken</li>
+<li>Fetch instruction after branch, with no delay</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>MIPS with Predict Not Taken
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 435px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/6590a17a2d4a347620f21dec01107dd8/330eb/mips-with-predict-not-taken.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 63%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACA0lEQVQ4y41TyY7TQBDNv/MHHBA3bgguHEACjQRzYC4IIcEljBAoi5dut9f21u0lzpuqDrYyGUaipFLZyevX9eqVV9PxiGmacKQ6jiNUFKHruuW973sMwwBrWnru3PtlMo7xHCuchbUWP29vkec56rp24LIs3XNV1a5y8m9FUbhkbNM0OBwOJ0I/TvAnFNgKhbo1iCIJKQQKAsZx7MBVVbnKBGmaLocvg7tcPf/wCU9evsHT99fw4hRZXiLTNXRZw/c8bLdbhGGAJEkg6KIwDBEEAbTWjmAe1yJ5F1GHIoKfFSjrBlmWQ8iIZFU0AgOVanihgkfk3KFSilQQ3vdd5fnN3T2YIc5u5MoxEa7rR2cUS2UC/s8Y42Y8Ey2E03Q6PP1tmw9dgv433AzPD3IX6/XazYcdv+9ytdTZZcZxbdt2UXRPctdZ7Pd7NxutT0AmZXLOpmmd27NsrqyIcyF8/fkLnr29wouPN5B5QaZkSNKMbtaOnF2VUkJTJ1KEEOR4TpiRlv2fkq++/cCr6xu8+/odsSYplYVuBrSmdzvHZHGSQUQphKKqUvzeeAhkjNaOsP3hcZdZQmtIXj+gNh3Gw0lGog12ssCvTYiNH2MbptgJIt5J7ALlxrJ06FbEOQw3h2GgFaFs7QDeACYtGwtjeySxQkWGlKVGQwbx18R7yXOdCe8ADcbm9gotwhYAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="mips-with-predict-not-taken"
+        title="mips-with-predict-not-taken"
+        src="/static/6590a17a2d4a347620f21dec01107dd8/330eb/mips-with-predict-not-taken.png"
+        srcset="/static/6590a17a2d4a347620f21dec01107dd8/772e8/mips-with-predict-not-taken.png 200w,
+/static/6590a17a2d4a347620f21dec01107dd8/e17e5/mips-with-predict-not-taken.png 400w,
+/static/6590a17a2d4a347620f21dec01107dd8/330eb/mips-with-predict-not-taken.png 435w"
+        sizes="(max-width: 435px) 100vw, 435px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>More-Realistic Branch Prediction</p>
+<ul>
+<li>
+<p>Static branch prediction</p>
+<ul>
+<li>Based on typical branch behavior</li>
+<li>
+<p>Example: loop and if-statement branches</p>
+<ul>
+<li>Predict backward branches taken</li>
+<li>Predict forward branches not taken</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Dynamic branch prediction</p>
+<ul>
+<li>
+<p>Hardware measures actual branch behavior</p>
+<ul>
+<li>e.g., record recent history of each branch</li>
+</ul>
+</li>
+<li>
+<p>Assume future behavior will continue the tred</p>
+<ul>
+<li>When wrong, stall while re-fetching, and update history</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Pipeline Summary</p>
+<ul>
+<li>
+<p>Pipelining improves performance by increasing instruction throughput</p>
+<ul>
+<li>Executes multiple instructions in parallel</li>
+<li>Each instruction has the same latency</li>
+</ul>
+</li>
+<li>
+<p>Subject to hazards</p>
+<ul>
+<li>Structure, data, control</li>
+</ul>
+</li>
+<li>Instruction set design affects complexity of pipeline implementation</li>
+</ul>
+</li>
+</ul>
+<h3>4.6 Pipelined Datapath and Control</h3>
+<ul>
+<li>MIPS Pipelined Datapath
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/534e2e144e67581c4e72f5ee08990e44/ee9b6/mips-pipelined-datapath.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 69%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACGklEQVQ4y2VTyW7UQBD1V3PlMyJxzJEPiETgBDeWJCJIHEZKFGacMTPe115sF++Vac8EWmpXd1X1q1eLI8Ga55lCxnEU55xK6qy1MgyD3qdp0nOwU3rv1Y8ynKMAxuXh1DSNOADxUZZlkiSJdF2n4DyXZQngHn616glM2bbtAkigaZph8OIQZQQT70cxAAixPBnBpr7QWedXW8gmLAXseiN5WUnT9pJmhe6yBlM/4fEog3G6jfV67wcjBqCD8Ws5CLoy7I0FQ8tqSl1XUiGt9HjUNI0x0vcddi8tysE7sxlH1NSeAEMvFkBE5GMaCoDxbDXlU7NYzzzPwT6Dv1W2HqDTv4ATPmTIohp0kUxC5whKye6maSpVVWkTwpq13v5/hg5NSA6p7Hax7Pd7BTgi5e12q10lM27qyZS2uq41fXZ4AVyyiT7c/pDNNhbL2iAaGR4OBwWj5C6KQuI4VpY8U0cgglPHoDXqq4D3D0+SI9opj1kKsNknv2UXL2wZhAH42P2dVTIka9oYpKhqYfmiq8+3cvXlTt7dfJcOLO8ff0mcMi1EhhOd+ZCS9SJg0LHurCtB2SB2Pnr15lJeX76Vi/cfpWha+bZ5lIfnROvTdv1as/NmsOvnZzaDc8mfIrr+eieffm7k5mmHbpvV0ViHu4cjBtk43RwVDnjTDTqDvLf4KbrB6X3t8vnib0hDmP5FN70YjXAOtvNf7w/+tTtfnH1OewAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="mips-pipelined-datapath"
+        title="mips-pipelined-datapath"
+        src="/static/534e2e144e67581c4e72f5ee08990e44/5a190/mips-pipelined-datapath.png"
+        srcset="/static/534e2e144e67581c4e72f5ee08990e44/772e8/mips-pipelined-datapath.png 200w,
+/static/534e2e144e67581c4e72f5ee08990e44/e17e5/mips-pipelined-datapath.png 400w,
+/static/534e2e144e67581c4e72f5ee08990e44/5a190/mips-pipelined-datapath.png 800w,
+/static/534e2e144e67581c4e72f5ee08990e44/ee9b6/mips-pipelined-datapath.png 1041w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Pipeline registers</p>
+<ul>
+<li>
+<p>Need registers between stages</p>
+<ul>
+<li>To hold information produced in previous cycle
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 432px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/3107a339068f6d9e23b4db8c82bace63/0e0c3/pipeline-registers.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 48%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABtklEQVQoz0WSDZOiMAyG/f9/62Zubhzd2z2/BUVXRFhQECiUAr6XpKKZyZTS9En6JiOlFKqqQl3Xshpj8Hh0aNv25X3Xouve/7qOVyP/rPV05yFfo6Zp5IBB9RN8/I4lYAi6hCmyrMRgvP+JUwGzeYeQ7jUWyJcYVpYlrtcEaZphPPWeFdfoe4PF6ozdPqCYAqbRcPcxTn5CZxY4mwdQSlsgwwbn5xjT4mvm24f0vawMmM0dqjKlRAruLsI5uL0qXq4ub2AQBGC/3+8E6KB1g8mHhziOKYg11VhvLyRDJFrZBD8Io+yJe2CxDCiRsUCttVSW57lUUBQKv36v4DgOwjCkRClVfMR6c6CYDLdbQnsPm+03QSo6zzD96yGKEtK8x0hykI7cHAbXtcZ4ssPpdBINuYKNE2IynZO+N7SmIfgZjuvTaypo0vrf3Mfx6EvnR0M3WS/2ruvxZ+xKA4qiRJZesVyfqZMXqYATbN2QoEeJaahJH58eJctthcNoDMZArnCYTaVyAfKoDLY/JLTPBMCvmi18kquQHrye/HYQpAZry53nGS3LShrEsrCzzrZhdjrsXknsf4qN/q/RgYXDAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="pipeline-registers"
+        title="pipeline-registers"
+        src="/static/3107a339068f6d9e23b4db8c82bace63/0e0c3/pipeline-registers.png"
+        srcset="/static/3107a339068f6d9e23b4db8c82bace63/772e8/pipeline-registers.png 200w,
+/static/3107a339068f6d9e23b4db8c82bace63/e17e5/pipeline-registers.png 400w,
+/static/3107a339068f6d9e23b4db8c82bace63/0e0c3/pipeline-registers.png 432w"
+        sizes="(max-width: 432px) 100vw, 432px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Pipeline Operation</p>
+<ul>
+<li>
+<p>Cycle-by-cycle flow of instructions through the pipelined datapath</p>
+<ul>
+<li>
+<p>"Single-clock-cycle" pipeline diagram</p>
+<ul>
+<li>Shows pipeline usage in a signle cycle</li>
+<li>Highlight resources used</li>
+</ul>
+</li>
+<li>
+<p>c.f. "multi-clock-cycle" diagram</p>
+<ul>
+<li>Graph of operation over time</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Multi-Cycle Pipeline Diagram</p>
+<ul>
+<li>Form showing resource usage
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 367px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/94c41b4d70d4bd7481741121b776df13/46684/multi-cycle-pipeline-diagram.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABzElEQVQ4y6WT2U7rQAyG+/5PwcV5BQSHRRwEQlBKoC1plK00SZuFKDlVmjRLlx970JSU5QpLjmc6jvONf7ez3W7RtrqukaYpkiQRsSgKVFX1rXMux7IsRWTr8GOz2WC9Xosf+CDPc2RZhsViIdbL5VI4F29HzuW13O8KOo6DOI7xW+Pbdvjh+z7CMBRfYstzvkKDJM3wGs/p6xWWZS0i5//kgpAXXIj7NZ//R7YocNvVMNLGuLzq4+DPP9z3VChPOnqKwRw7mnaU1uH+yQaz874gkizLYZhTcg9DdYz+0CLaFEGYEGn5Y1FByA3l5rMIq9VKHIT0ovJoYDA0cXbRx9GJQr2e4Ob2GX4Q7/WtHQWhlJ2d9/KQlZ84IUxrSsUCXN9oUDUHrhfhZeLTjZovRXeEckTk+MgkLqAbLizbw+HfR3TvNfQeVGqBTSD1LvcLoRzSdoJMYnUNc0a0Pro9HSfnA0ynAZEG0HR37x1ByAVZaSZs48t1WVZCINcL8TQg9a9HNAUGdN2GNfb3lBeEUhR2Kcp3CkZRiv7App56NFIqjk8VIp3hjtoQvSYfKjdNsyfKZ0IZeZQcNxKjY9o+1NEEnjeDRaLlxftf7w3xFeU/3YvaOgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="multi-cycle-pipeline-diagram"
+        title="multi-cycle-pipeline-diagram"
+        src="/static/94c41b4d70d4bd7481741121b776df13/46684/multi-cycle-pipeline-diagram.png"
+        srcset="/static/94c41b4d70d4bd7481741121b776df13/772e8/multi-cycle-pipeline-diagram.png 200w,
+/static/94c41b4d70d4bd7481741121b776df13/46684/multi-cycle-pipeline-diagram.png 367w"
+        sizes="(max-width: 367px) 100vw, 367px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>Traditional form
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 423px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/f684f1ee858cb2c2a1afc5aa3d0a445f/f687d/multi-cycle-pipeline-diagram-traditional-form.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 43.50000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABEUlEQVQoz6WS2a6EMAiGff/HM9FoXOO47/uuTH4SJjOey0OCQLEflFahhyzLQlVVfXSaJlrXleZ5Zou8qKzByppyHAelacoBBElAuq5jO44j58RiTQDwt237ySlwDMNgwH3f9F9RzvOkuq4pz/NPR03TcIG+77kbrMGHhUph2KcqSLRtS0VRMLgsS4qiiFRVJV3XyXEcCoKAwjBki3gYBi4k8gcICDqEiqAIYk3TyLZtsiyLfN9nsOd55Lou7wNcoHxkfHCbSZLwD99JjANjwKWZpskgdAgoFFDsy7KMR8FAbAYQMOh1XT9QCF4CngeOjAuElS4BewUviuOYT8RAdPI9h+dcRPCfwKEoLvG+7+y/AUlstYf0HRtBAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="multi-cycle-pipeline-diagram-traditional-form"
+        title="multi-cycle-pipeline-diagram-traditional-form"
+        src="/static/f684f1ee858cb2c2a1afc5aa3d0a445f/f687d/multi-cycle-pipeline-diagram-traditional-form.png"
+        srcset="/static/f684f1ee858cb2c2a1afc5aa3d0a445f/772e8/multi-cycle-pipeline-diagram-traditional-form.png 200w,
+/static/f684f1ee858cb2c2a1afc5aa3d0a445f/e17e5/multi-cycle-pipeline-diagram-traditional-form.png 400w,
+/static/f684f1ee858cb2c2a1afc5aa3d0a445f/f687d/multi-cycle-pipeline-diagram-traditional-form.png 423w"
+        sizes="(max-width: 423px) 100vw, 423px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>Single-Cycle Pipeline Diagram</p>
+<ul>
+<li>State of pipeline in a given cycle
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 430px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/def94870add40093f7fa20a53a0811ed/05ed2/single-cycle-pipeline-diagram.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.49999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8ElEQVQoz0VSiW6jMBDN/39VtVr1TFulSbVKmxJIgHCa0+YMb2eGJkFC2B7mXePF+XxG27YIwxBZlmEYBnRdhzRN5e37Xs64liTJdV/XNeI4ln+rqpJ+xlkwoDFGDpRScsh7bo6iCFpraSqLQgi43nWtnPN+FtRcyRbMlOe5gPCa2epaU4PBNE2ihkHyopTmi7okUbIexxFFUeHyLApivtgsy5KKOY5ujJ0VYDqPUisrjc3nkZoHapmgshr/tj7OYw9tWqw3BwFjAQJ4YWYbjdHwfIWv3Yl+4fMetW7w+LSF73uUWwTXi/GxPhDAANN0BOjeAFkV5xcEgdjmJ4orWHZMRKNY0rrF67tFVmdrWW6w/Q5lbUxH6r0bIAfJE+Qc+W0aTQoSPDyucTw6VFP09fHyuvuNJINluVh9OBiHlsgVke3FiQBewuQNh922Bqcgx9/7FVz3IJNLFe8/4Tg2KaopkgQvy28iyOgmpHgmsiA4zVNmIH45Rz7g3Njyw9OGBtVQUyGAy7cf5OSEY0jSEs/LL1KryEFJNYuINKkcZ4UMOH9ntWFU4u7PG2VXyV10HFea+r6jyQ7kQOF9ZRNAS0NSFMcPRWVksIsb2HQF7vqR7J5oWIFc2DCMYNuugPOUPe9EJJ5cbK7t90dENFge4H/HCEY3Ma4u/QAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="single-cycle0pipeline-diagram"
+        title="single-cycle0pipeline-diagram"
+        src="/static/def94870add40093f7fa20a53a0811ed/05ed2/single-cycle-pipeline-diagram.png"
+        srcset="/static/def94870add40093f7fa20a53a0811ed/772e8/single-cycle-pipeline-diagram.png 200w,
+/static/def94870add40093f7fa20a53a0811ed/e17e5/single-cycle-pipeline-diagram.png 400w,
+/static/def94870add40093f7fa20a53a0811ed/05ed2/single-cycle-pipeline-diagram.png 430w"
+        sizes="(max-width: 430px) 100vw, 430px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>Pipelined Control (Simplified)
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/125768ce0ad9d99b2764c32fd96e0d14/ea64c/pipelined-control-simplified.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABo0lEQVQoz21Ti27DIAzM/39ju02V2rwTAgQIJPV8pnRdN6STgZjznSHV/X6nGBPF9Abe22KOQEr7rz1ZM8KWqAxwVUotNEwzGWMZRqK1KznnadsiY6MQNtJayxxwztE8z2RXxwV22kIg772QVmpZyPPByInWWlp4va6rHDyOQ7DvOznew7wM51YhSfvBBT3PQybU2lAQC0kUQgmIJTlxoZgxTRNdr1eq61oKQsg0a7Z9iBjkCCES+2EkzQkgxYC69OilCzlRKSU2S86i2Y0NdMgdxOd+BUVt24gC2EV/oBRKLpcL9f3w/AYSOFoYs9ISjfVkmMNw3z1fUPV6Q8UuALLz+SyqoK7rOvr4/KKu79nqLPv52yIFx3GkYRioAhEGGg/ZiLCMfiEp8A1ijXld30ih57IepAj6CYgDhhAW0hLRE6jrWU3bttQ0jajvJ1ajPSFNLgbqlHk+KRSvXsleCU+nkxAhCX1F9abpyPl8o2hLcQRy5CH+S4jE2+0mvQuPR4s5foCdv0FNeasgR0Gs0dPq3W6JSICVHxh+e3me/6i/wJlv49KhlRlQRPEAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="pipelined-control-simplified"
+        title="pipelined-control-simplified"
+        src="/static/125768ce0ad9d99b2764c32fd96e0d14/5a190/pipelined-control-simplified.png"
+        srcset="/static/125768ce0ad9d99b2764c32fd96e0d14/772e8/pipelined-control-simplified.png 200w,
+/static/125768ce0ad9d99b2764c32fd96e0d14/e17e5/pipelined-control-simplified.png 400w,
+/static/125768ce0ad9d99b2764c32fd96e0d14/5a190/pipelined-control-simplified.png 800w,
+/static/125768ce0ad9d99b2764c32fd96e0d14/ea64c/pipelined-control-simplified.png 1116w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Pipelined Control</p>
+<ul>
+<li>
+<p>Control signals derived from instruction</p>
+<ul>
+<li>As in signle-cycle implementation
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 310px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/424c743bad910819cd4b03f49a8c6229/5fad2/pipelined-control.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 64%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABZ0lEQVQ4y5WT2Y7CMAxF+f+fhBckZlTaNPuKx9clJRReJlJw6trH1045Ea/H47HvUhu1p425UG3bc2vb+2N8391/6g9YAkmFrE8060A/syXtIrmYyfhIge23NUJP+AkhkFKKtHECBVCZwJAkZxRxIYsP2zMYcblUqmy7JlHYgdM00XRXpOwGWW0gbSNZBgUGrnzG/l2s+D37nc9SFONg3KZwbNmHJBZt/i6e7quXc6mVR+Cl0MIKYXseCk7POIBFYePBp5Rkox3tksCU8XsyVELVvDpuP8lFQVXKle7KSkettxxjJK01lVJ2tTlnGUX3AVpZqXOOIXm8EY7zHJ9el4Jka63YEYg9FgEUxUcfuoOv5+5AY8yHQozgmDyqHou8AZGIwPF7+g8Qvg+FqHIEIvGYDD/ARx/muwOXZaF5nveAflHX6/UNCMXn81niR9WXy4Vut9sLCHqvMP4vARi/034B32aIWKw/eSD965UjrkEAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="pipelined-control"
+        title="pipelined-control"
+        src="/static/424c743bad910819cd4b03f49a8c6229/5fad2/pipelined-control.png"
+        srcset="/static/424c743bad910819cd4b03f49a8c6229/772e8/pipelined-control.png 200w,
+/static/424c743bad910819cd4b03f49a8c6229/5fad2/pipelined-control.png 310w"
+        sizes="(max-width: 310px) 100vw, 310px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/a367264dedecd3f7c7b749622217bd3e/4b2cc/pipelined-control-datapath.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 69.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACC0lEQVQ4y11T2ZKjMAzM/39h3qZybBEOG1/YJkB61CLsZMZVAmxZrW5JnCBr3TY8lxXLuqHUJ+bn8svq/BQ/v8U378Yz+hj7er3UuE58EGwVsE0OGZimCbVWtZgm+JDQ9hZO3j7s+xATrAvIhck2AV8VVAG3N7ouggoTPZfsuc6YygzrM+a3Cu6ZqJSqLAlExgq4CCM7OoQQEGPUNwHJrpQCHyeEqcJ4YRYLQqoY3ITOJow+IeUZwxj0WyXnnJX+AULASSR777UMVWsoDF3U4FwX9OMEM0YtQSbbqQjjsjMkCy26ADrnYK1FSkm/6UtyeRZAJvByZozBox9FlYfzQSUXqhFj6XaGISorBnKxDDxftxdi3s/GcUTzaNEZh9aIRGHc2ajNIFgub0DKvN/v6PteWXFP8LZt0TQPZcHzlESiZ+Is8pPKLXWXy/suZGmiAFL3uu4tV1livHC73XA+nzEMg8i0mvB+/6fgX7cGXT/8vz+In3uqOv1My0slP3V4Z3Rdp3bMI2t3vV41WWe8+pgkyWR4aSQTs+anY8o/jYzJkEEEattOR8pYYSTdpDznvNTea/fb3mhSxv1iePw+dFwuF2XEjnvWUZoyDEbHpbf7zC4LR23WO2ROdacD5C9g0zQq6Rhw1o5MQuJwZwXhNPBv4h36FRD4/Ot+QFlgBn1aeNeL7D5tV+G19t973TvyWNcOlwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="pipelined-control-datapath"
+        title="pipelined-control-datapath"
+        src="/static/a367264dedecd3f7c7b749622217bd3e/5a190/pipelined-control-datapath.png"
+        srcset="/static/a367264dedecd3f7c7b749622217bd3e/772e8/pipelined-control-datapath.png 200w,
+/static/a367264dedecd3f7c7b749622217bd3e/e17e5/pipelined-control-datapath.png 400w,
+/static/a367264dedecd3f7c7b749622217bd3e/5a190/pipelined-control-datapath.png 800w,
+/static/a367264dedecd3f7c7b749622217bd3e/4b2cc/pipelined-control-datapath.png 1013w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>4.7 Data Hazards: Forwarding vs Stalling</h3>
+<ul>
+<li>
+<p>Data Hazards in ALU Instructions</p>
+<ul>
+<li>
+<p>Consider this sequence:</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">sub $2, $1, $3
+and $12, $2, $5
+or $13, $6, $2
+add $14, $2, $2
+sw $15, 100($2)</code></pre></div>
+</li>
+<li>
+<p>We can resolve hazards with forwarding</p>
+<ul>
+<li>How do we detect when to forward?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Dependencies &#x26; Forwarding
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 390px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/1cd69bd98d55cdf0aea8d4896d437fa3/727ba/dependencies-and-forwarding.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 71.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAB/UlEQVQ4y6VU227aQBDl/6WqT6n62A+IFCnqe2+uUimJSGMgCNvxFYMpYPAFAzac7hnXkUN460jjXe+uz5w5M+vO8XgE/XA4YL/fY7vdYrPZoKoqWWt7++w5516HD9psNoNlWTJOp1PEcYwkSbBcLrFer7FarTCfz2WdY7O2WCxkHkWRgAogPyQIR7Lkxm63E5Z8L8tSPM9zyYDOd+7xHOdcE4ZkZ5omgsBHw/Z/TBgyrXASCX1GYoDJZCoSDAYDhOMxfM+D500Uq/JFy3PeYXpFUaDYqdRUCpyPRiOl5R8Mh0M8Dfqwul0YD79xf/eEfLsXJu1sGjBhSEBqk2UZsrwQ/WgU3DQMGM8h7m9ucfdDQ2g5MGwXnuu+Am2DCyDbpBa7LgSNBQqCQEkxh2Xb+PrlGz59+Ijr689S6VOwVymTYZqmwvA0ous6sB0X37VbXLx7j8vLK9G33+9Lq5yCCiDZsQUoeDsanWwWqmjjMILvj2HavgriCXtm0dbxJWWyW6nmTLItqn8atoVmMF1/hPkcoKuP8PPmFwzTkC7o9XpKsuItw7p5D280aZy3I00zeEEI2w0UWx+20pbr/L4ppgCSepKssYzVTSmrs2LT2Kd91Ub6wEb34RGapklr6boOx3FqQD5YWXqp/BxQ+6ewVsGZYhzXd5vtxYtBlrS/YNsyc98YxCwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="dependencies-and-forwarding"
+        title="dependencies-and-forwarding"
+        src="/static/1cd69bd98d55cdf0aea8d4896d437fa3/727ba/dependencies-and-forwarding.png"
+        srcset="/static/1cd69bd98d55cdf0aea8d4896d437fa3/772e8/dependencies-and-forwarding.png 200w,
+/static/1cd69bd98d55cdf0aea8d4896d437fa3/727ba/dependencies-and-forwarding.png 390w"
+        sizes="(max-width: 390px) 100vw, 390px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Detecting the Need to Forward</p>
+<ul>
+<li>
+<p>Pass register numbers along pipeline</p>
+<ul>
+<li>e.g., ID/EX.RegisterRs = register number for Rs sitting in ID/EX pipeline register</li>
+</ul>
+</li>
+<li>
+<p>ALU operand register numbers in EX stage are given by</p>
+<ul>
+<li>ID/EX.RegisterRs, ID/EX.RegisterRt</li>
+</ul>
+</li>
+<li>
+<p>Data hazards when</p>
+<ol>
+<li>EX/MEM.RegisterRd = ID/EX.RegisterRs</li>
+<li>EX/MEM.RegisterRd = ID/EX.RegisterRt</li>
+<li>MEM/WB.RegisterRd = ID/EX.RegisterRs</li>
+<li>MEM/WB.RegisterRd = ID/EX.RegisterRt</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>Detecting the Need to Foward</p>
+<ul>
+<li>
+<p>But only if forwarding instruction will write to a register!</p>
+<ul>
+<li>EX/MEM.RegWrite, MEM/WB.RegWrite</li>
+</ul>
+</li>
+<li>
+<p>And only if Rd for that instruction is not $zero</p>
+<ul>
+<li>EX/MEM.RegisterRd != 0</li>
+<li>MEM/WB.RegisterRd != 0</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Forwarding Paths
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 372px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b3e65d5faebbdc1aa1c14489a1767198/98b6e/forwarding-paths.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 69.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABwklEQVQ4y4WTC2+qQBCF/f+/zsQ23ho10asFQVgWkIeg0/2mHWofSTeZALvnnD3zYHa/34WwNQyDjOM4fdv57XaTruvker1OZ+DatlWOYWePQqw8z+V8PqtA0zRfyLvdTs9tIbbZbKSqqk9BiM45FeB2DhFC9OXlXyA1UpZewQh8X2Atw0kwjmMpikLFcIAbvv8fI6mbXsqwX5al7pF23/caZAXHSjSl7L3XdNI0VQCkJEnkNU7F1cF13UgcRZJlmTq3FMFdLhfNztYMdauLvQPcbrfy/Pyk5CRJA2lUMmlz2Wq1UixmcH88HlVYBQFaCogNYe90OskhgNquF1d4rS9k6k0mUXBc17XWEM56vdbLVPCxm2ya032US1a2gdArqQiCVpZxeOdhBiziXPpFkKLilCbhkCY03TWk8t5FyOwhasE3HOP+EOQW6jOfz2W5XIrzVYgy1KnSptA8nrjiSQm4iHL96pAAsFgsZL8Pnc+cvKZeoqyWODnL/mMaECPA0hTEJsHfBpaukba6cV7yIsyoI91E3eHMJsJ+V02ZVkNE4HA46DuOAduw013vi2lEELGwxkxNeRxQNnn/az3+at/XG6etOl7zDLo4AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="forwarding-paths"
+        title="forwarding-paths"
+        src="/static/b3e65d5faebbdc1aa1c14489a1767198/98b6e/forwarding-paths.png"
+        srcset="/static/b3e65d5faebbdc1aa1c14489a1767198/772e8/forwarding-paths.png 200w,
+/static/b3e65d5faebbdc1aa1c14489a1767198/98b6e/forwarding-paths.png 372w"
+        sizes="(max-width: 372px) 100vw, 372px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>Forwarding Conditions
+<img src="./forwwarding-conditions.png" alt="forwarding-conditions"></li>
+<li>
+<p>Double Data Hazard</p>
+<ul>
+<li>
+<p>Consider the sequence</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">add $1, $1, $2
+add $1, $1, $3
+add $1, $1, $4</code></pre></div>
+</li>
+<li>
+<p>Both hazards occur</p>
+<ul>
+<li>Want to use the most recent</li>
+</ul>
+</li>
+<li>
+<p>Revise MEM hazard condition</p>
+<ul>
+<li>Only fwd if EX hazard condition isn't true</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Revised Forwarding Condition
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 408px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/207bad155802c0b1864fff92bb8c7645/e7c18/revised-forwarding-condition.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABxUlEQVQoz51T2ZKjMAzM///ebBJguALhJgMBzGGOHkkJ7NTu27iqy7YEbanbPmk9IY4jPB4PtG2L5/OJ34xt2wSnSQ9wPQ+maeLPxweM6xV1XaNtGjQEpRS6rpMD66p65dpG8jxzflvXg/i0L5IkhX+7wfN9OHTAxTDhuK4cxnHbcWjvwXZfOevTpniAmP7rhxF6XrAS8YnLBIPG+sYwr1DTjI7QDBO6Ucta6QUj52juCS3Fq67HV9NBEelfQhrjOOJRlgiCQCq0HVeq2ddhFNPeRRCGUjnHLNtB0ylM8yxk0vJOWBQFrqTf+XyGT21nWQZF2lWkG2uop0nmvu8l1pB5rOP+/2EKb+ZlwY10YkI2hwnDMCDSlMwoUdJhHLvf73QjYmRpijRJkOeZmDVThW+vX4TruqEi99K8QJaXMvthhDjNEMYJzbmsOR5nOdxbKPEkK5CXX2hVj36csPzU8LhPhG58GfFUg6DpxwP9pKHYJPqmplzVkgRkiqYqpeWdkO8ct3m5nN9aXmBZnzBIAtOycI8ikcPzXMkzLIqzmbt+/5nCHxiGIVrxi+HcrLU4yJd3fUNzjHRfCEeHP03516nfPjse33CAlhqeQcfFAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="revised-forwarding-condition"
+        title="revised-forwarding-condition"
+        src="/static/207bad155802c0b1864fff92bb8c7645/e7c18/revised-forwarding-condition.png"
+        srcset="/static/207bad155802c0b1864fff92bb8c7645/772e8/revised-forwarding-condition.png 200w,
+/static/207bad155802c0b1864fff92bb8c7645/e17e5/revised-forwarding-condition.png 400w,
+/static/207bad155802c0b1864fff92bb8c7645/e7c18/revised-forwarding-condition.png 408w"
+        sizes="(max-width: 408px) 100vw, 408px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>Datapath with Forwarding
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 459px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/4070083cdf51409151aae32da0e01247/48711/datapath-with-forwarding.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 58.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABy0lEQVQoz11TWa6jMBDk/nfKFSLlK/lJlEcgj92AMTup6eoZEzSWWsa9VFe1TfD5fMDl9+P3vCyoWwueNvF9/tm6LkzCcfmawCdxreuKvu9RNQ7DtKAwDmFSw40zumGC7SfUdsDzlcANozTc0Mturd1BAw82jiOMMcqmF4BpXtC6EWXTYds2LMLWx7LKapyllcSj3+ILyGQPWBQFmqaBc05BuHdibBTHkebM8yz+XuLfUdmu36UHTJqmSZPDMESSJGjbFmmaqhQCVJVB3bTCalZ/XdcwdaNgHBFjRnwcWRDHMR6Ph7IgGFkSiOz+7j3e7zeyLMcgTbuuk4YWpTTJsgzDMAhDh1hy+B14GUykXCbRx+VnF0nTKIpRSVOej4CT5La2UwKMBaRJo2wCkmWe5yqNrCmf/lEuwfXjPoI0FbBpVMmUT3Yq2Q+TgGVZqrzz+YzT6YTL5YL7/Y7b7YYsL0TyLLewKdNXFEnjTAlUptZ6ZXh8g54lmXF+HAPter3i+XwiSgrEmcHP642f8CVgqTIlIMe0Mzz+JaROO/rJguxLKcyrFklWyAwrvShjGr0UAirD/38dsuSzOFolxd+zERW1zLbZnxWNgLzEPzFXnXlz/aNrAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="datapath-with-forwarding"
+        title="datapath-with-forwarding"
+        src="/static/4070083cdf51409151aae32da0e01247/48711/datapath-with-forwarding.png"
+        srcset="/static/4070083cdf51409151aae32da0e01247/772e8/datapath-with-forwarding.png 200w,
+/static/4070083cdf51409151aae32da0e01247/e17e5/datapath-with-forwarding.png 400w,
+/static/4070083cdf51409151aae32da0e01247/48711/datapath-with-forwarding.png 459w"
+        sizes="(max-width: 459px) 100vw, 459px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>Load-Use Data Hazard
+<img src="./load-use-hazard-diagram.png" alt="load-use-data-hazard-diagram"></li>
+<li>
+<p>Load-Use Hazard Detection</p>
+<ul>
+<li>Check when using instruction is decoded in ID stage</li>
+<li>
+<p>ALU operand register numbers in ID stage are given by</p>
+<ul>
+<li>IF/ID.RegisterRs, IF/ID.RegisterRt</li>
+</ul>
+</li>
+<li>
+<p>Load-use hazard when</p>
+<ul>
+<li>ID/EX.MemRead and ((ID/EX.RegisterRt = IF/ID.RegisterRs) or (ID/EX.RegisterRt = IF/ID.RegisterRt))</li>
+</ul>
+</li>
+<li>If detected, stall and insert bubble</li>
+</ul>
+</li>
+<li>
+<p>How to Stall the Pipeline</p>
+<ul>
+<li>
+<p>Force control values in ID/EX register to 0</p>
+<ul>
+<li>EX, MEM, and WB do nop (no-operation)</li>
+</ul>
+</li>
+<li>
+<p>Prevent update of PC and IF/ID register</p>
+<ul>
+<li>Using instruction is decoded again</li>
+<li>Following instruction is fetched again</li>
+<li>
+<p>1-cycle stall allows MEM to read data for lw</p>
+<ul>
+<li>Can subsequently forward to EX stage</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Stall/Bubble in the Pipeline</p>
+<ul>
+<li>simplified
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 429px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/51a5596089626730aa4a182088cf1d5d/3d026/stall-bubble-in-the-pipeline.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 64.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8ElEQVQ4y21Ty3KbQBDk/2855ZKPyCEuq+Q4iTmkkliVcgESsJKDkVGEHoinxEOgzuxSYETYqqkdlqWnp6eRLpcLunE+n0UURYGqqsRZf+9H91xCZ3GQ3W6H/X6PzWYD3/cRx7GIMAzFHkVRe8Zzfp4kCYIgEBhSnudYr9eC1dBqWQwwG2IvcXTGmKjUvViWpShSP1dX4E0+tATDgx+KVnnLs9kMpmmK/UGWoakqHidPsBzvv49LYnVKU6RZjuMpRZYXNWBOSVHUbDzPE9rZto35fI4pAT+pOpZ/PbjuFoeDL9o7U/HVbo8P4we8/3SHdx9v8VU1asAwItGTHFGciMpBEELTNPyxLNx/kXE7ljH6/AM3Ixnm/FXc4aA+yfWNWbiZKBgpOjTHrQELbhXSjGvV6JRlGcmwhcmeoWgM339R25aNLbFyXbeZWB1vI6wBObMwPoHnXcGXS2r7+QU6e8HPx4nQ1TC5DGYL8TZ9DkdDKQjkeDwiTTPRRn+aaXqCrs/ALBfqVKcB/Ya9dOhMb73XdYdgmKZ8QvkgIB8YH9B664PRkBR1Ct1gWFDOLVf1bCRxrcIwQhBnpGV59bLrNcd5hWkY1K6B8d09AStYLBZQyVbcbs19qXF5VV2btg96Ip+JwtSms1q19uK/X/ev+gf2kuKvhkM7ZwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="stall-bubble-in-the-pipeline"
+        title="stall-bubble-in-the-pipeline"
+        src="/static/51a5596089626730aa4a182088cf1d5d/3d026/stall-bubble-in-the-pipeline.png"
+        srcset="/static/51a5596089626730aa4a182088cf1d5d/772e8/stall-bubble-in-the-pipeline.png 200w,
+/static/51a5596089626730aa4a182088cf1d5d/e17e5/stall-bubble-in-the-pipeline.png 400w,
+/static/51a5596089626730aa4a182088cf1d5d/3d026/stall-bubble-in-the-pipeline.png 429w"
+        sizes="(max-width: 429px) 100vw, 429px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>real
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 438px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/040b2e95a0887fa15af322bcd9bccf6e/50e4b/stall-bubble-in-the-pipeline-real.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAB6klEQVQ4y41T7W7aUAzt+/cV9gL7MU3Tukld6dbBhKYUUj6bAKGkCxNlQUoTbr4DZ7aBQCpVqiXH994kx8f2uWcg22634mybzQZZlonneS77tzrb2QHoYOv1GqvVCsvlUiLv2YMgkOj7vkSlVHnG0fO8HSA/XNctD14mOLVDJa95Ceg4DhaLhZTIliSJlMwseF0UBe3TNyUUwDCK8M9dQRF9ZqrrOobDIWq1GuqNBnq9Ln7rI+QbVEBfZcgswihBnKTCjHsyn88FdDAYQu/00OpNYT08wpra4H+rYIdEe8A4jrEOYygCzfNMXk4mFgzjHq32HS6vbvDxooHPX7+j3RlVSjzG7RFQGMY7hipKkWS5fMRSsG0b46mDy+tf0oo/1G9zNC5lUgU9YaiIYRTvALO8kIxsi6cnOH+X0Fo62gTYvuvCGFlI00RAT/tXDiXhktcKfhDiWSVI0t20XdIhD8meTdE3HqB3TXyrXePeGNOgesL+5cU4MqT+ZYcx7i0nqUT0LiIVeN4zTHOEAQ3qVieWpiHCZw2fMt0DRgipZF/F6DzOcWvNoFk2Zkv6uCgEnDXJ8un3+/jxs45ms0kJTGiaRuWnJYnK1QuIyburOs7ff8L5hy9oTuzyfgtjEj47A3CM9+x5zYPl+B+FsOIwyRdtdwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="stall-bubble-in-the-pipeline-real"
+        title="stall-bubble-in-the-pipeline-real"
+        src="/static/040b2e95a0887fa15af322bcd9bccf6e/50e4b/stall-bubble-in-the-pipeline-real.png"
+        srcset="/static/040b2e95a0887fa15af322bcd9bccf6e/772e8/stall-bubble-in-the-pipeline-real.png 200w,
+/static/040b2e95a0887fa15af322bcd9bccf6e/e17e5/stall-bubble-in-the-pipeline-real.png 400w,
+/static/040b2e95a0887fa15af322bcd9bccf6e/50e4b/stall-bubble-in-the-pipeline-real.png 438w"
+        sizes="(max-width: 438px) 100vw, 438px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>Datapath with Hazard Detection
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 448px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/96dcadf6b9cd5bb5dc3511da338679be/33b38/datapath-with-hazard-detection.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAAB+klEQVQoz2WSaa7bMAyEff8zBTnB698URRDnJd7lfZN3Tzl03QaoAMGWRA0/DuXs+45l3bAsm37HaUZRW9TdiFXW67ahG2ZUsu7ly8E7f+fHmsPZth3TvOqitRPSrIAXlzBlj0HE7bSoUNX0kmzB/2P/9yeijhIKHQeprB1g+x6dFUJJNo4jwiTDK0hlbxLxCXZcYNIcZVmBYPM8Y5kPemeQrPZPKVXdSlCJuq6RVZ3QbSjKGu47gqksBhGal12J3SCHyRtN+u0niE12CM7LCoqStOt6ZFmGpmnQC+U0TTprWZPG2h5parCLr3YYJMEBMoxCLhWpIIW4sdH8roPruojjWCmTJFHi8yxNU/hBoAmPSlqxSyq0FlleaHKHHgVhiNfrBWMMns8nQllTsG1bDSYtxeI4EsFQaRkbRokSs4KH+0Qqew6zD4LPi6Qgned5avT5FBijxHLmhxGiONFk/OZ5rmd8HYRzznav66rIURThfr+r+Pv9VvKz3Fz87fpRn9kwWIlN9KyqKuRFeZT8+Si5Qd9ut5uKXa9XXC4X+L6Px+OBH19fuP38hbrtUYuI74d6h7RV3RyCny+fpbFUdpr4LIXZ+c9GsGGeF8A3Db4DeZsvH42IsTll9SF4ip5+UYSe0ttzkoL+0rPESIMSI43JJHkuNrBxR/xv6fiZ665iENwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="datapath-with-hazard-detection"
+        title="datapath-with-hazard-detection"
+        src="/static/96dcadf6b9cd5bb5dc3511da338679be/33b38/datapath-with-hazard-detection.png"
+        srcset="/static/96dcadf6b9cd5bb5dc3511da338679be/772e8/datapath-with-hazard-detection.png 200w,
+/static/96dcadf6b9cd5bb5dc3511da338679be/e17e5/datapath-with-hazard-detection.png 400w,
+/static/96dcadf6b9cd5bb5dc3511da338679be/33b38/datapath-with-hazard-detection.png 448w"
+        sizes="(max-width: 448px) 100vw, 448px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Stalls and Performance</p>
+<ul>
+<li>
+<p>Stalls reduce performance</p>
+<ul>
+<li>But are required to get correct results</li>
+</ul>
+</li>
+<li>
+<p>Compiler can arrange code to avoid hazards and stalls</p>
+<ul>
+<li>Requires knowledge of the pipeline structure</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Branch Hazards</p>
+<ul>
+<li>If branch outcome determined in MEM
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 430px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/981d605221ef0ea41da16c70f57ef2d6/05ed2/branch-hazards.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 64.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAB+0lEQVQ4y31TXW/aQBDkh/eh/ySq+lKpD32oVKmp0iZpG1pKIAQC2JjG1GBjbMCf2MY2k9tNDtyIdqXV3dm+2ZnZdS3PM8znFkzTgm3bsCyL0zRNTCYTTKdTzGYzfqeqKsIwBMVut4OM6r62Kwv4vgfHcbBcLrFareB5HtbrNVzX3e8DAbRYLJCmKQOUZcmrBJNrTSJnWYbNZsMXttstn1NKcc6eVnpOK30n8yggMZBS/hWSDV+s7P96LgFJLvlWFAXyPEcURVzEthdIkoSZSIn/K0RZk3LJoyRJYQufend3uLnp4OPpJ4w0DepozMWq0qqsqsGAqWARhhH8IES2LZiVqo6gKAq+nF9iqIy4465oWhWUiFAhYl+WFYZkdBzHj8bnBZtPY6LrOhqNJlrtW3S7Xe6ybERJoALoqq/g5PQCr86+Yjg1jwPK0AUrAv1eb6Be/wH9/h6asIBZPlLFh58tvDh5g5ev3+Ja0w+AVJkkZFnOF0gGBbHqD1V0ez1cXH4TP8EcvwUwjRQBdsY63l39wvtGG2PLPgBGUSw8jNnDqtU0TsbMEo3R0GxeoyeAydsgCBALEsebIgA9zxeyDx8Yjos/toOyyLH2NxjrMwwHA5x9Pkenc4tWqw3DMPZq9mPzvPXyPBAG9ydTlkVB3aRM04ybRvl8hCgfADFK4qWXfxDdAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="branch-hazards"
+        title="branch-hazards"
+        src="/static/981d605221ef0ea41da16c70f57ef2d6/05ed2/branch-hazards.png"
+        srcset="/static/981d605221ef0ea41da16c70f57ef2d6/772e8/branch-hazards.png 200w,
+/static/981d605221ef0ea41da16c70f57ef2d6/e17e5/branch-hazards.png 400w,
+/static/981d605221ef0ea41da16c70f57ef2d6/05ed2/branch-hazards.png 430w"
+        sizes="(max-width: 430px) 100vw, 430px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>Reducing Branch Delay</p>
+<ul>
+<li>
+<p>Move hardware to determine outcome to ID stage</p>
+<ul>
+<li>Target address adder</li>
+<li>Register address adder</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Example: Branch Taken
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 426px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/7030e53698d34b37dce96f0328400595/531e1/example-branch-taken.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 65.49999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACVUlEQVQ4y0VTa3PaQAzk//+Xdvoh7Uyb6bc2ISmPEGjCNDE2GGNMjPH7bbZaAcnNnE/W6VZ7ulUPMo7HDlVVoa5rsY/ouk7tpmlwGfTzn/62bd//aXNezvb4KasaURQhyzIFY0CapiiLQsFa8TXiS5IUYci4XMBaxEmCVOxc4uI41nO9WjbCONNslWTJ80KDsqJCkhW6lnWLvBRmnbA/QsA7FGX1bpPQZfRacWQCUtWNZs3yUjKn8MMEprPHIYzVz0SM/ajBxT4qs+a8p4CpMGH2y1iu91g5IUphEUUJNts3PL96yIRlJWyjJIPr7bUUtRDhlWkrYFmWCA6RsmQdgmCPh6mF2XwDwzAQxSks28Xk2dUEZHOICwwmSwXwgwT/DEeufyLUy/MchdSAlB3HwXA4hmVZ8iA5Hh4mmM3+4uXVkPUJ0+kUG2cD27YxGk8VgLVnWbrzDXt0/BmMYFpLDAYDXF19g2la8qIJ3nY7fP9xjevrn3h8nGK5suG4nsR8Rf/uHokogXFBEMBeOydAfpidIDc3t/j0+QvWshmGIebzOVx3i50APz09S8IhFhLHG9zdD3SPYFEUY+vtToBd9/FyrOfkcSa1WyjIaDRWsVKj4/EEoRwsKoq7ws3tvcazZEyeF+UZ8Cxs6pHjxTCxWJiS3cV2u4Xv+7Dlqv3bO3ieB/8Qq7h//e4rYCGAZFko4PF0ZbKkzsiGLdiIFNg1PKCCFx+7I4pCOCKhxdqHYa5EAadOIXMqQFvvAzBXx2Ww9QhKP1dOyorzcAh1ahtSJaJDJuX5/+m+3viKs6G9AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="example-branch-taken"
+        title="example-branch-taken"
+        src="/static/7030e53698d34b37dce96f0328400595/531e1/example-branch-taken.png"
+        srcset="/static/7030e53698d34b37dce96f0328400595/772e8/example-branch-taken.png 200w,
+/static/7030e53698d34b37dce96f0328400595/e17e5/example-branch-taken.png 400w,
+/static/7030e53698d34b37dce96f0328400595/531e1/example-branch-taken.png 426w"
+        sizes="(max-width: 426px) 100vw, 426px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+<h3>4.8 Control Hazards</h3>
+<ul>
+<li>
+<p>Data Hazards for Branches</p>
+<ul>
+<li>If a comparison register is a destination of 2nd or 3rd preceding ALU instruction
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b9b498d12774561e8e34709cb3d84e15/764be/data-hazards-for-branches.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 34%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABQklEQVQoz32S626CQBCFef8Xa1JUBBcQAa1KIrKA5SbIxdOZtRr7p5MMZMnu2e+cQbvf77h1HcZxxDRNGIZBdd/3yC8XpFmOjN95jiRNkUiJOJGoqgpcfJ77WRqLxHGM5triSn2hwyVtrusanu/DchwIdw3LdqAbJvTZHB+zBaLj8SX2LqoEkyR5CLYtiqJQokzJJYnI9jbwgpCEPfhhCN1cwbAEVkKgKss/pBo/Svp4I4tss22Z9Koi4OK1JNvb3RdM28UmCLAQDhG7ELaN3X6PnOKYfvdr7/7/q/P5rEiDcAuLSE1nDUGEnxSDT5fwxUqQSeLTSVm+9QM6oiyKb0RR9NrEsXA1TY0N5boiQYMI3bWHuWlhZiwp3yWOh8ODkAfAlll8oO5o6pzlM8eni5HWBcXDU+fmv4AnL7MMMs1UVD/XBRMZAR+nqAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="data-hazards-for-branches"
+        title="data-hazards-for-branches"
+        src="/static/b9b498d12774561e8e34709cb3d84e15/5a190/data-hazards-for-branches.png"
+        srcset="/static/b9b498d12774561e8e34709cb3d84e15/772e8/data-hazards-for-branches.png 200w,
+/static/b9b498d12774561e8e34709cb3d84e15/e17e5/data-hazards-for-branches.png 400w,
+/static/b9b498d12774561e8e34709cb3d84e15/5a190/data-hazards-for-branches.png 800w,
+/static/b9b498d12774561e8e34709cb3d84e15/764be/data-hazards-for-branches.png 806w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>Can resolve using forwarding</li>
+<li>
+<p>If a comparison register is a destination of preceding ALU instruction or 2nd preceding load instruction</p>
+<ul>
+<li>Need 1 stall cycle
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 796px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/1156ba08ad19d66aeb0d1fe583e36644/d48f1/data-hazards-for-branches-1-stall.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 31%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABHklEQVQY012Q63KCQAyFef+Ha5UFWRBFxkIpgpSLwrLAabIoP5qZTGCS/XJOLK01Ho8HpnnG8/lEnudYlgVN00CGIcLTGfJI9Rxh5zgQ7gHi4KGpa3DwLOf722JgTc1RT2jaFkVRYBxHDH2PLL/hconheBJHAtsv2KfjIklTs3Sapg1qgPw4yzIMVFsC8lBZlnjHjRQLBpJChnl+gA/boRTwpIRSyszN5NAAe1KyqtLoqTmocYO9rXRdhyiOsXc9+GTfJ3hAmXxniJOU+u32xuIN5f1OljXUuCafgZXzVg7+/6Wz/NwKfJHVQxDCJtWnKIIrfcTXq2EoNawKjeWXun4YjM0rDTHof9RthyA8E/RINcROCLqti71wUFUV/gDwwMWy45JDzQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="data-hazards-for-branches-1-stall"
+        title="data-hazards-for-branches-1-stall"
+        src="/static/1156ba08ad19d66aeb0d1fe583e36644/d48f1/data-hazards-for-branches-1-stall.png"
+        srcset="/static/1156ba08ad19d66aeb0d1fe583e36644/772e8/data-hazards-for-branches-1-stall.png 200w,
+/static/1156ba08ad19d66aeb0d1fe583e36644/e17e5/data-hazards-for-branches-1-stall.png 400w,
+/static/1156ba08ad19d66aeb0d1fe583e36644/d48f1/data-hazards-for-branches-1-stall.png 796w"
+        sizes="(max-width: 796px) 100vw, 796px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>If a comparison register is a destination of immediately preceding load instruction</p>
+<ul>
+<li>Need 2 stall cycles
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 778px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/914bcfdd623fda500f59ad1fe5467004/20982/data-hazards-for-branches-2-stall.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 33%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABQUlEQVQoz3WR246CMBRF+f8vmwcz3kaRi+VWGVrAUQShFNhzwImDDzZpGhKyzjp7G0opdP2Atm1xu93Q9z26rkOWZYjiGCLNwOlNpETITwgijvg7wb2qMJ5hGF5eoywraIIURYEg8CfweJnnYbM3YTkuVl87mJaFxXKFj8Un1vR9PudP0BxqSJqsWo1aaQK/TiuuVziMEXgP2z2ChRGCUww/5DgcGYQQ00ZzsHG5XNDqDg1BGzKbT2yaBmmeQ8gUcSKxJeOjH4AFIUz3AfyhzbTW/0AhHob3RpFli3enqO4wbYeuDYtst5aNJEmwOVjgPHr+NxmOwJamKDIsyxI5WdV1/bKKpqLG9U4k4Ho+1uaBMg+wpDwtx8GehkkyNmSaTsAR1lDjYzkxtVrNWpzHIPMzZRjBZh6ZcezI1KE8zT/gLwTQE/sSPUgJAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="data-hazards-for-branches-2-stall"
+        title="data-hazards-for-branches-2-stall"
+        src="/static/914bcfdd623fda500f59ad1fe5467004/20982/data-hazards-for-branches-2-stall.png"
+        srcset="/static/914bcfdd623fda500f59ad1fe5467004/772e8/data-hazards-for-branches-2-stall.png 200w,
+/static/914bcfdd623fda500f59ad1fe5467004/e17e5/data-hazards-for-branches-2-stall.png 400w,
+/static/914bcfdd623fda500f59ad1fe5467004/20982/data-hazards-for-branches-2-stall.png 778w"
+        sizes="(max-width: 778px) 100vw, 778px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Dynamic Branch Prediction</p>
+<ul>
+<li>In deeper and superscalar pipelines, branch penalty is more significant</li>
+<li>
+<p>Use dynamic prediction</p>
+<ul>
+<li>Branch prediction buffer (aka branch history table)</li>
+<li>Indexed by recent branch instruction addresses</li>
+<li>Stores outcome (taken/not taken)</li>
+<li>
+<p>To execute a branch</p>
+<ul>
+<li>Check table, expect the same outcome</li>
+<li>Start fetching from fall-through or target</li>
+<li>If wrong, flush pipeline and flip prediction</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>1-Bit Predictor: Shortcoming</p>
+<ul>
+<li>
+<p>Inner loop branches mispredicted twice</p>
+<ul>
+<li>Mispredict as taken on last iteration of inner loop</li>
+<li>Then mispredict as not taken on first iteration of inner loop next time around</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>2-Bit predictor</p>
+<ul>
+<li>Only change prediction on two successive mispredicitions
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/724905496034b683d42a9853d3d23cb0/bf286/2-bit-predictor.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 59.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACFklEQVQoz51T+U8aURDmf7dHUu2hIC3pkdQGg9HUVBKUth6UpgdSDQZcQZBy7QG7b5ddWGEPvr73yIq1tj90ksmbfZmd+b6Z74VAbTKZwPN8uNwn/GR3/3Lf/zNmFgoCZvblEEN7AJqC/zFWK8QCopvYz5aR2MhhZfUzUu+L+NmQeZLruhgOh7Cp+z5D7kMjAwiVLgolGcVTBY0moXneFOHlaIzl51nMze9h7sEO97sLe7j3cBdCuQXHddARJYiSjLEzpj/3sLVTxtrbY7xZ+4b4eg4byRJyRy2GESHWNZkq4HH0E+4/+oA782kshDN4vfoVsqLzrioxoBsmH4Tet/El18T27jnepUpIpgV8zNRQrfemCAP+PbWP81oXlaqCdkej9NxgMJy257mzWds2JElDs03QFnUYtFlgVwWtgQlRbKPdakLXCa4v66YZhgFFkUEIgdE36KnNCjLKB5ksnsZeIBx5hshyDJFoDJubSaiqBsdxKBoRsixTpA5VgU2RdVASznBSLHGvVGt0UWRacDQa4eWrFTxZimIxHOVFl+i5SL+FswqoJKH0NKiajtHYhdxV6WYF5PI/cJg/wvfDPI4LJ2i0WjPZ9FQV+wcZJBLriMcTSG2ncVGvX9GwrAGXTqA1y7Lowrp01iI6kkSbET7n34TNLizLhGn2Oc3rYr0t/quwg+fjeR4YfeYsDu6DxJvxbc7sF+j+fU5VIiLMAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="2-bit-predictor"
+        title="2-bit-predictor"
+        src="/static/724905496034b683d42a9853d3d23cb0/5a190/2-bit-predictor.png"
+        srcset="/static/724905496034b683d42a9853d3d23cb0/772e8/2-bit-predictor.png 200w,
+/static/724905496034b683d42a9853d3d23cb0/e17e5/2-bit-predictor.png 400w,
+/static/724905496034b683d42a9853d3d23cb0/5a190/2-bit-predictor.png 800w,
+/static/724905496034b683d42a9853d3d23cb0/c1b63/2-bit-predictor.png 1200w,
+/static/724905496034b683d42a9853d3d23cb0/29007/2-bit-predictor.png 1600w,
+/static/724905496034b683d42a9853d3d23cb0/bf286/2-bit-predictor.png 1688w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+<li>
+<p>Calculating the Branch Target</p>
+<ul>
+<li>
+<p>Even with predictor, still need to calculate the target address</p>
+<ul>
+<li>1-cycle penalty for a taken branch</li>
+</ul>
+</li>
+<li>
+<p>Branch target buffer</p>
+<ul>
+<li>Cache of target addresses</li>
+<li>
+<p>Indexed by PC when instruction fetched</p>
+<ul>
+<li>If hit and instruction is branch predicted taken, can fetch target immediately</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>4.9 Exceptions</h3>
+<ul>
+<li>
+<p>Exceptions and Interrupts</p>
+<ul>
+<li>
+<p>"Unexpected" events requiring change in flow of control</p>
+<ul>
+<li>Different ISAs use the terms differently</li>
+</ul>
+</li>
+<li>
+<p>Exception</p>
+<ul>
+<li>
+<p>Arises within the CPU</p>
+<ul>
+<li>e.g., undefined opcode, overflow, syscall, ...</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Interrupt</p>
+<ul>
+<li>From an external I/O controller</li>
+</ul>
+</li>
+<li>
+<p>Trap (Software Interrupt)</p>
+<ul>
+<li>System call을 사용할 때 발생, 소프트웨어가 명령어를 수행할 때 interrupt가 발생하는 것</li>
+</ul>
+</li>
+<li>Dealing with them without sacrificing performance is hard</li>
+</ul>
+</li>
+<li>
+<p>Handling Exceptions</p>
+<ul>
+<li>In MIPS exceptions managed by a System Control Coprocessor (CP0)</li>
+<li>
+<p>Save PC of offending (or interrupted) instruction</p>
+<ul>
+<li>In MIPS: Exception Program Counter (EPC)</li>
+</ul>
+</li>
+<li>
+<p>Save indication of the problem</p>
+<ul>
+<li>In MIPS: Cause register</li>
+<li>
+<p>We'll assume 1-bit</p>
+<ul>
+<li>0 for undefined opcode,1 for overflow</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Jump to handler at 8000 00180</li>
+</ul>
+</li>
+<li>
+<p>An Alternate Mechanism</p>
+<ul>
+<li>
+<p>Vectored Interrupts</p>
+<ul>
+<li>Handler address determined by the cause</li>
+</ul>
+</li>
+<li>
+<p>Example:</p>
+<ul>
+<li>Undefined opcode: C000 0000</li>
+<li>Overflow: C000 0020</li>
+<li>...: C000 0040</li>
+</ul>
+</li>
+<li>
+<p>Instructions either</p>
+<ul>
+<li>Deal with the interrupt, or</li>
+<li>Jump to real handler</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Handler Actions</p>
+<ul>
+<li>Read cause, and transfer to relevant handler</li>
+<li>Determine action required</li>
+<li>
+<p>If restartable</p>
+<ul>
+<li>Take corrective action</li>
+<li>use EPC to return to program</li>
+</ul>
+</li>
+<li>
+<p>Otherwise</p>
+<ul>
+<li>Terminate program</li>
+<li>Report error using EPC, cause, ...</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Exceptions in a Pipeline</p>
+<ul>
+<li>Another form of control hazard</li>
+<li>
+<p>Consider overflow on add in EX stage</p>
+<ul>
+<li>add $1, $2, $1</li>
+<li>Prevent $1 from being clobbered</li>
+<li>Complete previous instructions</li>
+<li>Flush add and subsequent instructions</li>
+<li>Set Cause and EPC register values</li>
+<li>Transfer control to handler</li>
+</ul>
+</li>
+<li>
+<p>Similar to mispredicted branch</p>
+<ul>
+<li>Use much of the same hardware</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Pipeline with Exceptions
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/821f78803c2d5e8e8f9caf24d060ec71/0d6fe/pipeline-with-exceptions.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACAklEQVQ4y41T25LbIBTL/39hZjbbJk6yvoKxwXc7qoSTbLdPZeYYAwchicMB/9G27cHYYr8sK9Z1w+Px+BFq6g9KrJ1HCD1CpxgQ+gGe4zZ0cG2HaV4JtGEhUBNGzo8R9DU3c/0FeliWBa0P3LTEEFhpHW5Fg9x6nO8VfD9FZmLYDyNm/r8Yqc3E+AZcV3QEeY53UDILPZl0E0zdRJbWBfTjAsPDXBviAYR8WiILth1wnmdUxmIYJ0zThLb13GSRlTW+coOiqpEW7G1AXlRIs5JrFtfUYKRUHSZFAhepg0Bc09K7DqaqkGU5rCXYV4rTxwfq2qGsDOcciqJAxX+pEJAAZIHlHbwvRYBiWDuHvu/hvcf1emUkuN1ucWyNgavreFgIIYbleBhHLFTYMmcYhl1y0zQ4ff5CmmbckJERJaYpyrIkK4uRmwSqOR1kyF45WV7AkIgjkbwoybzaAVcaOk4zTZ4hP3VAkiS4XC6xF2vNS67kW4bsKcoqjr1vo2VSutchP8uzUNWULKmn0ymyFAMxTZIL7vcv1mDPW125xnJ6yleVvAH1iUXKUD/QZIFInqQZYyLg+XzG8XhEaWpUrsPn7wRN25JhiKzfgD8f2XddtUyWfwpJ1iGSLWYqp+s9i35Krmfdypo3w3/fpACV8Hd0tEKXEyUquh1EL03567q/nj/FMeueqK57ewAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="pipeline-with-exceptions"
+        title="pipeline-with-exceptions"
+        src="/static/821f78803c2d5e8e8f9caf24d060ec71/5a190/pipeline-with-exceptions.png"
+        srcset="/static/821f78803c2d5e8e8f9caf24d060ec71/772e8/pipeline-with-exceptions.png 200w,
+/static/821f78803c2d5e8e8f9caf24d060ec71/e17e5/pipeline-with-exceptions.png 400w,
+/static/821f78803c2d5e8e8f9caf24d060ec71/5a190/pipeline-with-exceptions.png 800w,
+/static/821f78803c2d5e8e8f9caf24d060ec71/0d6fe/pipeline-with-exceptions.png 1115w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Exception Properties</p>
+<ul>
+<li>
+<p>Restartable exceptions</p>
+<ul>
+<li>Pipeline can flush the instruction</li>
+<li>
+<p>Handler executes, then returns to the instruction</p>
+<ul>
+<li>Refetched and executed from scratch</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>PC saved in EPC register</p>
+<ul>
+<li>Identifies causing instruction</li>
+<li>
+<p>Actually PC + 4 is saved</p>
+<ul>
+<li>Handler must adjust</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Exception Example
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/82e12684f17faf7686e912279c16e17d/11b93/exception-example.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 61%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACVElEQVQoz1VT2XLTQBDM/38BRfEMxTshTyQhAXI5lm058iVbsWVLsu77tNTMTjCGrdrSama2p3tm9qzrOhxXXdcoy5LPwl7XFduO/23bsr+qKrYdDgccmobtwiZizo4OP4yxt114no88z5GmGWzHheN4iJICWVEjTgtYtgdtayPLSyQUEycZwjhFFMechAFF1iQr6EKJnC4GUQrTiaAZIV4NH8rKQhBnzKJuWjoXzOqoraobtv8FrCmwqmoU5BCrObTwgghbK4LpxsTIw3i2w3rnwXAzKOqelRSFKE/HicqqPgGmaYogjJh6URQcrG8N3D5o2JoudvsId4MdHiQV0/kCM83HjycVXpixMnmikbr8BJgkMVMOowS+72EwHGE2n8N1Pdzd3+PpWcJytYYkDWlLFJ+hP3ihOr5JH8pTUtWdAC3LwmQ6h2Fa6D0/4/LqGtPpDPu9hY+fPuPd+w+UYIbHpx41zsH4RcGX8ws4ro80SZjASH5B09RvgK7roteXoOs6vl1e4fzrBVaaBtu20Se7LI+pBFvc3Nzy5c12h5+/7rBQVzAMA+OxghFtBvx3Do8dH8kyg0wmE5imSUUvsViozD6kCRBrOJKhva4RBgF6vT6XSzSIGTY0nEV56pTIvFytoKoqMxAKFEXB9fdrPDz2aC5zPBLIeqOjIgLSYATHC06DLbosmAmubdtxAjHsAkj4sizjryjJcrmEpu8xVTfY6Dv4QQjXD+D5ITfof8l/zl3XsjOKIsT0AhIqvNi+7yMgiUHg02h59B/QS0l4HsW4Cazf3qGGYCXdiTEAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="exception-example"
+        title="exception-example"
+        src="/static/82e12684f17faf7686e912279c16e17d/5a190/exception-example.png"
+        srcset="/static/82e12684f17faf7686e912279c16e17d/772e8/exception-example.png 200w,
+/static/82e12684f17faf7686e912279c16e17d/e17e5/exception-example.png 400w,
+/static/82e12684f17faf7686e912279c16e17d/5a190/exception-example.png 800w,
+/static/82e12684f17faf7686e912279c16e17d/11b93/exception-example.png 1124w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/29a8cd6ce7133db5074a7d0802b0df64/76a99/exception-example-flushed.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 61.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACVUlEQVQoz1VSa2/aUAzl//+dtdW+rdrWlYJW8hgDkkACeZLk5p2QFzn1vQits2TZsZzjY98zm6YJ3Kq6QRwz8hhN06CNMrAoQhpEaPIabT+iI2d+DGfvos0bdFkFdvTRsBxFVYFjzThY217A0gKMGoqS5yX8IIFhuHCsAMYpREb1tuvRVy3yqLjllw4jfXct5cP4D7DrOmIwiCK38TohiBLYYQ4/qWC6McKkwDlOUXcjfFahuVyo84qbTf8DNk2NJCtQVg2GoRfTI1r9x+setp/CIbZz2cVCceCeGdywgLRxqJ5R/wiXzpCXtYAWgEWR08SOVs0QBAH2+wM0TceB1t1sdrC9EHvKlbWO09Gi3hYb3cHRCQXIu6IjyT8BMhYjYimyvMRut8Py9zs22y3iKMTD4xMWyyV8z4GsyDhHsTjRer2GsTcFiKqqOJhHUReAtm3j+88XmJaFLw+PeHj6ir+bLZIkwet8LnLf9zF/e4OmG8iKEoq6xkr+gyxLIckqXn69ISJVCMDpehWy4Uc9nU5YSTIkctM04bouLvQAITWvJAlBGKOkXk0zIClr9MTqfSXD80OM44jZXYfDeBU642YdbaxWEv2kiZsyxqAbBr49P1M8oG4HOo1OA1RiM2GxWMJ2vBugEDWJ8tK2uJJcuGTKskIYhvA8T6zNna+j6ToURYVFMlK2JrbaXjyQdXKIOUPf9zfAK618Z3o3Pi3Pc9R1LQbymKapuGVwPsNxfRL/mU4Rk0pKklwl1p99BuI5/7zFiTQ2iJf77Lx2815EPpgTupP6ANvmiHSAKJxSAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="exception-example-flushed"
+        title="exception-example-flushed"
+        src="/static/29a8cd6ce7133db5074a7d0802b0df64/5a190/exception-example-flushed.png"
+        srcset="/static/29a8cd6ce7133db5074a7d0802b0df64/772e8/exception-example-flushed.png 200w,
+/static/29a8cd6ce7133db5074a7d0802b0df64/e17e5/exception-example-flushed.png 400w,
+/static/29a8cd6ce7133db5074a7d0802b0df64/5a190/exception-example-flushed.png 800w,
+/static/29a8cd6ce7133db5074a7d0802b0df64/76a99/exception-example-flushed.png 1117w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Multiple Exceptions</p>
+<ul>
+<li>
+<p>Pipelining overlaps multiple instructions</p>
+<ul>
+<li>Could have multiple exceptions at once</li>
+</ul>
+</li>
+<li>
+<p>Simpe approach: deal with exception from earliest instruction</p>
+<ul>
+<li>Flush subsequent instructions</li>
+<li>"Precise" exceptions</li>
+</ul>
+</li>
+<li>
+<p>In complex pipelines</p>
+<ul>
+<li>Multiple instructions issued per cycle</li>
+<li>Out-of-order completion</li>
+<li>Maintaining precise exceptions is difficult</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Imprecise Exceptions</p>
+<ul>
+<li>
+<p>Just stop pipeline and save state</p>
+<ul>
+<li>Including exception cause(s)</li>
+</ul>
+</li>
+<li>
+<p>Let the handler work out</p>
+<ul>
+<li>Which instruction(s) had exceptions</li>
+<li>
+<p>Which to complete or flush</p>
+<ul>
+<li>May require "manual" completion</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Simplifies hardware, but more complex handler software</li>
+<li>Not feasible for complex multiple-issue out-of-order pipelines</li>
+</ul>
+</li>
+</ul>
+<h3>4.10 Parallelism via Instructions</h3>
+<ul>
+<li>
+<p>Instruction-Level Parallelism (ILP)</p>
+<ul>
+<li>Pipelining: executing multiple instructions in parallel</li>
+<li>
+<p>To increase ILP</p>
+<ul>
+<li>
+<p>Deeper pipeline</p>
+<ul>
+<li>Less work per stage -> shorter clock cycle</li>
+</ul>
+</li>
+<li>
+<p>Multiple issue</p>
+<ul>
+<li>Replicate pipeline stages -> multiple pipelines</li>
+<li>Start multiple instructions per clock cycle</li>
+<li>CPI &#x3C; 1, so use Instructions Per Cycle (IPC)</li>
+<li>
+<p>E.g., 4GHz 4-way multiple-issue</p>
+<ul>
+<li>16 BIPS, peak CPI = 0.25, peak IPC = 4</li>
+</ul>
+</li>
+<li>But dependencies reduce this in practice</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Multiple Issue</p>
+<ul>
+<li>
+<p>Static multiple issue</p>
+<ul>
+<li>Compiler groups instructions to be issued together</li>
+<li>Packages them into "issue slots"</li>
+<li>Compiler detects and avoids hazards</li>
+</ul>
+</li>
+<li>
+<p>Dynamic multiple issue</p>
+<ul>
+<li>CPU examines instruction stream and cooses instructinos to issue each cycle</li>
+<li>Compiler can help by reordering instructions</li>
+<li>CPU resolves hazards using advanced techniques at runtime</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Speculation</p>
+<ul>
+<li>
+<p>"Guess" what to do with an instruction</p>
+<ul>
+<li>Start operation as soon as possible</li>
+<li>
+<p>Check whether guess was right</p>
+<ul>
+<li>If so, complete the operation</li>
+<li>If not, roll-back and do the right thing</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Common to static and dynamic multiple issue</li>
+<li>
+<p>Examples</p>
+<ul>
+<li>
+<p>Speculate on branch outcome</p>
+<ul>
+<li>Roll back if path taken is different</li>
+</ul>
+</li>
+<li>
+<p>Speculate on load</p>
+<ul>
+<li>Roll back if location is updated</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Compiler/Hardware Speculation</p>
+<ul>
+<li>
+<p>Compiler can reorder instructions</p>
+<ul>
+<li>e.g., move load before branch</li>
+<li>Can include "fix-up" instructions to recover from incorrect guess</li>
+</ul>
+</li>
+<li>
+<p>Hardware can loock ahead for instructions to execute</p>
+<ul>
+<li>Buffer results until it determines they are actually needed</li>
+<li>Flush buffers on incorrect speculation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Speculation and Exceptions</p>
+<ul>
+<li>
+<p>What if exception occurs on a speculatively executed instruction?</p>
+<ul>
+<li>e.g., speculative load before null-pointer check</li>
+</ul>
+</li>
+<li>
+<p>Static speculation</p>
+<ul>
+<li>Can add ISA support for deferring exceptions</li>
+</ul>
+</li>
+<li>
+<p>Dynamic speculation</p>
+<ul>
+<li>Can buffer exceptions untill instruction completion (which may not occur)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Static Multiple Issue</p>
+<ul>
+<li>
+<p>Compiler groups instructions into "issue packets"</p>
+<ul>
+<li>Group of instructions that can be issued on a signle cycle</li>
+<li>Determined by pipeline resources required</li>
+</ul>
+</li>
+<li>
+<p>Think of an issue packet as a very long instruction</p>
+<ul>
+<li>
+<p>Specifies multiple concurrent operations</p>
+<ul>
+<li>Very Long Instruction Word (VLIW)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Scheduling Static Multiple Issue</p>
+<ul>
+<li>
+<p>Compiler must remove some/all hazards</p>
+<ul>
+<li>Reorder instructions into issue packets</li>
+<li>No dependencies with a packet</li>
+<li>
+<p>Possibly some dependencies between packets</p>
+<ul>
+<li>Varies between ISAs; compiler must know!</li>
+</ul>
+</li>
+<li>Pad with nop if necessary</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>MIPS with Static Dual Issue</p>
+<ul>
+<li>
+<p>Two-issue packets</p>
+<ul>
+<li>One ALU/branch instruction</li>
+<li>One load/store instruction</li>
+<li>
+<p>64-bit aligned</p>
+<ul>
+<li>ALU/branch, then load/store</li>
+<li>Pad an unused instruction with nop
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/91def4e51a5f4dc37b237305f938b0a0/36c33/mips-with-static-dual-issue.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 32%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABE0lEQVQY0z2RSW+EMBSD+f8/qLceKlUaaQ4jCgwDJOz7UtYicXPjVOnBItJzvmcHS7xCOI4DKSWiMIJQej19pFmKtm3R9z26rsM4jsiyTHs9z9PizMyHYUBZlrCit0+0nkT9FJDvN4Qfd2R3B5MCVFWlzTTym6YpgiCAbduIIrVcCBzHgWmasO878jyHVdy+8C0KDGWDwHFhPx4Y1NYfZeR2mgnmmeCiKDSIaQnftk3PzvPUPisVMRomGXrIWML3ffQq/rquWJZFiyBTiZfqutYw1jYLruv6q5yoGqYS35BvxDM3GyBTUk3T/Iv14zjWIpB3kiSBxd6Mr4HqXVzX1RWYcJ5nLZ4J5E+ij0BTn0kJNPBfryW1sgAPCbIAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="mips-with-static-dual-issue"
+        title="mips-with-static-dual-issue"
+        src="/static/91def4e51a5f4dc37b237305f938b0a0/5a190/mips-with-static-dual-issue.png"
+        srcset="/static/91def4e51a5f4dc37b237305f938b0a0/772e8/mips-with-static-dual-issue.png 200w,
+/static/91def4e51a5f4dc37b237305f938b0a0/e17e5/mips-with-static-dual-issue.png 400w,
+/static/91def4e51a5f4dc37b237305f938b0a0/5a190/mips-with-static-dual-issue.png 800w,
+/static/91def4e51a5f4dc37b237305f938b0a0/36c33/mips-with-static-dual-issue.png 946w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>MIPS with Static Dual Issue (Datapath)
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/e3d300f07bb4cf1d3a29864db73e2da2/d7ba6/mips-with-static-dual-issue-datapath.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABnUlEQVQoz3VS2Y7bMAz0/39dH/rSLVokXQe+LduydfjILIdbpUY2NUBQJjmD4UjZ/X7H/751XR+xbRv2fdc6Ma+CX5YGCEhBIGvLsmiM46g5EZ6/syCes6Sk6zoFlmUJYwxijPDOYZomOMkkS+G9x3EcX8geCqmKBBwmaSKx84y6bhBCUIV930t/QlVVOmOtVSz7nFdCMs8KrFVZWu/PrcStbPF+KzBIjWDOObegbRqZG5Q0KWZfV2aBjev1qqR5nqOSfCtqXPNCCZdZyFyAXZyQW5R1i8VH2UDIxSqqI+nDw+eb5foEffv+hp+/LmiMxTDN6MyA3oxwQTwfndYul4v4XmCyM3bxNXt19fSl6w3efucIccXkxN/jDicq9v3Q87od6p1aJFaMQs5elkieCc0w4IeoiwKKMSiY1tBnbkGr6CnP7Jlh+lR4vvIzofdBFL6rZ5NddCUz8FlVmBcPH6LUrKiWF+C8WrSu21cPz0pzuRgCogxydUYURZ5vVAjD37yKgKLu9D979epT5hp126PtBzTdv2ifQ/qco4cfsGij+XozCpsAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="mips-with-static-dual-issue-datapath"
+        title="mips-with-static-dual-issue-datapath"
+        src="/static/e3d300f07bb4cf1d3a29864db73e2da2/5a190/mips-with-static-dual-issue-datapath.png"
+        srcset="/static/e3d300f07bb4cf1d3a29864db73e2da2/772e8/mips-with-static-dual-issue-datapath.png 200w,
+/static/e3d300f07bb4cf1d3a29864db73e2da2/e17e5/mips-with-static-dual-issue-datapath.png 400w,
+/static/e3d300f07bb4cf1d3a29864db73e2da2/5a190/mips-with-static-dual-issue-datapath.png 800w,
+/static/e3d300f07bb4cf1d3a29864db73e2da2/d7ba6/mips-with-static-dual-issue-datapath.png 1107w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Hazards in the Dual-Issue MIPS</p>
+<ul>
+<li>More instructions executing in parallel</li>
+<li>
+<p>EX data hazard</p>
+<ul>
+<li>Forwarding avoided stalls with single-issue</li>
+<li>
+<p>Now can't use ALU result in load/store in same packet</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">add $t0, $s0, $s1
+load $s2, 0($t0)</code></pre></div>
+<ul>
+<li>split into two packets, effectively a stall</li>
+</ul>
+</li>
+<li>
+<p>Load-use hazard</p>
+<ul>
+<li>Still one cycle use latency, but now two instructions</li>
+</ul>
+</li>
+<li>More aggressive scheduling required</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Scheduling Example</p>
+<ul>
+<li>
+<p>Schedule this for d ual-issue MIPS
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/9d312e387e32531c677c2b8b4c4b8893/599ea/scheduling-example.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABpklEQVQoz0VSi26CQBDk/7/OIqAC5XiIwilvENCa6c2mWJINhN153OxZXdchyzI8Hg/0fQ8+j/mJZVmQ57nU6/WS//M8oyxLXK9X3G43qXEckaapcPDb4hBJh3HA3t5D1xrH6oR2MEKXAufzGXEcG9IfARyPR7iuiyRJ4DgOiqKQ79PphPv9Dgt/zzRNCIMQ/dQhqDxD2CIMvxFF0cc5CcMwlCIJ3+zTKfHruv4Tcni3+0Lf1RjuiSHp4HmeOOQwq2kacRIEgbg8HA5CTNeMgTMWWZ/Ppxyb4HVd0Dcaw9DL8OWSi8PNCYt5bTky07quJef3+w2LGbCxZeM4Lkp9Ezdt24oQQ2detm0LEXtVVUmfuRFL1+SxfN+X0DPjjuSNGaxZRpVAukvTTGYKrXExMwQHJj+KbY4pQLcWVXhlqKLiCLoyxLwaBkgB3gISE7wuK5Z5kSu1FXvbUrQRtLgM5siA03OKvFLQ5hjXohRlknKwqQ3pZCIYO3OCWhwRt7mksBByEby83GgcK2Tx92eLSqnPNlWkECQ+fOXDcz35Txzz5Rx5mOcvWIDpYgsKUTcAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="scheduling-example"
+        title="scheduling-example"
+        src="/static/9d312e387e32531c677c2b8b4c4b8893/5a190/scheduling-example.png"
+        srcset="/static/9d312e387e32531c677c2b8b4c4b8893/772e8/scheduling-example.png 200w,
+/static/9d312e387e32531c677c2b8b4c4b8893/e17e5/scheduling-example.png 400w,
+/static/9d312e387e32531c677c2b8b4c4b8893/5a190/scheduling-example.png 800w,
+/static/9d312e387e32531c677c2b8b4c4b8893/c1b63/scheduling-example.png 1200w,
+/static/9d312e387e32531c677c2b8b4c4b8893/29007/scheduling-example.png 1600w,
+/static/9d312e387e32531c677c2b8b4c4b8893/599ea/scheduling-example.png 1926w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>IPC = 5/4 = 1.25 (c.f. peak IPC = 2)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Loop Unrolloing</p>
+<ul>
+<li>pass</li>
+</ul>
+</li>
+<li>
+<p>Dynamic Multiple Issue</p>
+<ul>
+<li>"Superscalar" processors</li>
+<li>
+<p>CPU decides whether to issue 0, 1, 2, ... each cycle</p>
+<ul>
+<li>Avoiding structural and data hazards</li>
+</ul>
+</li>
+<li>
+<p>Avoids the need for compiler scheduling</p>
+<ul>
+<li>Though it may still help</li>
+<li>Code semantics ensured by the CPU</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Dynamic Pipeline Scheduling</p>
+<ul>
+<li>
+<p>Allow the CPU to execute instructions out of order to avoid stalls</p>
+<ul>
+<li>But commit result to registers in order</li>
+<li>
+<p>Example</p>
+<div class="gatsby-highlight" data-language="mips"><pre class="language-mips"><code class="language-mips">lw $t0, 20($s2)
+addu $t1, $t0, $t2
+sub $s4, $s4, $t3
+slti $t5, $s4, 20</code></pre></div>
+<ul>
+<li>Can start sub while addu is waiting for lw</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Dynamically Scheduled CPU
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b2db37644dcbf5c4078cbf3ad56eefa4/cf8f8/dynamically-scheduled-cpu.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 64%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACG0lEQVQ4y31Ua29SQRC9//9DE2OiJpr4+GSiprGWVGppsLSxolSLXmqlYKCFyxvu3veL45wlEFqJk2zmLjtzzpnZWQyIzefzW2uT/e9sLQrGesLSkiSB7/vwPE977peWpiniOEYqv02Vg/ffa3hz8gX71Qv4YQRjnTnLMv3tui6azSZM00Sr1dLAyzgSTKdT7ZXn4235G15+/IR3X8/hBeECcAnGoCiKoJRaqeNyHAdhGCIIgtstkJy7bVkp7Pf7qNfraLfbaDQaGA6HOqjT6eg9lfJ8MBgIeIRYiMe2wqvTMzw/PMFr8a4QrnrIMpnMcuipkkTc93o9TCYTWFYXtqj1wljnBNLLw5+/sHtaQdG8hC8kBpvMYCayTC6WuCxvNptpAu6pjsTKcTVwJrl3TZds27YGHI1GGoCeiTSeWZalidgGHcuY8XgxCVK+XqIuoMJVQ6XBjpRJJQQlAC+CXikbgSTPZuKjBMoPJC7ERMbmxdFnPCmU8OjDEfIyOgZvN83m4H0l8s2ZIxDLplKqcAkexUikxEg851Crl7F5KhfyIHeAezt55CpVGNXWDe7nCngsDA/zRVx2LIT+opfdblcrtjlG4kei6Fqm4ap9jZ6QpWkG2/X0PHK5otywpjaK1RpKPy5wXPuNkbPoHVVyJulpSpQ+K5Wxtb2HrZ19HJj1jY/P2Pwi/zU2vHBuYk9exG75DJWrP9j0P/AX+frcjqy0fQkAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="dynamically-scheduled-cpu"
+        title="dynamically-scheduled-cpu"
+        src="/static/b2db37644dcbf5c4078cbf3ad56eefa4/5a190/dynamically-scheduled-cpu.png"
+        srcset="/static/b2db37644dcbf5c4078cbf3ad56eefa4/772e8/dynamically-scheduled-cpu.png 200w,
+/static/b2db37644dcbf5c4078cbf3ad56eefa4/e17e5/dynamically-scheduled-cpu.png 400w,
+/static/b2db37644dcbf5c4078cbf3ad56eefa4/5a190/dynamically-scheduled-cpu.png 800w,
+/static/b2db37644dcbf5c4078cbf3ad56eefa4/c1b63/dynamically-scheduled-cpu.png 1200w,
+/static/b2db37644dcbf5c4078cbf3ad56eefa4/29007/dynamically-scheduled-cpu.png 1600w,
+/static/b2db37644dcbf5c4078cbf3ad56eefa4/cf8f8/dynamically-scheduled-cpu.png 2234w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>
+<p>Register Renaming</p>
+<ul>
+<li>Reservation stations and reorder buffer effectively provide register renaming</li>
+<li>
+<p>On instruction issue to reservation station</p>
+<ul>
+<li>
+<p>If operand is available in register file or reorder buffer</p>
+<ul>
+<li>Copied to reservation station</li>
+<li>No longer required in the register; can be overwritten</li>
+</ul>
+</li>
+<li>
+<p>If operand is not yet available</p>
+<ul>
+<li>It will be provided to the reservation station by a function unit</li>
+<li>Register update may not be required</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Speculation</p>
+<ul>
+<li>
+<p>Predict branch and continue issuing</p>
+<ul>
+<li>Don't commit until branch outcome determined</li>
+</ul>
+</li>
+<li>
+<p>Load speculation</p>
+<ul>
+<li>
+<p>Avoid load and cache miss delay</p>
+<ul>
+<li>predict the effective address</li>
+<li>predict loaded value</li>
+<li>Load before completing outstanding stores</li>
+<li>Bypass stored values to load unit</li>
+</ul>
+</li>
+<li>Don't commit load until speculation cleared</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Why Do Dynamic Scheduling?</p>
+<ul>
+<li>
+<p>Why not just let the compiler schedule code?</p>
+<ul>
+<li>
+<p>Not all stalls are predicable</p>
+<ul>
+<li>e.g., cache misses</li>
+</ul>
+</li>
+<li>
+<p>Can't always schedule around branches</p>
+<ul>
+<li>Branch outcome is dynamically determined</li>
+</ul>
+</li>
+<li>Different implementations of an ISA have different latencies and hazards</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Does Multiple Issue Work?</p>
+<ul>
+<li>Yes, but not as much as we'd like</li>
+<li>Programs have real dependencies that limit ILP</li>
+<li>
+<p>Some depnedencies are hard to eliminate</p>
+<ul>
+<li>e.g., pointer aliasing</li>
+</ul>
+</li>
+<li>
+<p>Some parallelism is hard to expose</p>
+<ul>
+<li>Limited window size during instruction issue</li>
+</ul>
+</li>
+<li>
+<p>Memory delays and limited bandwith</p>
+<ul>
+<li>Hard to keep pipelines full</li>
+</ul>
+</li>
+<li>Speculation can help if done well</li>
+</ul>
+</li>
+<li>
+<p>Power Efficiency</p>
+<ul>
+<li>Complexity of dynamic scheduling and speculations requires powew</li>
+<li>Multiple simpler cores may be better</li>
+</ul>
+</li>
+</ul>
+<h3>4.11 Real Stuff: The ARM Cortex-A8 and Intel COre i7 Pipelines</h3>
+<ul>
+<li>pass</li>
+</ul>
+<h3>4.12 Instruction-Level Parallelism and Matrix Multiply</h3>
+<ul>
+<li>pass</li>
+</ul>
+<h3>4.14 Fallacies and Pitfalls</h3>
+<ul>
+<li>
+<p>Fallacies</p>
+<ul>
+<li>
+<p>Pipelining is easy (!)</p>
+<ul>
+<li>The basic idea is easy</li>
+<li>
+<p>The devil is in the details</p>
+<ul>
+<li>e.g., detecting data hazards</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Pipelining is independent of technology</p>
+<ul>
+<li>So why haven't we always done pipelining?</li>
+<li>More transistors make more advanced techniques feasible</li>
+<li>
+<p>Pipeline-realted ISA design needs to take account of technology trends</p>
+<ul>
+<li>e.g., predicated instructions</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Pitfalls</p>
+<ul>
+<li>
+<p>Poor ISA design can make pipelining harder</p>
+<ul>
+<li>
+<p>e.g., complex instruction sets (VAX, IA-32)</p>
+<ul>
+<li>Significant overhead to make pipelining work</li>
+<li>IA-32 micro-op approach</li>
+</ul>
+</li>
+<li>
+<p>e.g., complex addressing modes</p>
+<ul>
+<li>Register update side effects, memory indirection</li>
+</ul>
+</li>
+<li>
+<p>e.g., delayed branches</p>
+<ul>
+<li>Advanced pipelines have long delay slots</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>4.15 Concluding Remarks</h3>
+<ul>
+<li>
+<p>Concluding Remarks</p>
+<ul>
+<li>ISA influences design of datapath and control</li>
+<li>Datapath and control influence design of ISA</li>
+<li>
+<p>Pipelining improves instructino throughput using parallelism</p>
+<ul>
+<li>More instructions completed per second</li>
+<li>Latency for each instruction not reduced</li>
+</ul>
+</li>
+<li>Hazards: structural, data, control</li>
+<li>
+<p>Multiple issue and dynamic scheduling (ILP)</p>
+<ul>
+<li>Dependencies limit achievable parallelism</li>
+<li>Complexity leads to the power wall</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></div><div></div></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-181031687-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/computerArchitecture/4-the-processor/2020-09-16 09:00:00 +0900";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-d8b803c152e4e53a0b70.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c7869fa3e5c9d31ecb8e.js"],"component---src-pages-index-js":["/component---src-pages-index-js-ff371c780530ee3e7cbf.js"],"component---src-pages-page-2-js":["/component---src-pages-page-2-js-b63e06953e40f148ff6b.js"],"component---src-templates-post-template-jsx":["/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"]};/*]]>*/</script><script src="/webpack-runtime-92b8d634de3575c5751f.js" async=""></script><script src="/styles-9b6f388623a2ec93d35f.js" async=""></script><script src="/framework-d54fcf3f0204b459cf2d.js" async=""></script><script src="/app-d8b803c152e4e53a0b70.js" async=""></script><script src="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js" async=""></script></body></html>

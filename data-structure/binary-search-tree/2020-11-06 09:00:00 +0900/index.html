@@ -1,0 +1,502 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.a430335728e3cf41addc.css">code[class*=language-],pre[class*=language-]{color:#000;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{position:relative;margin:.5em 0;overflow:visible;padding:0}pre[class*=language-]>code{position:relative;border-left:10px solid #358ccb;box-shadow:-1px 0 0 0 #358ccb,0 0 0 1px #dfdfdf;background-color:#fdfdfd;background-image:linear-gradient(transparent 50%,rgba(69,142,209,.04) 0);background-size:3em 3em;background-origin:content-box;background-attachment:local}code[class*=language]{max-height:inherit;height:inherit;padding:0 1em;display:block;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background-color:#fdfdfd;box-sizing:border-box;margin-bottom:1em}:not(pre)>code[class*=language-]{position:relative;padding:.2em;border-radius:.3em;color:#c92c2c;border:1px solid rgba(0,0,0,.1);display:inline;white-space:normal}pre[class*=language-]:after,pre[class*=language-]:before{content:"";z-index:-2;display:block;position:absolute;bottom:.75em;left:.18em;width:40%;height:20%;max-height:13em;box-shadow:0 13px 8px #979797;transform:rotate(-2deg)}:not(pre)>code[class*=language-]:after,pre[class*=language-]:after{right:.75em;left:auto;transform:rotate(2deg)}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#7d8b99}.token.punctuation{color:#5f6364}.token.boolean,.token.constant,.token.deleted,.token.function-name,.token.number,.token.property,.token.symbol,.token.tag{color:#c92c2c}.token.attr-name,.token.builtin,.token.char,.token.function,.token.inserted,.token.selector,.token.string{color:#2f9c0a}.token.entity,.token.operator,.token.url,.token.variable{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.class-name,.token.keyword{color:#1990b8}.token.important,.token.regex{color:#e90}.language-css .token.string,.style .token.string{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.important{font-weight:400}.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.namespace{opacity:.7}@media screen and (max-width:767px){pre[class*=language-]:after,pre[class*=language-]:before{bottom:14px;box-shadow:none}}.token.cr:before,.token.lf:before,.token.tab:not(:empty):before{color:#e0d7d1}pre[class*=language-].line-numbers.line-numbers{padding-left:0}pre[class*=language-].line-numbers.line-numbers code{padding-left:3.8em}pre[class*=language-].line-numbers.line-numbers .line-numbers-rows{left:0}pre[class*=language-][data-line]{padding-top:0;padding-bottom:0;padding-left:0}pre[data-line] code{position:relative;padding-left:4em}pre .line-highlight{margin-top:0}html{font-family:Apple SD Gothic Neo,arial,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em Apple SD Gothic Neo,arial,sans-serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:Apple SD Gothic Neo,arial,sans-serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}</style><meta name="generator" content="Gatsby 2.23.1"/><title data-react-helmet="true"></title><link rel="icon" href="/favicon-32x32.png?v=db33395577ec4a434ab68177782919fb"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#000000"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=db33395577ec4a434ab68177782919fb"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"/><link as="script" rel="preload" href="/app-d8b803c152e4e53a0b70.js"/><link as="script" rel="preload" href="/framework-d54fcf3f0204b459cf2d.js"/><link as="script" rel="preload" href="/styles-9b6f388623a2ec93d35f.js"/><link as="script" rel="preload" href="/webpack-runtime-92b8d634de3575c5751f.js"/><link as="fetch" rel="preload" href="/page-data/data-structure/binary-search-tree/2020-11-06 09:00:00 +0900/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header style="margin-bottom:1.45rem"><div style="margin:0 auto;max-width:960px;padding:1.45rem 1.0875rem"><h1 style="margin:0"><a style="color:black;text-decoration:none" href="/">JaeHyeonKim19</a></h1></div></header><div style="margin:0 auto;max-width:960px;padding:0 1.0875rem 1.45rem"><main><h2>[자료구조/JAVA] 이진 탐색 트리(Binary Search Tree: BST)</h2><h4>2020-11-06</h4><hr/><div><h3>이진 탐색 트리</h3>
+<p>이진 탐색 트리는 다음과 같은 속성이 있는 이진 트리 자료 구조이다.</p>
+<ul>
+<li>각 노드에 값이 있다.</li>
+<li>중복된 값을 갖는 노드는 없다.</li>
+<li>값들은 순서를 가진다.</li>
+<li>노드의 왼쪽 서브트리에는 그 노드의 값보다 작은 값들을 지닌 노드들로 이루어져 있다.</li>
+<li>노드의 오른쪽 서브트리에는 그 노드의 값보다 큰 값들을 지닌 노드들로 이루어져 있다.</li>
+<li>좌우 하위 트리는 각각 다시 이진 탐색트리여야 한다.(즉, 좌우 하위 트리 또한 위 규칙들을 지켜야 한다.)</li>
+</ul>
+<p>이진 탐색 트리를 순회할 때는 중위순회를 방식을 사용한다. 왼쪽 자식, 본인, 오른쪽 자식 순으로 읽어나가면 된다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/48f0aa96295e001ac4d50ddf62f3585e/a2510/binary-search-tree.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 77.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB35QB/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABPyFf/9oADAMBAAIAAwAAABBzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQACAgMAAAAAAAAAAAAAAAEAIRARQVHx/9oACAEBAAE/EF9g9DXGaJsn/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="binary-search-tree"
+        title="binary-search-tree"
+        src="/static/48f0aa96295e001ac4d50ddf62f3585e/4b190/binary-search-tree.jpg"
+        srcset="/static/48f0aa96295e001ac4d50ddf62f3585e/e07e9/binary-search-tree.jpg 200w,
+/static/48f0aa96295e001ac4d50ddf62f3585e/066f9/binary-search-tree.jpg 400w,
+/static/48f0aa96295e001ac4d50ddf62f3585e/4b190/binary-search-tree.jpg 800w,
+/static/48f0aa96295e001ac4d50ddf62f3585e/a2510/binary-search-tree.jpg 1000w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>ArrayList는 탐색은 O(1)로 빠르지만 삽입, 삭제의 경우 재정렬하는데 O(n)의 복잡도가 들기 때문에 비효율적이다. LinkedList는 삽입, 삭제의 경우 O(1)의 복잡도로 빠르지만, 탐색이 O(n)으로 비효율적이다. 이진 탐색 트리는 탐색과 삽입, 삭제 모두 O(logN)의 복잡도로 탐색과 삽입, 삭제 두 마리 토끼를 모두 잡기 위해 등장했다.</p>
+<p>하지만 O(logN)의 복잡도를 가지는 경우는 균등한 트리를 이룰 때 이야기이다. 최악의 경우 한쪽으로 편향된 리스트와 같은 형태를 띄는 트리가 될 수 있는데, 이 때는 O(n)의 복잡도를 가지게 된다. 이를 해결하기 위해 AVL Tree, 레드-블랙 트리가 등장하게 된다.</p>
+<p>이진 트리 탐색에서는 검색, 삽입, 삭제 이 세 가지 동작이 핵심이다.</p>
+<h3>이진 탐색 트리 검색</h3>
+<p>찾고자하는 값을 루트노드 부터 비교하면서 내려간다. 비교하는 노드보다 찾고자하는 값이 더 작으면 왼쪽 자식노드로 더 크면 오른쪽 자식노드로 이동한다. 만약 비교하는 노드가 찾고자하는 값과 같다면 true를 리턴한다.</p>
+<h3>이진 탐색 트리 삽입</h3>
+<p>이진 탐색 트리 검색과 비슷하다. 루트노드부터 비교하면서 자리를 찾아간다. 비교하는 노드보다 삽입하려는 값이 더 작으면 왼쪽 더 크면 오른쪽 자식노드로 이동한다. 이동하고자하는 방향에 자식노드가 존재하지 않으면 해당자리에 삽입하고자하는 값을 넣는다.</p>
+<h3>이진 탐색 트리 삭제</h3>
+<p>삭제하려는 노드의 자식의 수에 따라 다음과 같은 규칙을 따른다</p>
+<ul>
+<li>자식노드가 없는 노드(리프 노드): 해당 노드를 삭제한다.(자바에는 객체를 반환할 수 없으므로 부모 노드와의 연결을 끊어주면 된다.)</li>
+<li>자식노드가 1개인 노드 삭제: 해당 노드를 삭제하고 그 위치에 자식노드를 대입한다.</li>
+<li>자식노드가 2개인 노드 삭제: 중위 순회 방식으로 값을 늘어 놓았을 때(정렬된 상태로 값을 나열했을 때) 삭제하고자 하는 값의 좌, 우에 존재하는 값으로 삭제하고자 하는 값의 노드를 대체하면 된다.(삭제하고자 하는 노드는 삭제) 삭제하고자 하는 값의 좌, 우에 존재하는 값은 다음과 같은 위치에 존재한다. - 삭제하고자하는 값의 좌측 값: 삭제하고자하는 노드를 기준으로 왼쪽 서브트리에서 가장 큰 값을 가지는 노드. 해당 노드는 서브트리에서 오른쪽 방향으로 끝까지 내려가면 구할 수 있다. - 삭제하고자하는 값의 우측 값: 삭제하고자하는 노드를 기준으로 오른쪽 서브트리에서 가장 작은 값을 가지는 노드. 해당 노드는 서브트리에서 왼쪽 방향으로 끝까지 내려가면 구할 수 있다.</li>
+</ul>
+<h3>이진 탐색 트리 구현하기</h3>
+<p>삭제의 경우 코드가 좀 더럽게 되었다. 하지만 잘 동작하기도하고 시간관계상 일단 이대로 두기로 한다.</p>
+<p>이진 탐색 트리의 검색, 삽입, 삭제를 구현했다. 코드에 대한 설명은 코드 내 주석으로 대체한다.</p>
+<div class="gatsby-highlight" data-language="java"><pre class="language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">MyBinarySearchTree</span> <span class="token punctuation">{</span>
+	<span class="token class-name">Node</span> root<span class="token punctuation">;</span>
+	
+	<span class="token keyword">public</span> <span class="token class-name">MyBinarySearchTree</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		root <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	
+	<span class="token comment">// 값이 존재하는지 확인한다.</span>
+	<span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">find</span><span class="token punctuation">(</span><span class="token keyword">int</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token class-name">Node</span> targetNode <span class="token operator">=</span> <span class="token function">findNode</span><span class="token punctuation">(</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>targetNode <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+		<span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	
+	<span class="token comment">// 해당 값을 가지는 노드를 반환한다.</span>
+	<span class="token keyword">private</span> <span class="token class-name">Node</span> <span class="token function">findNode</span><span class="token punctuation">(</span><span class="token keyword">int</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token class-name">Node</span> currentNode <span class="token operator">=</span> root<span class="token punctuation">;</span>
+		<span class="token keyword">while</span><span class="token punctuation">(</span>currentNode <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">></span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">&lt;</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+				<span class="token keyword">return</span> currentNode<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+		<span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	
+	<span class="token comment">// 삽입 메소드</span>
+	<span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">insert</span><span class="token punctuation">(</span><span class="token keyword">int</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token comment">// 값은 중복될 수 없으므로 이미 존재한다면 false를 리턴한다.</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">find</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		
+		<span class="token class-name">Node</span> newNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Node</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token comment">// 아직 트리에 값이 없으면 루트에 해당 값을 넣는다.</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>root <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			root <span class="token operator">=</span> newNode<span class="token punctuation">;</span>
+			<span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		
+		<span class="token comment">// 값이 들어갈 자리를 찾는다.</span>
+		<span class="token class-name">Node</span> parentNode <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+		<span class="token class-name">Node</span> currentNode <span class="token operator">=</span> root<span class="token punctuation">;</span>
+		<span class="token keyword">while</span><span class="token punctuation">(</span>currentNode <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			parentNode <span class="token operator">=</span> currentNode<span class="token punctuation">;</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">></span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+		
+		<span class="token comment">// 부모노드보다 작으면 왼쪽 크면 오른쪽에 새로운 노드를 위치한다.</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>parentNode<span class="token punctuation">.</span>data <span class="token operator">></span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> newNode<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+			parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> newNode<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		
+		<span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	
+	<span class="token comment">// 삭제 메소드</span>
+	<span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">delete</span><span class="token punctuation">(</span><span class="token keyword">int</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token comment">// 삭제하려는 노드와 부모노드를 찾는다.</span>
+		<span class="token class-name">Node</span> parentNode <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+		<span class="token class-name">Node</span> currentNode <span class="token operator">=</span> root<span class="token punctuation">;</span>
+		<span class="token keyword">int</span> direction <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+		<span class="token keyword">while</span><span class="token punctuation">(</span>currentNode <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">></span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode <span class="token operator">=</span> currentNode<span class="token punctuation">;</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+				direction <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">&lt;</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode <span class="token operator">=</span> currentNode<span class="token punctuation">;</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+				direction <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+				<span class="token keyword">break</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+		<span class="token comment">// 삭제하려는 값이 없으면 false를 리턴한다.</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		
+		<span class="token comment">// 삭제하려는 노드의 자식이 없는 경우.</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>left <span class="token operator">==</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> currentNode<span class="token punctuation">.</span>right <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token comment">// 그냥 해당 노드를 삭제한다. 루트일 경우 부모노드가 없기 때문에 별도의 처리를 해준다.</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> root<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				root <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>left <span class="token operator">!=</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> currentNode<span class="token punctuation">.</span>right <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token comment">// 삭제하려는 노드의 왼쪽 자식이 있는 경우</span>
+			<span class="token comment">// 왼쪽 자식을 삭제하려는 노드의 부모와 연결해준다. 루트는 부모노드가 없기 때문에 별도로 처리 해준다.</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> root<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				root <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>left <span class="token operator">==</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> currentNode<span class="token punctuation">.</span>right <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token comment">// 삭제하려는 노드의 오른쪽 자식이 있는 경우</span>
+			<span class="token comment">// 오른쪽 자식을 삭제하려는 노드의 부모와 연결해준다. 루트는 부모노드가 없기 때문에 별도로 처리해준다.</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> root<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				root <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+			<span class="token comment">// 삭제하려는 노드의 양 쪽에 모두 자식이 있는 경우. 여기서는 삭제하려는 값보다 작은 값들 중 최댓값으로 삭제하려는 노드를 대체해준다(왼쪽 서브트리에서 가장 큰 값).</span>
+
+			<span class="token comment">// 왼쪽 서브트리에서</span>
+			<span class="token class-name">Node</span> targetNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token comment">// 제일 큰 값을 찾는다.</span>
+			<span class="token keyword">while</span><span class="token punctuation">(</span>targetNode<span class="token punctuation">.</span>right <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				targetNode <span class="token operator">=</span> targetNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+			<span class="token comment">// 왼쪽 서브트리에서 제일 큰 값은 원래 위치에서 삭제한다.</span>
+			<span class="token comment">// 참고로 이진 탐색 트리 특성상 왼쪽 서브트리에서 가장 큰 값과 오른쪽 서브트리에서 가장 작은 값은 자식노드가 없거나 한 개이다. 따라서 재귀 호출이 2번 이상 일어나지 않으므로 스택오버플로우는 걱정할 필요가 없다.</span>
+			<span class="token function">delete</span><span class="token punctuation">(</span>targetNode<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token comment">// 왼쪽 서브트리에서 제일 큰 값을 삭제하려는 노드 위치에 넣어준다.</span>
+			<span class="token comment">// 부모 노드와 연결</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> root<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				root <span class="token operator">=</span> targetNode<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> targetNode<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> targetNode<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+			<span class="token comment">// 자식 노드들과 연결</span>
+			<span class="token comment">// 왼쪽 서브트리에 노드가 하나만 있는 경우 삭제하려는 노드의 왼쪽 자식 노드와 왼쪽 서브트리에서 가장 큰 값은 동일한 노드가 된다. 자기 자신은 자식으로 가지면 안되기 때문에 예외처리를 해준다.</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>targetNode <span class="token operator">!=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				targetNode<span class="token punctuation">.</span>left <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+			targetNode<span class="token punctuation">.</span>right <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		
+		<span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	
+	<span class="token comment">// 노드 클래스</span>
+	<span class="token keyword">class</span> <span class="token class-name">Node</span> <span class="token punctuation">{</span>
+		<span class="token class-name">Node</span> left<span class="token punctuation">;</span>
+		<span class="token class-name">Node</span> right<span class="token punctuation">;</span>
+		<span class="token keyword">int</span> data<span class="token punctuation">;</span>
+		
+		<span class="token class-name">Node</span><span class="token punctuation">(</span><span class="token keyword">int</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">this</span><span class="token punctuation">.</span>data <span class="token operator">=</span> data<span class="token punctuation">;</span>
+			left <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+			right <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>잘 돌아가는지 테스트를 해보기위해 도움이 될만한 메소드들을 몇 가지 구현했다. 중위 순회로 노드들을 나열하는 메소드, 삽입, 삭제 후 출력하는 메소드등 혹시 필요하다면 아래코드를 사용하자.</p>
+<div class="gatsby-highlight" data-language="java"><pre class="language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+  <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	  <span class="token class-name">MyBinarySearchTree</span> bst <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MyBinarySearchTree</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">22</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">15</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">45</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">16</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">19</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">36</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// fail case</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// fail case</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">15</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">15</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">16</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">16</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">19</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">19</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">22</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">22</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">36</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">36</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">45</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">45</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">16</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">45</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">22</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">15</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">23</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// fail case</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">19</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">36</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	  bst<span class="token punctuation">.</span><span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyBinarySearchTree</span> <span class="token punctuation">{</span>
+	<span class="token class-name">Node</span> root<span class="token punctuation">;</span>
+
+	<span class="token keyword">public</span> <span class="token class-name">MyBinarySearchTree</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		root <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">find</span><span class="token punctuation">(</span><span class="token keyword">int</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token class-name">Node</span> targetNode <span class="token operator">=</span> <span class="token function">findNode</span><span class="token punctuation">(</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>targetNode <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+		<span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">private</span> <span class="token class-name">Node</span> <span class="token function">findNode</span><span class="token punctuation">(</span><span class="token keyword">int</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token class-name">Node</span> currentNode <span class="token operator">=</span> root<span class="token punctuation">;</span>
+		<span class="token keyword">while</span><span class="token punctuation">(</span>currentNode <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">></span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">&lt;</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+				<span class="token keyword">return</span> currentNode<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+		<span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">insert</span><span class="token punctuation">(</span><span class="token keyword">int</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">find</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+
+		<span class="token class-name">Node</span> newNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Node</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token keyword">if</span><span class="token punctuation">(</span>root <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			root <span class="token operator">=</span> newNode<span class="token punctuation">;</span>
+			<span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+
+		<span class="token class-name">Node</span> parentNode <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+		<span class="token class-name">Node</span> currentNode <span class="token operator">=</span> root<span class="token punctuation">;</span>
+		<span class="token keyword">while</span><span class="token punctuation">(</span>currentNode <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			parentNode <span class="token operator">=</span> currentNode<span class="token punctuation">;</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">></span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+
+		<span class="token keyword">if</span><span class="token punctuation">(</span>parentNode<span class="token punctuation">.</span>data <span class="token operator">></span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> newNode<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+			parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> newNode<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+
+		<span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">insertAndPrint</span><span class="token punctuation">(</span><span class="token keyword">int</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">insert</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token function">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+			<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"insertion fail"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">delete</span><span class="token punctuation">(</span><span class="token keyword">int</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token class-name">Node</span> parentNode <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+		<span class="token class-name">Node</span> currentNode <span class="token operator">=</span> root<span class="token punctuation">;</span>
+		<span class="token keyword">int</span> direction <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+		<span class="token keyword">while</span><span class="token punctuation">(</span>currentNode <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">></span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode <span class="token operator">=</span> currentNode<span class="token punctuation">;</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+				direction <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>data <span class="token operator">&lt;</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode <span class="token operator">=</span> currentNode<span class="token punctuation">;</span>
+				currentNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+				direction <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+				<span class="token keyword">break</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+
+		<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>left <span class="token operator">==</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> currentNode<span class="token punctuation">.</span>right <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> root<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				root <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>left <span class="token operator">!=</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> currentNode<span class="token punctuation">.</span>right <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> root<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				root <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">.</span>left <span class="token operator">==</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> currentNode<span class="token punctuation">.</span>right <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> root<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				root <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+			<span class="token class-name">Node</span> targetNode <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token keyword">while</span><span class="token punctuation">(</span>targetNode<span class="token punctuation">.</span>right <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				targetNode <span class="token operator">=</span> targetNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+			<span class="token function">delete</span><span class="token punctuation">(</span>targetNode<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>currentNode <span class="token operator">==</span> root<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				root <span class="token operator">=</span> targetNode<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>left <span class="token operator">=</span> targetNode<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>direction <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				parentNode<span class="token punctuation">.</span>right <span class="token operator">=</span> targetNode<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span>targetNode <span class="token operator">!=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				targetNode<span class="token punctuation">.</span>left <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+			targetNode<span class="token punctuation">.</span>right <span class="token operator">=</span> currentNode<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+
+		<span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">deleteAndPrint</span><span class="token punctuation">(</span><span class="token keyword">int</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">delete</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token function">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+			<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"delete fail"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>root <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token function">inorderPrint</span><span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+			<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Tree is empty. Insert data."</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">inorderPrint</span><span class="token punctuation">(</span><span class="token class-name">Node</span> node<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>node<span class="token punctuation">.</span>left <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token function">inorderPrint</span><span class="token punctuation">(</span>node<span class="token punctuation">.</span>left<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>node<span class="token punctuation">.</span>data <span class="token operator">+</span> <span class="token string">" "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>node<span class="token punctuation">.</span>right <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token function">inorderPrint</span><span class="token punctuation">(</span>node<span class="token punctuation">.</span>right<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">class</span> <span class="token class-name">Node</span> <span class="token punctuation">{</span>
+		<span class="token class-name">Node</span> left<span class="token punctuation">;</span>
+		<span class="token class-name">Node</span> right<span class="token punctuation">;</span>
+		<span class="token keyword">int</span> data<span class="token punctuation">;</span>
+
+		<span class="token class-name">Node</span><span class="token punctuation">(</span><span class="token keyword">int</span> data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">this</span><span class="token punctuation">.</span>data <span class="token operator">=</span> data<span class="token punctuation">;</span>
+			left <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+			right <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3>참고</h3>
+<ul>
+<li><a href="https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84_%ED%83%90%EC%83%89_%ED%8A%B8%EB%A6%AC">이진 탐색 트리(위키 백과)</a></li>
+<li><a href="https://ratsgo.github.io/data%20structure&#x26;algorithm/2017/10/22/bst/">이진 탐색 트리 - ratsgo's blog</a></li>
+</ul></div><div></div></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-181031687-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/data-structure/binary-search-tree/2020-11-06 09:00:00 +0900";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-d8b803c152e4e53a0b70.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c7869fa3e5c9d31ecb8e.js"],"component---src-pages-index-js":["/component---src-pages-index-js-ff371c780530ee3e7cbf.js"],"component---src-pages-page-2-js":["/component---src-pages-page-2-js-b63e06953e40f148ff6b.js"],"component---src-templates-post-template-jsx":["/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"]};/*]]>*/</script><script src="/webpack-runtime-92b8d634de3575c5751f.js" async=""></script><script src="/styles-9b6f388623a2ec93d35f.js" async=""></script><script src="/framework-d54fcf3f0204b459cf2d.js" async=""></script><script src="/app-d8b803c152e4e53a0b70.js" async=""></script><script src="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js" async=""></script></body></html>

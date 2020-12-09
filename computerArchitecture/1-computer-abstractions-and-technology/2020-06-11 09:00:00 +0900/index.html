@@ -1,0 +1,649 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.a430335728e3cf41addc.css">code[class*=language-],pre[class*=language-]{color:#000;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{position:relative;margin:.5em 0;overflow:visible;padding:0}pre[class*=language-]>code{position:relative;border-left:10px solid #358ccb;box-shadow:-1px 0 0 0 #358ccb,0 0 0 1px #dfdfdf;background-color:#fdfdfd;background-image:linear-gradient(transparent 50%,rgba(69,142,209,.04) 0);background-size:3em 3em;background-origin:content-box;background-attachment:local}code[class*=language]{max-height:inherit;height:inherit;padding:0 1em;display:block;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background-color:#fdfdfd;box-sizing:border-box;margin-bottom:1em}:not(pre)>code[class*=language-]{position:relative;padding:.2em;border-radius:.3em;color:#c92c2c;border:1px solid rgba(0,0,0,.1);display:inline;white-space:normal}pre[class*=language-]:after,pre[class*=language-]:before{content:"";z-index:-2;display:block;position:absolute;bottom:.75em;left:.18em;width:40%;height:20%;max-height:13em;box-shadow:0 13px 8px #979797;transform:rotate(-2deg)}:not(pre)>code[class*=language-]:after,pre[class*=language-]:after{right:.75em;left:auto;transform:rotate(2deg)}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#7d8b99}.token.punctuation{color:#5f6364}.token.boolean,.token.constant,.token.deleted,.token.function-name,.token.number,.token.property,.token.symbol,.token.tag{color:#c92c2c}.token.attr-name,.token.builtin,.token.char,.token.function,.token.inserted,.token.selector,.token.string{color:#2f9c0a}.token.entity,.token.operator,.token.url,.token.variable{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.class-name,.token.keyword{color:#1990b8}.token.important,.token.regex{color:#e90}.language-css .token.string,.style .token.string{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.important{font-weight:400}.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.namespace{opacity:.7}@media screen and (max-width:767px){pre[class*=language-]:after,pre[class*=language-]:before{bottom:14px;box-shadow:none}}.token.cr:before,.token.lf:before,.token.tab:not(:empty):before{color:#e0d7d1}pre[class*=language-].line-numbers.line-numbers{padding-left:0}pre[class*=language-].line-numbers.line-numbers code{padding-left:3.8em}pre[class*=language-].line-numbers.line-numbers .line-numbers-rows{left:0}pre[class*=language-][data-line]{padding-top:0;padding-bottom:0;padding-left:0}pre[data-line] code{position:relative;padding-left:4em}pre .line-highlight{margin-top:0}html{font-family:Apple SD Gothic Neo,arial,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em Apple SD Gothic Neo,arial,sans-serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:Apple SD Gothic Neo,arial,sans-serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}</style><meta name="generator" content="Gatsby 2.23.1"/><title data-react-helmet="true"></title><link rel="icon" href="/favicon-32x32.png?v=db33395577ec4a434ab68177782919fb"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#000000"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=db33395577ec4a434ab68177782919fb"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=db33395577ec4a434ab68177782919fb"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"/><link as="script" rel="preload" href="/app-d8b803c152e4e53a0b70.js"/><link as="script" rel="preload" href="/framework-d54fcf3f0204b459cf2d.js"/><link as="script" rel="preload" href="/styles-9b6f388623a2ec93d35f.js"/><link as="script" rel="preload" href="/webpack-runtime-92b8d634de3575c5751f.js"/><link as="fetch" rel="preload" href="/page-data/computerArchitecture/1-computer-abstractions-and-technology/2020-06-11 09:00:00 +0900/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header style="margin-bottom:1.45rem"><div style="margin:0 auto;max-width:960px;padding:1.45rem 1.0875rem"><h1 style="margin:0"><a style="color:black;text-decoration:none" href="/">JaeHyeonKim19</a></h1></div></header><div style="margin:0 auto;max-width:960px;padding:0 1.0875rem 1.45rem"><main><h2>[컴퓨터구조론] 1. Computer Abstractions and Technology</h2><h4>2020-06-11</h4><hr/><div><blockquote>
+<p>본 글은 영남대학교 최규상 교수님의 <a href="http://www.kocw.net/home/cview.do?cid=184062fa9a833237">컴퓨터 구조</a> 강의를 듣고 작성된 글입니다.</p>
+</blockquote>
+<h3>1.1 Introduction</h3>
+<p>컴퓨터 기술은 <a href="https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%96%B4%EC%9D%98_%EB%B2%95%EC%B9%99">무어의 법칙(Moore's Law)</a>에 따라 급격하게 발전해왔다. 이렇게 급격한 발전한 컴퓨터 기술에 의해서 다양한 어플리케이션이 가능하게 되었다.</p>
+<blockquote>
+<p>무어의 법칙: 반도체 직접회로의 성능이 24개월마다 2배로 증가한다는 법칙. 실제로는 2배보다 더 빠르게 늘어왔음.</p>
+</blockquote>
+<ul>
+<li>
+<p>컴퓨터의 종류에는 개인 컴퓨터, 서버 컴퓨터, 슈퍼 컴퓨터, 임베디드 컴퓨터가 있다</p>
+<ul>
+<li>
+<p>개인 컴퓨터</p>
+<ul>
+<li>우리가 흔히 사용하는 컴퓨터이다.</li>
+<li>일반적인 목적으로 사용되고 가성비에 민감하다.</li>
+</ul>
+</li>
+<li>
+<p>서버 컴퓨터</p>
+<ul>
+<li>High capacity, performance, reliability</li>
+</ul>
+</li>
+<li>
+<p>슈퍼 컴퓨터</p>
+<ul>
+<li>아주 특수한 목적(High-end scientific and engineering calculations)에 사용되는 컴퓨터.</li>
+<li>우리나라에서는 기상청, 국방연구소 등에서 사용하고 있다.</li>
+</ul>
+</li>
+<li>
+<p>임베디드 컴퓨터</p>
+<ul>
+<li>임베디드는 '내장된'이라는 의미를 가진다. 즉, 큰 시스템에 컴퓨터가 하나의 컴포넌트로 이루어져있는 것을 말한다.</li>
+<li>전력소모가 적고, 저성능, 저비용의 특징을 가진다.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">앞으로 자주 사용하게 될 바이트의 단위에 대해서 공부하고 넘어가도록 하자.
+Kilobyte: 1,024 bytes(2^10 bytes)
+Megabyte: 1,048,576 bytes(2^20 bytes)
+Gigabyte: 1,073,741,824 bytes(2^30 bytes)
+Terabyte: 1,099,511,627,776 bytes(2^40 bytes)
+Petabyte: 1024 terabytes(2^50 bytes)
+Exabyte: 1024 petabytes(2^60 bytes)</code></pre></div>
+<ul>
+<li>
+<p>PostPC 시대</p>
+<ul>
+<li>
+<p>Personal Mobile Device(PMD)</p>
+<ul>
+<li>배터리로 동작한다.</li>
+<li>인터넷에 연결되어 있다.</li>
+<li>스마트폰, 테블릿 피시, electronic glasses 등이 있다,</li>
+</ul>
+</li>
+<li>
+<p>Cloud computing</p>
+<ul>
+<li>Warehouse Scale Computers(WSC)</li>
+<li>서버 팜에서 우리가 필요한 만큼 할당받아서 사용할 수 있다.</li>
+<li>Software as a Service(SaaS): 내가 필요한 소프트웨어를 서비스로 제공받을 수 있다.</li>
+<li>내가 사용하는 소프트웨어의 일부분은 PMD에서 실행되고 나머지 중요한 부분은 Cloud에서 실행된다.</li>
+<li>AWS, AZURE 등이 있다.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>우리가 이번 챕터에서 배울 내용은 다음과 같다.</p>
+<ul>
+<li>프로그램이 어떻게 머신 랭기지로 바뀔 것인가. 즉, 어떻게 하드웨어가 명령들을 실행할 것인가.</li>
+<li>The hardware/software interface</li>
+<li>performance의 정의</li>
+<li>하드웨어 디자이너들은 어떻게 성능을 향상시키는가</li>
+<li>parallel processing은 무엇인가</li>
+</ul>
+</li>
+<li>
+<p>성능?</p>
+<ul>
+<li>
+<p>알고리즘에서 성능</p>
+<ul>
+<li>operation의 수로 결정된다.</li>
+</ul>
+</li>
+<li>
+<p>Programming language, compiler, architecture에서 성능</p>
+<ul>
+<li>machine instructions의 수로 결정된다.</li>
+</ul>
+</li>
+<li>
+<p>프로세서와 메모리 시스템에서 성능</p>
+<ul>
+<li>얼마나 명령어를 빨리 실행할 것인가</li>
+</ul>
+</li>
+<li>
+<p>I/O 시스템(OS 포함)에서 성능</p>
+<ul>
+<li>I/O operations의 수로 결정된다.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>1.2 Eight Great Ideas in Computer Architecture</h3>
+<ol>
+<li>Design for Moore's Law</li>
+<li>Use abstraction to simplify design</li>
+<li>Make the common case fast</li>
+<li>Performance via parallelism</li>
+<li>Performance via pipelining</li>
+<li>Performance via prediction</li>
+<li>Hierarchy of memories</li>
+<li>Dependability via redundancy</li>
+</ol>
+<p>여기 나와 있는 8가지 아이디어들이 컴퓨터 성능 향상에 지대한 역할을 함!</p>
+<h3>1.3 Below your program...</h3>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 354px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/1479814ad92230511377862fea0036fd/8f50f/below-program.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 105.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsSAAALEgHS3X78AAAD60lEQVQ4y32U61MaVxjG+d+amX5KMqntRD900ul0mjY1aZ20E9tOYm3MxZAQFdF4TSqIl6gkkSIqGwxyWcDlJk4SBSxyNUTRKEEQePruKgOikzNz9nJ293fey7OPCPwoFFAQTsJROJfP4jhpvfIdkQAroOIFlCCHM1+2VgkqHAD4UCCqhBUx2ztZ+NeScHkjcHrW6ByG9806QrEPSO3tHwGXQ0WVsHQmj9f+DUzrPBhUzkA5rMXEcwNeaMxQDmmhUE7DYFzGajiJ/VzuGFRUvrCdysDI+qBQzGBkVAdmbgmz+mVodSu0gR8vDSuYYdwE1UA9ZcfScgKZ/WwZtCzCdDpLqcXB6Beh/peFlgmg+x8OjXfVaLgziT8ax3Dz7iQUo14wBj+stgBsXBTetzHC5EsRFoFvfAnYFtbg9sYwqfWjsVmDy78+Itg4miRTuCkmaIMcddceQyx9hdk5PzzeOFj7GqLxraMpb+/ugeVCBItjWr+KG7df0Ic9uNXCoK5Jh29/V+O7PzWov8fgllhN4BHIui0ws0E43DG4FmPI5fKHsqERjCQpurDwsE/uQDOB7kn1+KZ+EmcvDqHq0ii+uDSCM3R9pUGDjl4LHkjnMapyw7O0DutCCFvbH0tAPl3OEcG8JYjWTgs6+2y4eluHMwSprnuG8z+rUP3LM5oqnKsdQVPLS7Q9MqP7iZWCiMLmCCNymLYAfL2SgMMVpWIHIJEZ0d5jwY/X1fj8QhdO1dzHZzViYZ6qkeD0xUHU32HQ3s1C1sdSY0IEjGAtmjwK5FwR6E1BtHSYIOtlUfvXlJDu2R/klOoATn8/QPcDFPUwbogZSLsok34rOGcENpqhWFmEvuAm7LQLL4POXhva6OWmtnlUXR7HVzTPX5lANaVd9dMYvr46gdYuEx5SJvJhh9BIluqf2NgtAd8lU8IiX+Cx50u4LzVQ4a24/kBPNZwg8FN8WTuGC7+p0EzPZJSuhJrCi969GIedIkxnsiVgLp+Hk3bi67hAkfY8sQtd7OihD7vM+PvhK5KQAVKSCi8XcZsBQ+NOgkWFDvtW3x8XdmIzJYiU35G1h9A/6ICk3Sik1tZpQivV9uDeRHJZBOeJUt2jsFPt03vZcmGXbOg/0qPZFoLLE6PfMIZZxgflqBv9cjseKzg8VXkwZwxQ3dapGTGKLoyNrdQRgxBVeluE7InlwtSgMNz0b/O/l1PYgL9ep82iVO8QONLf5tbH425T6dL82EntYTnwHguUDkui5XVmd5CAOfJGqttqeJNcJnfEZYq+KvqUnWeyOSQ/pPFuc1eo8c5uGvv5/AnmWvpWVPT5A8fFieDK8akg/gehD7OGWS7xvAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="below-program"
+        title="below-program"
+        src="/static/1479814ad92230511377862fea0036fd/8f50f/below-program.png"
+        srcset="/static/1479814ad92230511377862fea0036fd/772e8/below-program.png 200w,
+/static/1479814ad92230511377862fea0036fd/8f50f/below-program.png 354w"
+        sizes="(max-width: 354px) 100vw, 354px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>
+<p>프로그램 밑에...</p>
+<ul>
+<li>
+<p>Application Software</p>
+<ul>
+<li>Written in high-level language</li>
+<li>파워포인트, 웹 브라우저 등</li>
+</ul>
+</li>
+<li>
+<p>System software</p>
+<ul>
+<li>Compiler: translates HLL code to machine code</li>
+<li>
+<p>Operating System: service code</p>
+<ul>
+<li>Handling input/output</li>
+<li>Managing memory and storage</li>
+<li>Scheduling tasks &#x26; sharing resources</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Hardware</p>
+<ul>
+<li>Processor, memory, I/O controllers</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Levels of Program Code</p>
+<ul>
+<li>
+<p>High-level language</p>
+<ul>
+<li>Level of abstraction closer to problem domain</li>
+<li>Provides for productivity and portability</li>
+</ul>
+</li>
+<li>
+<p>Assembly language</p>
+<ul>
+<li>Textual representation of instructions</li>
+</ul>
+</li>
+<li>
+<p>Hardware representation</p>
+<ul>
+<li>Binary digits</li>
+<li>Encoded instructions and data</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 453px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/fd7caf69cc7abcb4e2eed126ae024260/2108e/level-of-language.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 156.50000000000003%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAfCAYAAADnTu3OAAAACXBIWXMAAAsSAAALEgHS3X78AAAC+UlEQVRIx62WW2/aQBCF+f9/pKpUtVUvD+1LK5FSUB8IlzRNSEgCBDvcbS6+M/W36Vo2rMNLVxp2vR6fPbtzZpZKHMfSbrel0+nI9fW17Pd7oek+iiIZj8eyXC5lPp/LarWSIAjE8zzZbDZqrP2xCh8AVqvVZDQaFV7qMR8vFguZTCYKBAvDUHTTvjQF2Ov1ZDAYHLHL909PT4rdbrcT27YVuAbVBBRDfpIkeRGMY3EcV9z1WrEFdDqdHm1XMZRcy4PoMYsBaNqe6bmSp1vGkuZ5fsooNC5eABRDy4MHYSy/e7ac1f9I9eeVdK9s8YOoFLSUoR67W1++13ry/vMvefexId/OeuJsAiM7I8O8U8YySmQyd2W6WKfj+Ciyed+KaRWTYxj4qcjD0kUz2RDBu7s7ub29lYeHh2N2qTRms5n4vp9FnF7bIagSNqnXaDTk/v6+VDYAoz3XdVNNOqrnme8LW0btANbrden3+8bzoQEKU4RNTm+3W5UxABe2DIN1mgG8oACYtqGLBD4QIO3IFnrSsbDlMh0ejgHkYwDJawoEDCGR9z3SYYHZPhflsAhIkGDM1guApzJFj+P0KACN40SdY5m/EdC09SSO0ufkCOTweE4yhNnIcqTZHcp5dyDD8UqiOC4FNZ5hIZc3nnz62pLXb2vy6s0P+fDlPM1lzxi80qAc2tL1pD+YSn84l7mzU1sv833xDPMtigLZJ9FJP5XL3Gqon1R6fHxUUkAWyESn2WrlyCLVnE69vKFJ5gu53Gw21WXF7QYYjuQ2lxfGQizMeDgcZmPmuS0ty3oGRKitVkuq1WpWHGisijOscdY92cH8oTGflS8c9Qt9IQEIC/KVzOBI8GMORnnjO95RB0orts5VAAGBIf1JQB1ufTdrQCqQZsi5UrpYwLbs5/6fWdbzolimw//VsjOk/F9cXGRliSjyx4mCSyQZ39zcqKuCwOl5+svLS8WeM8YUw523UzoK0ogjI2QDMHrU/7IYU1T1nDa+Yx61QO4vn7RkCaeS2xIAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="level-of-language"
+        title="level-of-language"
+        src="/static/fd7caf69cc7abcb4e2eed126ae024260/2108e/level-of-language.png"
+        srcset="/static/fd7caf69cc7abcb4e2eed126ae024260/772e8/level-of-language.png 200w,
+/static/fd7caf69cc7abcb4e2eed126ae024260/e17e5/level-of-language.png 400w,
+/static/fd7caf69cc7abcb4e2eed126ae024260/2108e/level-of-language.png 453w"
+        sizes="(max-width: 453px) 100vw, 453px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h3>1.4 Under the Covers</h3>
+<ul>
+<li>
+<p>대부분의 컴퓨터들은 비슷한 구성요소를 가지고 있다</p>
+<ul>
+<li>
+<p>입/출력 장치</p>
+<ul>
+<li>
+<p>유저 인터페이스 장치</p>
+<ul>
+<li>디스플레이, 키보드, 마우스, 터치 스크린 등</li>
+</ul>
+</li>
+<li>
+<p>저장 장치</p>
+<ul>
+<li>하드디스크, 시디 등</li>
+</ul>
+</li>
+<li>
+<p>네트워크 어댑터</p>
+<ul>
+<li>다른 컴퓨터와 통신하기위해 필요</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>프로세서(CPU) 내부에는</p>
+<ol>
+<li>
+<p>데이터 패스</p>
+<ul>
+<li>데이터가 어떻게 연산되는지 </li>
+</ul>
+</li>
+<li>
+<p>컨트롤</p>
+<ul>
+<li>프로세서에 있는 다양한 컴포넌트들을 컨트롤 하는 것</li>
+</ul>
+</li>
+<li>
+<p>캐시 메모리</p>
+<ul>
+<li>SRAM으로 구성된 메모리에 자주쓰는 데이터를 올려두는 곳</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>추상화(Abstraction)</p>
+<ul>
+<li>
+<p>아주 복잡한 문제를 단순화해서 쉽게 풀 수 있도록하는 기법</p>
+<ul>
+<li>ex) Instruction set architecture(ISA): The hardware/software interface</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>저장 장치</p>
+<ul>
+<li>
+<p>휘발성 메인 메모리</p>
+<ul>
+<li>전원이 꺼지면 데이터들이 지워짐</li>
+</ul>
+</li>
+<li>
+<p>비휘발성 세컨더리 메모리</p>
+<ul>
+<li>마그네틱 디스크</li>
+<li>플래시 메모리</li>
+<li>옵티컬 디스크</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>네트워크</p>
+<ul>
+<li>LAN, WAN, 와이파이, 블루투스 등</li>
+</ul>
+</li>
+</ul>
+<h3>1.5 Technologies for Building Processors and Memory</h3>
+<p>Electronics technology는 계속 발전해왔다. 용량과 성능은 향상되고 가격은 저렴해졌다. 그 발전 양상은 아래표를 보면 상대적으로 알 수 있다.</p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Technology</th>
+<th>Relative performance/cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1951</td>
+<td>진공관</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1965</td>
+<td>트랜지스터</td>
+<td>35</td>
+</tr>
+<tr>
+<td>1975</td>
+<td>IC(Integrated circuit)</td>
+<td>900</td>
+</tr>
+<tr>
+<td>1995</td>
+<td>VLSI(Very large scale IC)</td>
+<td>2,400,000</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Ultra large scale IC</td>
+<td>250,000,000,000</td>
+</tr>
+</tbody>
+</table>
+<h3>1.6 Performance</h3>
+<ul>
+<li>
+<p>Response time</p>
+<ul>
+<li>하나의 일을 하는데 소요되는 시간</li>
+</ul>
+</li>
+<li>
+<p>Throughput</p>
+<ul>
+<li>단위시간당 얼마나 많은 일을 할 수 있는가?</li>
+</ul>
+</li>
+<li>
+<p>더 빠른 CPU로 교체 시?</p>
+<ul>
+<li>Response time 짧아짐</li>
+<li>Throughput 증가</li>
+</ul>
+</li>
+<li>
+<p>CPU를 추가하면?</p>
+<ul>
+<li>Response time 그대로</li>
+<li>Throughput 증가</li>
+</ul>
+</li>
+</ul>
+<p>Response time이 줄어들면 Throughput은 무조건 줄어들지만 Throughput이 줄어든다고해서 Response time이 줄어드는 것은 아니다. 컴퓨터 구조에서 퍼포먼스는 Response time 또는 Throughput으로 이야기하는데, 우리는 Response time에 집중해서 살펴보도록 하겠다.</p>
+<p><strong>Performance = 1/Execution Time</strong></p>
+<ul>
+<li>
+<p><code class="language-text">X is n time faster than Y</code></p>
+<ul>
+<li><code class="language-text">Performance X/Performance Y = Execution time Y/Execution time X = n</code></li>
+</ul>
+</li>
+<li>
+<p>Measuring Execution time</p>
+<ul>
+<li>
+<p>Elapsed time(시스템 퍼포먼스를 정의할 때 사용)</p>
+<ul>
+<li>
+<p>Total response time, including all aspects</p>
+<ul>
+<li>Processing, I/O, OS overhead, idle time</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>CPU time</p>
+<ul>
+<li>Time spent processing a given job</li>
+<li>user CPU time, system CPU time</li>
+<li>프로그램에 따라 CPU나 시스템의 영향이 다를 수 있다.(어떤 프로그램은 CPU 성능, 어떤 프로그램은 I/O의 엉향 다양하게 영향을 미칠 수 있다.)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>CPU Clocking</p>
+<ul>
+<li>Rising edge to Rising edge = Clock period</li>
+</ul>
+</li>
+<li>
+<p>Clock rate(clock cycles per second in MHz or GHz) is inverse of clock cycle time(clock period)</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">CC = 1 / CR</code></pre></div>
+</li>
+<li>
+<p>CPU Time</p>
+<ul>
+<li>
+<p>퍼포먼스는 다음의 경우에 향상된다.</p>
+<ul>
+<li>클락 사이클의 감소</li>
+<li>클락 레이트의 증가</li>
+</ul>
+</li>
+<li>
+<p>따라서 하드웨어 디자이너들은 클락 사이클과 클락 레이트에 유의해서 설계해야 한다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">CPU Time = CPU Clock Cycles X Clock Cycle Time = CPU Clock Cycles / Clock Rate</code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p>Instruction Count and CPI(Cycles per Instruction)</p>
+<ul>
+<li>Instruction의 수는 프로그램, <a href="https://en.wikipedia.org/wiki/Instruction_set_architecture">ISA</a>, 컴파일러에 의해 결정된다.</li>
+<li>CPI는 CPU에 의해서 결정되며, 명령어들이 다른 CPI를 가질 경우 평균 CPI를 사용하여야 한다.</li>
+</ul>
+</li>
+</ul>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Clock Cycles = Instruction X Cycles per Instruction
+CPU Time = Instruction Count X CPI X Clock Cycle Time
+= Instruction Count X CPI / Clock Rate</code></pre></div>
+<ul>
+<li>Instruction의 종류가 다양할 때는 Weighted average CPI를 사용해야한다.</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/0e572b18b0afe4b5ade2363be652057c/80e3c/weighted-average-cpi.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHuEBoqX//EABgQAAMBAQAAAAAAAAAAAAAAAAABEQIQ/9oACAEBAAEFAmXjzRpzNn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAEBAAMAAAAAAAAAAAAAAAAAIRAx4f/aAAgBAQAGPwJzG0V//8QAHBABAQACAgMAAAAAAAAAAAAAAQAhMRFhgZGh/9oACAEBAAE/IVw7fV5wySLaHkX5DsX/2gAMAwEAAgADAAAAEKzP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Qp//EAB0QAAICAgMBAAAAAAAAAAAAAAERACExUWGBkdH/2gAIAQEAAT8QMpb00FfpCQd8RwV0JcMeGKeQAXLZZan/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="weighted-average-cpi"
+        title="weighted-average-cpi"
+        src="/static/0e572b18b0afe4b5ade2363be652057c/80e3c/weighted-average-cpi.jpg"
+        srcset="/static/0e572b18b0afe4b5ade2363be652057c/e07e9/weighted-average-cpi.jpg 200w,
+/static/0e572b18b0afe4b5ade2363be652057c/066f9/weighted-average-cpi.jpg 400w,
+/static/0e572b18b0afe4b5ade2363be652057c/80e3c/weighted-average-cpi.jpg 720w"
+        sizes="(max-width: 720px) 100vw, 720px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>
+<p>Performance Summary</p>
+<ul>
+<li>퍼포먼스는 알고리즘, 프로그래밍 언어, 컴파일러, ISA에 의존적이다.</li>
+</ul>
+</li>
+</ul>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">CPU Time = Instructions / Program X Clock cycles / Instruction X Seconds / Clock cycle</code></pre></div>
+<h3>1.7 The Power Wall</h3>
+<p>Clock Rate(Frequency)는 2004년까지 가파르게 증가하다 이후로는 유지되고 있고 전력소모 또한 2004년까지 같이 증가하다 그 이후로는 조금씩 감소하는 경향을 보이고 있다.</p>
+<p>우리가 사용하는 칩의 전력소모량은 다음 공식으로 구할 수 있다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Power = Capacitive load X Voltage^2 X Frequency</code></pre></div>
+<p>2004년까지의 기간 동안 Freqency는 1000배 증가한 반면 Power는 30배 가량 증가하였는데, 그 이유는 Voltage가 1/5배(5V -> 1V)로 감소하였기 때문이다.</p>
+<ul>
+<li>
+<p>Power wall 이란?</p>
+<ul>
+<li>우린 더 이상 전력을 낮출 수 없다.</li>
+<li>그 말은 발생하는 열의 양을 더 이상 낮출 수 없다는 뜻이다.</li>
+</ul>
+</li>
+</ul>
+<p>2004년 부터 Clock Rate을 더 이상 증가 시킬 수 없었던 이유는 전력을 낮출 수 가 없어 발생하는 열을 없앨 수 없었기 때문이다. 따라서 이 때 부터는 다른 방법으로 성능을 향상시켜야 했다. 그 방법이 바로 <strong>멀티코어</strong> 다.</p>
+<h3>1.8 The Sea Change: The Switch to Multiprocessors</h3>
+<p>멀티코어는 하나의 칩에 여러개의 프로세스를 넣은 것을 말한다.(흔히들 말하는 멀티코어!)</p>
+<p>단 멀티코어에서 성능향상을 이루기 위해서는 parallel programming이 요구된다. 하지만 parallel programming을 위해서는</p>
+<ol>
+<li>parallel programming에 맞게 프로그램을 작성해야한다.</li>
+<li>로드 밸런싱을 고려해야 한다.</li>
+<li>커뮤니케이션과 동기화를 최적화 해야한다.</li>
+</ol>
+<p>그래서 유니코어에 비해서 멀티코어에서는 성능향상을 이루기가 어렵다.</p>
+<h3>1.9 Concluding Remarks</h3>
+<ul>
+<li>
+<p>Cost/performance is improving</p>
+<ul>
+<li>Due to underlying technology development</li>
+</ul>
+</li>
+<li>
+<p>Hierachial layers of abstraction</p>
+<ul>
+<li>In both hardware and software</li>
+</ul>
+</li>
+<li>
+<p>Instruction set architecture</p>
+<ul>
+<li>The hardware/software interface</li>
+</ul>
+</li>
+<li>Execution time: the best performace measure</li>
+<li>
+<p>Power is a limiting factor</p>
+<ul>
+<li>Use parallelism to improve performance</li>
+</ul>
+</li>
+</ul>
+<h3>1.10 Fallacies and Pitfalls</h3>
+<ul>
+<li>
+<p><a href="https://ko.wikipedia.org/wiki/%EC%95%94%EB%8B%AC%EC%9D%98_%EB%B2%95%EC%B9%99">Amdahl's Law</a></p>
+<ul>
+<li>
+<p>컴퓨터 시스템의 일부분을 개선 할 경우에 전체적으로 얼마만큼의 성능 향상이 있는지 계산하는 데 사용된다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">T(improved) = T(affected) / improvement factor + T(unaffected)</code></pre></div>
+<p>즉, 성능 향상된 일부가 전체에서 차지하는 분율만큼 전체 성능 향상에 기여한다는 뜻.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>전체 시스템 성능을 많이 향상 시키고 싶으면 시스템에서 차지하는 분율이 큰 부분을 개선해야한다.(make the common case fast)</p>
+<h4>Fallacy: Low Power at Idle</h4>
+<ul>
+<li>
+<p>i7 파워 벤치마크를 살펴보면</p>
+<ul>
+<li>100% load 일 경우에는 258W</li>
+<li>50% load 일 경우에는 170W</li>
+<li>10% load 일 경우에는 121W</li>
+<li>10%만 load 했을 경우에는 전력도 10%일 것 같지만 실제로는 10%보다 훨씬 많은 전력을 소모한다.</li>
+</ul>
+</li>
+<li>구글 데이터 센터를 살펴보면 대부분 10 ~ 50% load된 상태로 동작한다. 100% load되는 경우는 전체 작동시간의 1%도 되지 않는다.</li>
+<li>따라서, 우리는 프로세서를 만들 때 전력소모를 load에 비례하도록 만들어야 한다.</li>
+</ul>
+<h4>Pitfall: MIPS as a Performance Metric</h4>
+<ul>
+<li>MIPS: Millions of Instructions Per Second</li>
+<li>
+<p>기존에는 MIPS를 퍼포먼스의 척도로 사용했는데, 다음과 같은 이유로 MIPS를 퍼포먼스의 척도로 사용하는 것은 적합하지 않다.</p>
+<ul>
+<li>컴퓨터마다 ISA가 다르다.</li>
+<li>명령어마다 복잡성이 다르다.</li>
+</ul>
+</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 719px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/410139edd2c825e303d9c150be358494/073e9/mips.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 32%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABbklEQVQY0zWQWU/CUBCF+fs+IIsYEGOQEDfcKQKRrSxKoSACshZRFjFgW0op+HicW8PD5J47d+abM9eSTtqRSljR7QRQqx6BTzvMSKdsyGScpJ0QBDd43gGpG8BSCUOd3UOd32PxE/oPpuchKKQtSy0KXX3AahFBtx1Ao+ZDo+7DK8E7dK++HOG9f4qBdIbp5AaqzBGEgyaHIRN49n0HhcFIywyo0KNKifn0FioljGWUAGfkzI4cOczwdhQLboiChzbZNYdqzCX1MJ1M2JDLupCheraVRaFJzC6bVha9iD9akeWdSMZtEEtePD+5IRQOUKkcIhLeQb1+jF7vBH3pFMNhEHzKgVLRg3zehWbTz4Cc+R8andPxFUaDC7Te/KbDfHaPgPvk0oExNY8+gvgaX5vwz8E5bcSZOdY3GV5CJmMWfVXENlZGCZtfEdpSgCTF0G5x6PdjaDZC0PUSDEM069abMtWS1osw1qKZ3779AXcAlK9KGDoBAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="mips"
+        title="mips"
+        src="/static/410139edd2c825e303d9c150be358494/073e9/mips.png"
+        srcset="/static/410139edd2c825e303d9c150be358494/772e8/mips.png 200w,
+/static/410139edd2c825e303d9c150be358494/e17e5/mips.png 400w,
+/static/410139edd2c825e303d9c150be358494/073e9/mips.png 719w"
+        sizes="(max-width: 719px) 100vw, 719px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ul>
+<li>위 공식을 보면 MIPS는 CPI의 영향을 받는다. 그런데 CPI는 CPU와 프로그램에 따라 바뀔 수 있다. 따라서 MIPS는 정확한 성능 측정 단위라고 할 수 없다. MIPS 대신 SEPC CPU Benchmark와 같은 프로그램을 사용하는게 더 정확한 성능 측정 방법이다.</li>
+</ul></div><div></div></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-181031687-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/computerArchitecture/1-computer-abstractions-and-technology/2020-06-11 09:00:00 +0900";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-d8b803c152e4e53a0b70.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c7869fa3e5c9d31ecb8e.js"],"component---src-pages-index-js":["/component---src-pages-index-js-ff371c780530ee3e7cbf.js"],"component---src-pages-page-2-js":["/component---src-pages-page-2-js-b63e06953e40f148ff6b.js"],"component---src-templates-post-template-jsx":["/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js"]};/*]]>*/</script><script src="/webpack-runtime-92b8d634de3575c5751f.js" async=""></script><script src="/styles-9b6f388623a2ec93d35f.js" async=""></script><script src="/framework-d54fcf3f0204b459cf2d.js" async=""></script><script src="/app-d8b803c152e4e53a0b70.js" async=""></script><script src="/component---src-templates-post-template-jsx-21e5cdc1750e46a29022.js" async=""></script></body></html>
